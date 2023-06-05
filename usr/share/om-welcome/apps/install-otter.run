@@ -1,0 +1,15 @@
+#!/bin/bash
+if which otter-browser &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Otter Browser is already installed."
+else
+	APP=$"Otter Browser"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes otter-browser
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	if which otter-browser &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
