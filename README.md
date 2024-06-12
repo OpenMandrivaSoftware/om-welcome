@@ -7,7 +7,7 @@ Designed to introduce new users to OM distro and also integrate common tasks for
 ### Running OM-Welcome
 Run om-welcome for debugging with following command:
 ```sh
-$ htmlscript -s 1100x700 -i /usr/share/icons/openmandriva.svg index.sh.htm 2> /dev/null;
+$ htmlscript -s 1020x700 -i /usr/share/icons/openmandriva.svg index.sh.htm 2> /dev/null;
 ```
 
 ### Translations
