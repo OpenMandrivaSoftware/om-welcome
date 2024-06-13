@@ -1,1 +1,2 @@
-install-chrome script
+#!/bin/sh
+exec om-repo-picker

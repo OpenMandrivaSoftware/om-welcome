@@ -2,7 +2,7 @@
 . /usr/share/htmlscript/helpers
 
 if rpm -q cups &>/dev/null; then
-	kcmshell6 kcm_printer_manager
+	kcmshell kcm_printer_manager
 else
 	APP=$"Task printing-scanning"
 	ProgressDialog $"Installing $APP"

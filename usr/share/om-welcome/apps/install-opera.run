@@ -1,1 +1,2 @@
-install-opera.run
+#!/bin/sh
+exec om-repo-picker

@@ -1,13 +1,13 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if rpm -q dia; then
-	kdialog --title $"OpenMandriva"  --msgbox  $" Dia is already installed.";
+if which vlc &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"VLC is already installed."
 else
-	APP=$"Dia"
+	APP=$"VLC"
 	ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes dia
+	pkexec dnf install --assumeyes vlc
 	ProgressDialog --close
-	if rpm -q dia; then
+	if which vlc &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

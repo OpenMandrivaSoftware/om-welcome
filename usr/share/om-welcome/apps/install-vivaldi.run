@@ -1,1 +1,2 @@
-install-vivaldi.run
+#!/bin/sh
+exec om-repo-picker

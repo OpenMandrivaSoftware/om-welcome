@@ -1,1 +1,2 @@
-install-yandexbrowser.run
+#!/bin/sh
+exec om-repo-picker

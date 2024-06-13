@@ -1,1 +1,2 @@
-install-msedge.run
+#!/bin/sh
+exec om-repo-picker

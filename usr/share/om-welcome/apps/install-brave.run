@@ -1,1 +1,2 @@
-install-brave script
+#!/bin/sh
+exec om-repo-picker

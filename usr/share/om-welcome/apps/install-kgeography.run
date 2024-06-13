@@ -1,12 +1,16 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 if which kgeography &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"KGeography is already installed."
 else
 	APP=$"KGeography"
-	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
-	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
-	pkexec dnf install --assumeyes kgeography
-	qdbus $DB org.kde.kdialog.ProgressDialog.close
+	ProgressDialog $"Installing $APP"
+	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
+		pkexec dnf install --assumeyes kgeography
+	else
+		pkexec dnf install --assumeyes plasma6-kgeography
+	fi
+	ProgressDialog --close
 	if which kgeography &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
