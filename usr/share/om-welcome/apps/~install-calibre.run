@@ -1,12 +1,12 @@
 #!/bin/bash
-. /usr/share/htmlscript/helpers
 if rpm -qa |grep "calibre*"; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Calibre is already installed."
 else
 	APP=$"Calibre"
-	ProgressDialog $"Installing $APP"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes calibre
-	ProgressDialog --close
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if rpm -q calibre; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

@@ -1,16 +1,12 @@
 #!/bin/bash
-. /usr/share/htmlscript/helpers
 if which blinken &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Blinken is already installed."
 else
 	APP=$"Blinken"
-	ProgressDialog $"Installing $APP"
-	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf install --assumeyes blinken
-	else
-		pkexec dnf install --assumeyes plasma6-blinken
-	fi
-	ProgressDialog --close
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
+	pkexec dnf install --assumeyes blinken
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which blinken &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

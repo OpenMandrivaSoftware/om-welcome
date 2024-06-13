@@ -1,12 +1,12 @@
 #!/bin/sh
-. /usr/share/htmlscript/helpers
 if which om-control-center &>/dev/null; then
 	exec om-control-center
 else
 	APP=$"OpenMandriva Control Center"
-	ProgressDialog $"Installing $APP"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes om-control-center
-	ProgressDialog --close
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which om-control-center &>/dev/null; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" OpenMandriva Control Center successfully installed."
 	else

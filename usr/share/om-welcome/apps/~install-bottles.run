@@ -1,12 +1,12 @@
 #!/bin/bash
-. /usr/share/htmlscript/helpers
 if which bottles &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Bottles is already installed."
 else
 	APP=$"Bottles"
-	ProgressDialog $"Installing $APP"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes bottles
-	ProgressDialog --close
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which bottles &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else

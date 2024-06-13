@@ -1,12 +1,12 @@
 #!/bin/bash
-. /usr/share/htmlscript/helpers
 if which audacity; then
 	kdialog --title $"OpenMandriva" --msgbox $" Audacity is already installed.";
 else
 	APP=$"Audacity"
-	ProgressDialog $"Installing $APP"
+	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
+	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf install --assumeyes audacity
-	ProgressDialog --close
+	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which audacity; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
