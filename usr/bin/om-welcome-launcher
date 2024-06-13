@@ -9,5 +9,5 @@ source ~/.om-welcome
 #read if autostart?
 if [ "$autostart" -eq 1 ]; then
 	cd /usr/share/om-welcome/
-	exec htmlscript -s 1020x600 -i /usr/share/icons/openmandriva.svg -t "OM Welcome" index.sh.htm
+	exec htmlscript -s 1020x700 -i /usr/share/icons/openmandriva.svg -t "OM Welcome" index.sh.htm
 fi
