@@ -1,4 +1,5 @@
 #!/bin/bash
+. /usr/share/htmlscript/helpers
 #check the connection on openmandriva site
 if ping -w2 www.openmandriva.org &>/dev/null; then
 	if ! kdialog --title $"OpenMandriva"  --yesno $"Your internet connection seems to be working already.\nDo you want to configure it anyway?"; then

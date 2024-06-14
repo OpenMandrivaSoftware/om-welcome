@@ -1,6 +1,5 @@
 #!/bin/sh
 . /usr/share/htmlscript/helpers
-
 if rpm -q cups &>/dev/null; then
 	kcmshell kcm_printer_manager
 else
