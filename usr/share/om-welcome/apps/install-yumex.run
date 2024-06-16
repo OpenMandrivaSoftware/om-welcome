@@ -1,0 +1,15 @@
+#!/bin/bash
+. /usr/share/htmlscript/helpers
+if which yumex &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"yumex is already installed."
+else
+	APP=$"Yumex"
+	ProgressDialog $"Installing $APP"
+	pkexec dnf install --assumeyes yumex
+	ProgressDialog --close
+	if which yumex &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
