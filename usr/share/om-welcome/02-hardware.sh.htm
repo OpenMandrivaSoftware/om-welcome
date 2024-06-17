@@ -52,39 +52,32 @@ cat << EOF
 		</div>
 		<!--FINE SUBMENU-->
 
-<!--		<div id='cssmenu'>
-		    <ul>
-			 <li class='active'><a href='02-hardware.sh.htm'><span>$menuhardware2</span></a></li>
-			 <li><a href='02B-localdisk.sh.htm'><span>$menulocaldisk</span></a></li>
-		    </ul>
-		    <br/>
-		</div>-->
 		<ul id="item-list">
 			<li>
-				<p><a class="title" href=./apps/02-xfdrake.run><img src="images/display-color.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/02-xfdrake.run>$titlexfdrake</a></span><br/>
+				<p><a class="title" href=./apps/start-xfdrake.run><img src="images/display-color.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/start-xfdrake.run>$titlexfdrake</a></span><br/>
 				$descxfdrake<br/><br/></span></p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/02-drakprint.run><img src="images/printer.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/02-drakprint.run>$titleconfigprint</a></span><br/>
+				<p><a class="title" href=./apps/start-printmanager.run><img src="images/printer.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/start-printmanager.run>$titleconfigprint</a></span><br/>
 				$descconfigprint<br/><br/><br/></p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/02-audio.run><img src="images/sound.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/02-audio.run>$titleaudio</a></span><br/>$descaudio</p>
+				<p><a class="title" href=./apps/bluetooth.run><img src="images/bluetooth.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/bluetooth.run>$titlebluetooth</a></span><br/>$descbluetooth</p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/02-bluetooth.run><img src="images/bluetooth.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/02-bluetooth.run>$titlebluetooth</a></span><br/>$descbluetooth</p>
+				<p><a class="title" href=./apps/start-audio.run><img src="images/sound.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/start-audio.run>$titleaudio</a></span><br/>$descaudio</p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/04-drakkeyboard.run><img src="images/keyboard.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/04-drakkeyboard.run>$titlekeyboard</a></span><br/>$desckeyboard</p>
+				<p><a class="title" href=./apps/start-keyboard.run><img src="images/keyboard.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/start-keyboard.run>$titlekeyboard</a></span><br/>$desckeyboard</p>
 			</li>
 			<li>
-				<p><a class="title" href=./apps/04-draktouchpad.run><img src="images/touchpad.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/04-draktouchpad.run>$titletouchpad</a></span><br/>$desctouchpad</p>
+				<p><a class="title" href=./apps/start-touchpad.run><img src="images/touchpad.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/start-touchpad.run>$titletouchpad</a></span><br/>$desctouchpad</p>
 			</li>
 			<li>
 				<p><a class="title" href=./apps/install-nvid.run><img src="images/nvid.svg" class="alignleft"/></a>
@@ -92,8 +85,11 @@ cat << EOF
 			</li>
 		</ul>
 	</div> 
+		<div id="lodape">
+		<a href="omfeat.sh.htm" class="button">$previous</a>
+	</div>
 	<div id="rodape">
-	<a href="03-network.sh.htm" class="button">$next</a>
+		<a href="apps-office.sh.htm" class="button">$next</a>
 	</div>
 </body>
 EOF

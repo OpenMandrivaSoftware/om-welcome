@@ -1,13 +1,15 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which yumex &>/dev/null; then
-	exec yumex
+
+if rpm -q maui-shell &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"MauiShell is already installed."
 else
-	APP=$"Yumex"
+	enable-repo unsupported
+	APP=$"MauiShell"
 	ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes yumex
+	pkexec dnf install --assumeyes maui-shell
 	ProgressDialog --close
-	if which yumex &>/dev/null; then
+	if rpm -q maui-shell &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

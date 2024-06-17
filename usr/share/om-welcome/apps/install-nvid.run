@@ -1,0 +1,3 @@
+#!/bin/bash
+enable-repo non-free
+konsole -e sh -c "pkexec dnf install nvidia; echo 'Press enter to close konsole'; read"

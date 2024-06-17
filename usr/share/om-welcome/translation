@@ -170,9 +170,9 @@ deschandbrake=$"Video transcoder free and open source"
 
 #translations of apps-utility.sh.htm
 titlednfdrake=$"DnfDrake"
-descdnfdrake=$"Install DnfDrake frontend for DNF package manager. Find and install applications with DnfDrake, and much more"
+descdnfdrake=$"Install or start DnfDrake. Find and install applications and much more"
 titleyumex=$"Yum Extender"
-descyumex=$"Yum Extender (yumex) is a graphical package manager"
+descyumex=$"Install or start Yum Extender (yumex), a graphical package manager"
 titlestacer=$"Stacer"
 descstacer=$"Open-source system optimizer and monitoring tool that helps the users to manage their operating system"
 titledupe=$"dupeGuru"
@@ -430,4 +430,4 @@ Plasma Breeze<br/>
 Plasma Breeze Dark<br/>
 Ubuntu<br/>
 Windows 10<br/>
-Windows 7<br/>
+Windows 7<br/>"

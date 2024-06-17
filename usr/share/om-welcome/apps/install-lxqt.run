@@ -1,13 +1,14 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which yumex &>/dev/null; then
-	exec yumex
+
+if rpm -q task-lxqt &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"LXQt is already installed."
 else
-	APP=$"Yumex"
+	APP=$"LXQt desktop"
 	ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes yumex
+	pkexec dnf install --assumeyes task-lxqt
 	ProgressDialog --close
-	if which yumex &>/dev/null; then
+	if rpm -q task-lxqt &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
