@@ -30,7 +30,7 @@ cat << EOF
 			<li><a href="apps.sh.htm">$menuapps</a></li>
 			<li class='active'><a href="community.sh.htm">$menucontribute</a></li>
 			<li><a href="repo.sh.htm">$menurepo</a></li>
-			<li><a href="about.sh.htm">$menuabout</a></li>
+			<!--<li><a href="about.sh.htm">$menuabout</a></li>-->
 		</ul>
 	</nav>
 <!-- Home -->
@@ -78,6 +78,11 @@ cat << EOF
 						<a target="hidden" href=./apps/open-donation.run><img src="images/donate.png" class="alignleft"/></a>
 						<span><a class="title" target="hidden" href=./apps/open-donation.run>$titledonation <br/></a></span>
 						$descdonation</p>
+					</li>
+					<li>
+						<a target="hidden" href=about.sh.htm><img src="images/about.svg" class="alignleft"/></a>
+						<span><a class="title" target="hidden" href=about.sh.htm>$titleabout <br/></a></span>
+						$about $Name</p>
 					</li>
 				</ul>
 		</div>

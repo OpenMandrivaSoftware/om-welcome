@@ -20,7 +20,7 @@ cat << EOF
 	</head>
 <body>
 <!-- Nav -->
-	<nav id="nav">
+<!--	<nav id="nav">
 		<ul class="container">
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li><a href="news.sh.htm">$menunews</a></li>
@@ -31,12 +31,12 @@ cat << EOF
 			<li><a href="repo.sh.htm">$menurepo</a></li>
 			<li class='active'><a href="about.sh.htm">$menuabout</a></li>
 		</ul>
-	</nav>
+	</nav>-->
 <!-- Home -->
 	<div class="wrapper">
-		<div class="logo">
+<!--		<div class="logo">
 			<img src="images/oma-logo.png"/>
-		</div>
+		</div>-->
 		 <article class="articles">
 			<h1 class="titlePage"> $about $Name</h1>
 			<p class="blue">$requiretextversion</p>
@@ -50,11 +50,8 @@ cat << EOF
 	</div>	
 
 	<div id="lodape">
-		<a href="repo.sh.htm" class="button">$previous</a>
+		<a href="index.sh.htm" class="button">$start</a>
 	</div>
-	<!--div id="rodape">
-		<a href="execute close$" class="button">$endapp</a>
-	</div-->
 </body>
 </html>
 EOF

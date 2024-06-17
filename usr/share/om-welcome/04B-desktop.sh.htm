@@ -1,0 +1,93 @@
+#!/bin/bash
+source translation
+#Translation
+cat << EOF
+<html>
+<!--
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- #Insira o conteúdo entre os 2 EOF sem se preocupar com aspas -->
+
+	<head>
+		<title>$title</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+
+	</head>
+<body>
+EOF
+cat << EOF
+<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.sh.htm">$menuindex</a></li>
+			<li><a href="news.sh.htm">$menunews</a></li>
+			<li><a href="omfeat.sh.htm">$menuomfeat</a></li>
+			<li class='active'><a href="conf.sh.htm">$menuconfigure</a></li>
+			<li><a href="apps.sh.htm">$menuapps</a></li>
+			<li><a href="community.sh.htm">$menucontribute</a></li>
+			<li><a href="repo.sh.htm">$menurepo</a></li>
+			<!--<li><a href="04-system.sh.htm">$menusystem</a></li>-->
+		</ul>
+	</nav>
+
+<!-- Home -->
+	<div class="wrapper">
+		<div id="container">
+		<p class="titlePage">$titlepage08</p>
+		<br/>
+		<!--QUI SUBMENU-->
+		<div id='cssmenu'>
+		    <ul>
+			 <li><a href='04-system.sh.htm'><span>$menusystem</span></a></li>
+			 <li><a href="02-hardware.sh.htm">$menuhardware</a></li>
+			 <li><a href='01-swmanagement.sh.htm'><span>$menusw</span></a></li>
+			 <li class='active'><a href='04B-desktop.sh.htm'><span>$menudesktop</span></a></li>
+		    </ul>
+		    <br/>
+		</div>
+		<!--FINE SUBMENU-->
+		<ul id="item-list">
+			<li>
+				<p><a class="title" href=./apps/04-kdethemes.run><img src="images/desktop-theme.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-kdethemes.run>$titlechangethemes</a></span><br/>$descchangethemes</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/04-kdeicons.run><img src="images/desktop-icons.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-kdeicons.run>$titlechangeicons</a></span><br/>$descchangeicons</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/04-drakfont.run><img src="images/fonts.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-drakfont.run>$titledrakfont</a></span><br/>$descdrakfont</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/04-install-lxqt.run><img src="images/lxqt.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-install-lxqt.run>$titlelxqt</a></span><br/>$desclxqt</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/04-install-mauishell.run><img src="images/mauishell.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-install-mauishell.run>$titlemauishell</a></span><br/>$descmauishell</p>
+			</li>
+			<li>
+				<p><a class="title" href=./apps/04-install-gnomeshell.run><img src="images/gnomeshell.svg" class="alignleft"/></a>
+				<span><a class="title" href=./apps/04-install-gnomeshell.run>$titlegnomeshell</a></span><br/>$descgnomeshell</p>
+			</li>
+		</ul>
+	</div>
+		<div id="lodape">
+		<a href="omfeat.sh.htm" class="button">$previous</a>
+	</div>
+	<div id="rodape">
+		<a href="apps-office.sh.htm" class="button">$next</a>
+	</div>
+<!--	<div id="rodape">
+	<a href="05-security.sh.htm" class="button">$next</a>
+	</div>-->
+</body>
+EOF
+</html>
