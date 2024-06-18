@@ -47,6 +47,7 @@ cat << EOF
 			 <li class='active'><a href="02-hardware.sh.htm">$menuhardware</a></li>
 			 <li><a href='01-swmanagement.sh.htm'><span>$menusw</span></a></li>
 			 <li><a href='04B-desktop.sh.htm'><span>$menudesktop</span></a></li>
+			 <li><a href='security.sh.htm'><span>$menusecurity</span></a></li>
 		    </ul>
 		    <br/>
 		</div>
@@ -78,6 +79,14 @@ cat << EOF
 			<li>
 				<p><a class="title" href=./apps/start-touchpad.run><img src="images/touchpad.svg" class="alignleft"/></a>
 				<span><a class="title" href=./apps/start-touchpad.run>$titletouchpad</a></span><br/>$desctouchpad</p>
+			</li>
+			<li>
+				<p><a href=./apps/diskdrake.run><img src="images/drive-partition.svg" class="alignleft"/></a>
+				<span><a class="title" href="./apps/diskdrake.run">$titlediskdrake</a></span><br/> $descdiskdrake </p>
+			</li>
+			<li>
+				<p><a href=./apps/kdiskfree.run><img src="images/kdiskfree.png" class="alignleft"/></a>
+				<span><a class="title" href="./apps/kdiskfree.run">$titlekdiskfree</a></span><br/> $desckdiskfree </p>
 			</li>
 			<li>
 				<p><a class="title" href=./apps/install-nvid.run><img src="images/nvid.svg" class="alignleft"/></a>

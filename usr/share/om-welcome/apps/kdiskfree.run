@@ -1,0 +1,4 @@
+#!/bin/sh
+. /usr/share/htmlscript/helpers
+install_if_needed kdf $"KDiskFree"
+kcmshell kcmdf
