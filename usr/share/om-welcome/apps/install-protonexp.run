@@ -1,0 +1,15 @@
+#!/bin/bash
+. /usr/share/htmlscript/helpers
+if which proton-experimental &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"proton-experimental is already installed."
+else
+	APP=$"Proton experimental"
+	ProgressDialog $"Installing $APP"
+	pkexec dnf install --assumeyes proton-experimental
+	ProgressDialog --close
+	if which proton-experimental &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
