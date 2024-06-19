@@ -1,5 +1,5 @@
 #!/bin/bash
-# . /usr/share/htmlscript/helpers
+. /usr/share/htmlscript/helpers
 
 if which gimp &>/dev/null; then
 exec gimp
