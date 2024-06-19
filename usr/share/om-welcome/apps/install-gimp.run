@@ -1,8 +1,8 @@
 #!/bin/bash
-. /usr/share/htmlscript/helpers
+# . /usr/share/htmlscript/helpers
 
-if rpm -qa |grep "^gimp"; then
-	kdialog --title $"OpenMandriva"  --msgbox  $" Gimp is already installed."
+if which gimp &>/dev/null; then
+exec gimp
 else
 	APP=$"GIMP"
 	ProgressDialog $"Installing $APP"

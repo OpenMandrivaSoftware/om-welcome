@@ -195,6 +195,12 @@ titlevirtualbox=$"Virtualbox"
 descvirtualbox=$"Easy virtualization software package for x86 and AMD64/Intel64-based computers"
 titlegrsync=$"GRsync"
 descgrsync=$"Grsync is a GUI for rsync. While it can work with remote hosts, its focus is to synchronize local directories"
+titleproton=$"Proton"
+descproton=$"Proton is a tool that allows games and applications written for Windows to run on Linux"
+titleprotonexp=$"Proton experimental"
+descprotonexp=$"Proton is a tool that allows games and applications written for Windows to run on Linux (experimental version)"
+titlekompare=$"Kompare"
+desckompare=$"Kompare is a GUI front-end program to compare differences on files or contents of folders"
 
 #translations of apps-office.sh.htm
 titlecalibre=$"Calibre"

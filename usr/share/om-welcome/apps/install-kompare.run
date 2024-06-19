@@ -1,19 +1,17 @@
-#!/bin/sh
+#!/bin/bash
 . /usr/share/htmlscript/helpers
-
-if which partitionmanager &>/dev/null; then
-exec partitionmanager
-fi
-elseif
-	APP=$"Partitionmanager"
+if which kompare &>/dev/null; then
+exec kompare
+else
+	APP=$"Kompare"
 	ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf install --assumeyes partitionmanager
+		pkexec dnf install --assumeyes kompare
 	else
-		pkexec dnf install --assumeyes plasma6-partitionmanager
+		pkexec dnf install --assumeyes plasma6-kompare
 	fi
 	ProgressDialog --close
-	if which partitionmanager &>/dev/null; then
+	if which kompare &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
