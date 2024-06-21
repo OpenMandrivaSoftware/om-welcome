@@ -5,11 +5,7 @@ if which lokalize &>/dev/null; then
 else
 	APP=$"Lokalize"
 	ProgressDialog $"Installing $APP"
-	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf install --assumeyes lokalize
-	else
-		pkexec dnf install --assumeyes plasma6-lokalize
-	fi
+	pkexec dnf install --assumeyes lokalize
 	ProgressDialog --close
 	if which lokalize &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
