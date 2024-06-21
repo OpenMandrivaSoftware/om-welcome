@@ -25,7 +25,7 @@ cat << EOF
 		<ul class="container">
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li><a href="news.sh.htm">$menunews</a></li>
-			<li><a href="omfeat.sh.htm">$menuomfeat</a></li>
+			<!--<li><a href="omfeat.sh.htm">$menuomfeat</a></li>-->
 			<li><a href="conf.sh.htm">$menuconfigure</a></li>
 			<li><a href="apps.sh.htm">$menuapps</a></li>
 			<li class='active'><a href="community.sh.htm">$menucontribute</a></li>
@@ -64,6 +64,13 @@ cat << EOF
 						<span><a class="title" target="hidden" href=./apps/open-bugzilla.run>$titleqa <br/></a></span>
 						$descqa</p>
 					</li>
+
+					<li>
+						<a target="hidden" href=./apps/om-bug-report.run><img src="images/bug2.svg" class="alignleft"/></a>
+						<span><a class="title" target="hidden" href=./apps/om-bug-report.run>$titleombugreport</a></span>
+						$descombugreport</p>
+					</li>
+
 					<li>
 						<a target="hidden" href=./apps/open-konversation.run><img src="images/konversation.svg" class="alignleft"/></a>
 						<span><a class="title" target="hidden" href=./apps/open-konversation.run>$titleirc <br/></a></span>

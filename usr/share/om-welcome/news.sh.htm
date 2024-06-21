@@ -37,7 +37,7 @@ cat << EOF
 		<ul class="container">
 			<li><a href="index.sh.htm">$menuindex</a></li>
 			<li class='active'><a href="news.sh.htm">$menunews</a></li>
-			<li><a href="omfeat.sh.htm">$menuomfeat</a></li>
+			<!--<li><a href="omfeat.sh.htm">$menuomfeat</a></li>-->
 			<li><a href="conf.sh.htm">$menuconfigure</a></li>
 			<li><a href="apps.sh.htm">$menuapps</a></li>
 			<li><a href="community.sh.htm">$menucontribute</a></li>
@@ -60,9 +60,9 @@ cat << EOF
 						<li><a>Kernel</a></li>
 						<li><a>KDE Plasma</a></li>
 						<li><a>LibreOffice</a></li>
-						<!--<li><a>$omccnew</a></li>
- 						<li><a>$controlcenter</a></li>
-						<li><a>OM Feeling Like</a></li>-->
+						<li><a>Software Repository Selector</a></li>
+ 						<li><a>Update Configuration</a></li>
+						<li><a>Bug Report Tool</a></li>
 						<li><a>$freshpackages</a></li>
 						<li><a>ABF</a></li>
 					</ul>
@@ -97,18 +97,43 @@ cat << EOF
 						<p>$libreofficedesc</p>
 					</div>
 				</div>
-<!--				<div class="sliderkit-panel">
+				<div class="sliderkit-panel">
 					<div class="sliderkit-news">
-						<h3 class="titlePage">OpenMandriva Control Center</h3>
+						<h3 class="titlePage">OpenMandriva application Software Repository Selector</h3>
 						<div class="logo">
-							<img src="images/om-ccnew.png"/>
+							<img src="images/repopicker.svg"/>
 						 </div>
 						<p>
-						$omccnewdesc
+						$descrepopicker
 						</p>
 					</div>
 				</div>
+
 				<div class="sliderkit-panel">
+					<div class="sliderkit-news">
+						<h3 class="titlePage">OpenMandriva application $titleupdconf</h3>
+						<div class="logo">
+							<img src="images/update-config.svg"/>
+						 </div>
+						<p>
+						$descupdconf
+						</p>
+					</div>
+				</div>
+
+				<div class="sliderkit-panel">
+					<div class="sliderkit-news">
+						<h3 class="titlePage">OpenMandriva application $titleombugreport</h3>
+						<div class="logo">
+							<img src="images/bug2.svg"/>
+						 </div>
+						<p>
+						$descombugreport
+						</p>
+					</div>
+				</div>
+
+<!--				<div class="sliderkit-panel">
 					<div class="sliderkit-news">
 						<h3 class="titlePage">OM Feeling Like</h3>
 						<div class="logo">
