@@ -3,6 +3,6 @@ filters:
     # all supported i18n types: https://docs.transifex.com/formats
     file_format: PO
     source_language: en
-    source_file: usr/share/oma-welcome/om-welcome.pot
+    source_file: usr/share/om-welcome/om-welcome.pot
     # path expression to translation files, must contain <lang> placeholder
     translation_files_expression: 'po/<lang>.po'
