@@ -10,7 +10,6 @@ hi=$"Hi %1!"
 title=$"Welcome to OpenMandriva"
 Name=$"OpenMandriva Welcome"
 #sections menu
-menuabout=$"About"
 menuconfigure=$"Configure"
 menucontribute=$"Contribute"
 menudesktop=$"Desktop"
