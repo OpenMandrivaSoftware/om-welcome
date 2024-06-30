@@ -1,0 +1,19 @@
+#!/bin/bash
+. /usr/share/htmlscript/helpers
+if which sweeper &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Sweeper is already installed."
+else
+	APP=$"Sweeper"
+	ProgressDialog $"Installing $APP"
+	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
+		pkexec dnf install --assumeyes sweeper
+	else
+		pkexec dnf install --assumeyes plasma6-sweeper
+	fi
+	ProgressDialog --close
+	if which sweeper &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi

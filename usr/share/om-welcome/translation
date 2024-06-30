@@ -134,6 +134,8 @@ titlepixelize=$"Pixelize"
 descpixelize=$"A program that will use many scaled down images to try to duplicate, as closely as possible, another image"
 titlelibrecad=$"LibreCAD"
 desclibrecad=$"Qt application to design 2D cad drawing based on the community edition of QCad"
+titlekolourpaint=$"Kolourpaint"
+desckolourpaint=$"A simple painting program to quickly create raster images"
 
 #translations of apps-multimedia.sh.htm
 titlecodecs=$"Codecs"
@@ -196,6 +198,8 @@ titleprotonexp=$"Proton experimental"
 descprotonexp=$"Proton is a tool that allows games and applications written for Windows to run on Linux (experimental version)"
 titlekompare=$"Kompare"
 desckompare=$"Kompare is a GUI front-end program to compare differences on files or contents of folders"
+titlesweeper=$"Sweeper"
+descsweeper=$"System Cleaner. Sweeper helps to clean unwanted traces the user leaves on the system"
 
 #translations of apps-office.sh.htm
 titlecalibre=$"Calibre"
