@@ -400,7 +400,7 @@ msgstr "Volum de l'àudio"
 
 #: translation:104
 msgid "Configure Audio"
-msgstr "Configureu l'àudio"
+msgstr "Configuració de l'àudio"
 
 #: translation:105
 msgid "Configure keyboard"
