@@ -1803,10 +1803,9 @@ msgid ""
 "<br/>\n"
 "<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc."
 msgstr ""
-"Der OpenMandriva Lx-Kernel verfügt über einen BFQ-Disk-I/O-Scheduler, UKSM-"
-"Speicherverwaltung, Desktop-Systemleistung und Reaktionsfähigkeit. Es sind "
-"verschiedene Desktop-Server-Versionen verfügbar, die jeweils für den "
-"jeweiligen Einsatzzweck entwickelt wurden"
+"Der OpenMandriva Lx-Kernel verfügt über einen BFQ-Disk-I/O-Scheduler, UKSM-Speicherverwaltung, Desktop-Systemleistung und Reaktionsfähigkeit. Es sind Desktop-Server-Versionen verfügbar, die jeweils für den jeweiligen Einsatzzweck entwickelt wurden<br/>\n"
+"<br/>\n"
+"<b>Was ist neu: "
 
 #: translation:427
 msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
