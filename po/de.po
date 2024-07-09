@@ -1735,10 +1735,9 @@ msgid ""
 "may make them illegal to use or distribute in some countries. You are "
 "responsible for complying with your local laws"
 msgstr ""
-"\"Restricted\" enthält Pakete, die zwar frei sind, aber belastet durch "
-"Patente, die ihre Verwendung oder Verbreitung in einigen Ländern illegal "
-"machen können. Sie sind für die Einhaltung Ihrer lokalen Gesetze "
-"verantwortlich."
+"\"Restricted\" enthält Pakete, die frei sind, aber belastet durch Patente, "
+"die ihre Verwendung oder Verbreitung in einigen Ländern illegal machen "
+"können. Sie sind für die Einhaltung Ihrer lokalen Gesetze verantwortlich."
 
 #: translation:412
 msgid ""
