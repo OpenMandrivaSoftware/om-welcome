@@ -1087,8 +1087,8 @@ msgstr "SuperTuxKart"
 msgid ""
 "Improved version of TuxKart, a kart racing game featuring Tux and friends"
 msgstr ""
-"Verbesserte Version von TuxKart, einem Kart-Rennspiel featuring Tux und "
-"Freunde"
+"Verbesserte Version von TuxKart, einem Kart-Rennspiel in den Hauptrollen Tux"
+" und Freunde"
 
 #: translation:259
 msgid "Puzzle jigsaw"
