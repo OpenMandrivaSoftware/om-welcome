@@ -1313,7 +1313,7 @@ msgid ""
 "mostly used by Java Developers"
 msgstr ""
 "Eclipse IDE enthält einen Basis-Arbeitsbereich und ein erweiterbares Plug-"
-"in-System, das hauptsächlich von Java-Entwicklern genutzt wird"
+"in-System, meist von Java-Entwicklern verwendet"
 
 #: translation:313
 msgid "Qt-Creator"
