@@ -1737,7 +1737,7 @@ msgid ""
 msgstr ""
 "\"Restricted\" enthält Pakete, die frei sind, aber belastet durch Patente, "
 "die ihre Verwendung oder Verbreitung in einigen Ländern illegal machen "
-"können. Sie sind für die Einhaltung Ihrer lokalen Gesetze verantwortlich."
+"können. Sie sind für die Einhaltung Ihrer lokalen Gesetze verantwortlich"
 
 #: translation:412
 msgid ""
