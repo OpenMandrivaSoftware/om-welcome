@@ -664,7 +664,7 @@ msgid ""
 "the web"
 msgstr ""
 "Handhaben Sie Ihre gesamte Musiksammlung, indem Sie semantische "
-"Informationen aus dem Web zurückziehen"
+"Informationen aus dem Web wiedergewinnen"
 
 #: translation:161
 msgid "VLC"
