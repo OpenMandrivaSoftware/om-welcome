@@ -1265,7 +1265,7 @@ msgstr "Kubrick"
 
 #: translation:302
 msgid "Game based on Rubik's Cube"
-msgstr "Spiel auf Basis von Rubik's Cube"
+msgstr "Spiel basierend auf Rubik's Cube"
 
 #: translation:305
 msgid "C/C++ Compilers Suite"
