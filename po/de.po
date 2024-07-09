@@ -1334,7 +1334,7 @@ msgid ""
 "Visual design tool that makes designing and implementing user interfaces a "
 "lot easier"
 msgstr ""
-"Visuelles Design-Tool, das die Gestaltung und Implementierung von "
+"Visuelles Design-Tool, das Gestaltung und Implementierung von "
 "Benutzeroberflächen erheblich erleichtert"
 
 #: translation:317
