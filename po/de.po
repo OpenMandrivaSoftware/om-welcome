@@ -1148,8 +1148,7 @@ msgstr "0ad"
 
 #: translation:274
 msgid "Cross-platform RTS Game of Ancient Warfare"
-msgstr ""
-"Plattformübergreifendes Echtzeit-Strategiespiel zur antiken Kriegsführung"
+msgstr "Plattformübergreifendes RTS-Spiel zur antiken Kriegsführung"
 
 #: translation:275
 msgid "MegaGlest"
