@@ -539,8 +539,8 @@ msgid ""
 "A program that will use many scaled down images to try to duplicate, as "
 "closely as possible, another image"
 msgstr ""
-"Ein Programm, das mit vielen herunterskalierten Bildern versucht, ein "
-"anderes Bild so genau wie möglich zu duplizieren"
+"Ein Programm, das viele herunterskalierte Bilder verwendet, um zu versuchen,"
+" ein anderes Bild so genau wie möglich zu duplizieren"
 
 #: translation:135
 msgid "LibreCAD"
