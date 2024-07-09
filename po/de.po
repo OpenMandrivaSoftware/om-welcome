@@ -1005,7 +1005,7 @@ msgstr "KTurtle"
 
 #: translation:238
 msgid "An educational programming environment for the KDE Desktop"
-msgstr "Eine pädagogische Programmierumgebung für den KDE-Desktop"
+msgstr "Eine pädagogische Programmierungsumgebung für den KDE-Desktop"
 
 #: translation:239
 msgid "Rocs"
