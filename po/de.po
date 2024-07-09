@@ -1488,7 +1488,7 @@ msgstr "Chromium-Browser"
 
 #: translation:350
 msgid "Open-source browser safe, fast and stable"
-msgstr "Open-Source-Browser sicher, schnell und stabil"
+msgstr "Open-Source-Browser safe, schnell und stabil"
 
 #: translation:351
 msgid "Otter Browser"
