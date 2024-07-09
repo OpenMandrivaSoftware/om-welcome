@@ -885,7 +885,7 @@ msgid ""
 "OpenMandriva Lx"
 msgstr ""
 "Öffnen und Erstellen von RAR-Dateien mit ark, dem per Default vorgegebenen "
-"Archivmanagers in OpenMandriva Lx"
+"Archivmanager in OpenMandriva Lx"
 
 #: translation:209
 msgid "Dia"
