@@ -570,8 +570,8 @@ msgstr "Codecs"
 msgid ""
 "Codecs. Some file formats are proprietary and restricted in some countries"
 msgstr ""
-"Codecs. Einige Dateiformate sind proprietär (urheberrechtlich geschützt) und"
-" in einigen Ländern eingeschränkt"
+"Codecs. Einige Dateiformate sind urheberrechtlich geschützt und in einigen "
+"Ländern eingeschränkt"
 
 #: translation:143
 msgid "Audacity"
