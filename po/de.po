@@ -594,8 +594,8 @@ msgid ""
 "Non-linear video editor for KDE that relies on a separate renderer and "
 "supports multi-track editing"
 msgstr ""
-"Nicht-linearer Video-Editor für KDE, der auf einem separaten Renderer "
-"basiert und die Bearbeitung mehrerer Spuren unterstützt"
+"Nichtlinearer Video-Editor für KDE, der auf einem separaten Renderer basiert"
+" und die Bearbeitung mehrerer Spuren unterstützt"
 
 #: translation:147
 msgid "Devede"
