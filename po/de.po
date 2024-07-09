@@ -1461,7 +1461,7 @@ msgid ""
 "and share them easily"
 msgstr ""
 "Ein kostenloser Dienst, mit dem Sie Ihre Fotos, Dokumente und Videos "
-"überallhin mitnehmen und problemlos weitergeben können"
+"überallhin mitnehmen und problemlos teilen können"
 
 #: translation:345
 msgid "Falkon Browser"
