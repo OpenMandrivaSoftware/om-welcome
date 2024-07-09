@@ -1432,7 +1432,7 @@ msgid ""
 "Free open source microblogging client for KDE which supports Twitter.com, "
 "Pump.io, and OpenDesktop.org services"
 msgstr ""
-"Kostenloser Open-Source-Mikroblogging-Client für KDE, der die Dienste von "
+"Kostenloser Open-Source-Mikroblogging-Client für KDE, der Dienste von "
 "Twitter.com, Pump.io und OpenDesktop.org unterstützt"
 
 #: translation:337
