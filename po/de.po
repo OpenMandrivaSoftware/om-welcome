@@ -636,7 +636,7 @@ msgstr "Nulloy"
 
 #: translation:154
 msgid "Music player with a waveform progress bar"
-msgstr "Musik-Player mit Wellenform-Fortschrittsbalken"
+msgstr "Musikplayer mit Wellenform-Fortschrittsbalken"
 
 #: translation:155
 msgid "Strawberry"
@@ -644,7 +644,7 @@ msgstr "Strawberry"
 
 #: translation:156
 msgid "Music player and music collection organizer"
-msgstr "Musik-Player und Musiksammlungs-Organizer"
+msgstr "Musikplayer und Musiksammlungs-Organizer"
 
 #: translation:157
 msgid "Haruna"
