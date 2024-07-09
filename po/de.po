@@ -1385,9 +1385,9 @@ msgid ""
 "By installing this package you will download and install Skype from "
 "skype.com. You must accept the Skype EULA before using it"
 msgstr ""
-"Durch die Installation dieses Pakets laden Sie Skype von skype.com herunter "
-"und installieren es. Sie müssen die EULA von Skype akzeptieren, bevor Sie es"
-" verwenden können"
+"Durch Installation dieses Pakets laden Sie Skype von skype.com herunter und "
+"installieren es. Sie müssen die EULA von Skype akzeptieren, bevor Sie es "
+"verwenden können"
 
 #: translation:329
 msgid "Skype online"
@@ -1398,7 +1398,7 @@ msgid ""
 "By installing this package you will be able to use Skype online from "
 "skype.com"
 msgstr ""
-"Durch die Installation dieses Pakets sind Sie in der Lage, Skype online von "
+"Durch Installation dieses Pakets sind Sie in der Lage, Skype online von "
 "skype.com aus zu verwenden"
 
 #: translation:331
