@@ -771,8 +771,8 @@ msgstr "Wine"
 #: translation:186
 msgid "Wine allows you to run many Microsoft Windows programs on Linux"
 msgstr ""
-"Wine ermöglicht es Ihnen, viele Microsoft Windows-Programme auf Linux zu "
-"ausuführen"
+"Wine ermöglicht es Ihnen, viele Microsoft Windows-Programme unter Linux "
+"auszuführen"
 
 #: translation:187
 msgid "OpenMandriva repo-picker"
