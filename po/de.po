@@ -1602,7 +1602,7 @@ msgstr "Übersetzen"
 
 #: translation:380
 msgid "Translate blog posts, wiki pages, applications and stuff"
-msgstr "Übersetzen Sie Blogeinträge, Wiki-Seiten, Anwendungen und so weiter"
+msgstr "Übersetzen Sie Blog-Posts, Wiki-Seiten, Anwendungen und so weiter"
 
 #: translation:381
 msgid "Join in the development of OpenMandriva Lx"
