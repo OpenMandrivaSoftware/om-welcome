@@ -841,7 +841,7 @@ msgid ""
 "run on Linux (experimental version)"
 msgstr ""
 "Proton ist ein Tool, welches ermöglicht, Spiele und Anwendungen, die für "
-"Windows geschrieben wurden, unter Linux auszuführe (experimentelle Version)"
+"Windows geschrieben wurden, unter Linux auszuführen (experimentelle Version)"
 
 #: translation:199
 msgid "Kompare"
