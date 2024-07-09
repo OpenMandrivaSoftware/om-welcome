@@ -1674,7 +1674,7 @@ msgstr "Über diese Anwendung"
 msgid "Click here to be sure you read the latest Release Notes and Errata"
 msgstr ""
 "Klicken Sie hier, um sicher zu sein, dass Sie die neuesten Versionshinweise "
-"und Errata gelesen haben."
+"und Errata gelesen haben"
 
 #: translation:398
 msgid "Do not start om-welcome on login"
