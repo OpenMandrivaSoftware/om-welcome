@@ -706,7 +706,7 @@ msgstr "OBS Studio"
 #: translation:170
 msgid "Software for video recording and live streaming free and open source"
 msgstr ""
-"Software für Videoaufnahmen und Live-Streaming kostenlos und quelloffen"
+"Software für Videoaufzeichnungen und Live-Streaming kostenlos und quelloffen"
 
 #: translation:171
 msgid "OpenShot"
