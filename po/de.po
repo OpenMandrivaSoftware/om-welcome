@@ -1013,7 +1013,7 @@ msgstr "Rocs"
 
 #: translation:240
 msgid "Graph editor and programming environement"
-msgstr "Graph-Editor und Programmierumgebung"
+msgstr "Graph-Editor und Programmierungsumgebung"
 
 #: translation:241
 msgid "Cantor"
