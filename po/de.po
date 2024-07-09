@@ -1697,7 +1697,7 @@ msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
 msgstr ""
-"Diese Software wird unter der GNU General Public License version 2 (GPLv2) "
+"Diese Software wird unter der GNU General Public License Version 2 (GPLv2) "
 "lizensiert."
 
 #: translation:405
