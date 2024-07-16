@@ -33,3 +33,19 @@ install: messages
 dist:
 	git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD | xz -2vec -T0 > $(NAME)-$(VERSION).tar.xz;
 	$(info $(NAME)-$(VERSION).tar.xz is ready)
+
+# FIXME this shouldn't be necessary, there must be some way to convince
+# transifex to send the right headers...
+fix-translations:
+	for i in po/*.po; do \
+		if ! grep -q '"Content-Transfer-Encoding:' $$i; then \
+			sed -i -e '/^"Language-Team/a"Content-Transfer-Encoding: 8bit\\n"' $$i; \
+		fi; \
+		if ! grep -q '"Content-Type:' $$i; then \
+			sed -i -e '/^"Language-Team/a"Content-Type: text/plain; charset=UTF-8\\n"' $$i; \
+		fi; \
+		if ! grep -q '"MIME-Version:' $$i; then \
+			sed -i -e '/^"Language-Team/a"MIME-Version: 1.0\\n"' $$i; \
+		fi; \
+	done
+	sed -i -e 's/nplurals=3.*/nplurals=2; plural=(n > 1);\\n"/' po/it.po
