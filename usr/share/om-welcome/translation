@@ -116,7 +116,7 @@ titlekeys=$"Passwords and Keys"
 desckeys=$"Manage your passwords and encryption keys"
 
 #translations of apps-graphics.sh.htm
-titlegimg=$"GIMP"
+titlegimp=$"GIMP"
 descgimp=$"Create and edit your images in a professional way with this powerful open source tool"
 titleinkscape=$"Inkscape"
 descinkscape=$"A powerful, open source vector drawing tool, for illustrators and designers"
