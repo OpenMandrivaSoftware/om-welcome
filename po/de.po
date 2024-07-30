@@ -1,14 +1,12 @@
 # 
 # Translators:
 # rk, 2024
+# rugyada, 2024
 # 
 msgid ""
 msgstr ""
-"Last-Translator: rk, 2024\n"
+"Last-Translator: rugyada, 2024\n"
 "Language-Team: German (https://app.transifex.com/openmandriva/teams/1818/de/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -1721,16 +1719,16 @@ msgstr ""
 
 #: translation:410
 msgid ""
-"Extra contains packages that are free, but not officially supported by"
-" OpenMandriva. While we will try to fix them if something breaks, this is a "
-"low priority. Enable Extra if you need them and don't mind an "
-"occasional crash"
+"Extra contains packages that are free, but not officially supported by "
+"OpenMandriva. While we will try to fix them if something breaks, this is a "
+"low priority. Enable Extra if you need them and don't mind an occasional "
+"crash"
 msgstr ""
 "\"Extra\" enthält Pakete, die frei sind, aber nicht offiziell von "
 "OpenMandriva unterstützt werden. Wir werden zwar versuchen, diese Pakete zu "
 "reparieren, wenn etwas kaputt geht, aber dies hat eine niedrige Priorität. "
-"Aktivieren Sie \"Extra\", wenn Sie die Pakete benötigen und sich nicht"
-" an gelegentlichen Abstürzen stören"
+"Aktivieren Sie \"Extra\", wenn Sie die Pakete benötigen und sich nicht an "
+"gelegentlichen Abstürzen stören"
 
 #: translation:411
 msgid ""
