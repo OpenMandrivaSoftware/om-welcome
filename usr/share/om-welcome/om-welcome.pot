@@ -1085,7 +1085,7 @@ msgstr ""
 msgid "The Main repository contains the main packages that make up OpenMandriva Lx. It should always be enabled"
 msgstr ""
 #: translation:410
-msgid "Unsupported contains packages that are free, but not officially supported by OpenMandriva. While we will try to fix them if something breaks, this is a low priority. Enable Unsupported if you need them and don't mind an occasional crash"
+msgid "Extra contains packages that are free, but not officially supported by OpenMandriva. While we will try to fix them if something breaks, this is a low priority. Enable Extra if you need them and don't mind an occasional crash"
 msgstr ""
 #: translation:411
 msgid "Restricted contains packages that are free, but encumbered by patents that may make them illegal to use or distribute in some countries. You are responsible for complying with your local laws"

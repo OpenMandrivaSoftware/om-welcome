@@ -6,7 +6,7 @@ if which fotoxx; then
 else
 	APP=$"Fotoxx"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes fotoxx
 	ProgressDialog --close
 	if which fotoxx; then

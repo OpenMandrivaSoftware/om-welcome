@@ -5,7 +5,7 @@ if rpm -qa |grep "xvidcap*"; then
 else
 	APP=$"XVidCap"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes xvidcap
 	ProgressDialog --close
 	if which xvidcap; then

@@ -5,7 +5,7 @@ if which stacer &>/dev/null; then
 else
 	APP=$"Stacer"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes stacer
 	ProgressDialog --close
 	if which stacer &>/dev/null; then

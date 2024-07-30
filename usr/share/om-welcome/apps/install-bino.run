@@ -5,7 +5,7 @@ if which bino; then
 else
 	APP=$"Bino 3D Video Player"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes bino
 	ProgressDialog --close
 	if which bino; then

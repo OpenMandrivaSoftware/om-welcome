@@ -5,7 +5,7 @@ if which geany; then
 else
 	APP=$"Geany IDE"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes geany
 	ProgressDialog --close
 	if which geany; then

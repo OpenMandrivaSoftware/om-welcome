@@ -6,7 +6,7 @@ if rpm -q kraft; then
 else
 	APP=$"Kraft"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes kraft
 	ProgressDialog --close
 	if rpm -q kraft; then

@@ -6,7 +6,7 @@ if rpm -q kvpnc; then
 else
 	APP=$"kvpnc"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes kvpnc
 	ProgressDialog --close
 	if rpm -q kvpnc; then

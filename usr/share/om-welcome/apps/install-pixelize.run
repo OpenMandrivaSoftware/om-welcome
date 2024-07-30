@@ -5,7 +5,7 @@ if which pixelize &>/dev/null; then
 else
 	APP=$"Pixelize"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes pixelize
 	ProgressDialog --close
 	if which pixelize &>/dev/null; then

@@ -6,7 +6,7 @@ if which qmmp; then
 else
 	APP=$"QMMP"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes qmmp
 	ProgressDialog --close
 	if which qmmp; then

@@ -4,7 +4,7 @@
 if rpm -q maui-shell &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"MauiShell is already installed."
 else
-	enable-repo unsupported
+	enable-repo extra
 	APP=$"MauiShell"
 	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes maui-shell

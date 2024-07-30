@@ -4,7 +4,7 @@
 if rpm -q task-gnome &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Gnome is already installed."
 else
-	enable-repo unsupported
+	enable-repo extra
 	APP=$"Gnome desktop"
 	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes task-gnome

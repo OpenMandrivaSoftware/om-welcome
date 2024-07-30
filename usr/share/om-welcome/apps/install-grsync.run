@@ -6,7 +6,7 @@ if which grsync; then
 else
 	APP=$"GRsync"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes grsync
 	ProgressDialog --close
 	if which grsync; then

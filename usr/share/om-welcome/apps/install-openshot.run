@@ -5,7 +5,7 @@ if which openshot-qt; then
 else
 	APP=$"OpenShot"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes openshot
 	ProgressDialog --close
 	if which openshot-qt; then

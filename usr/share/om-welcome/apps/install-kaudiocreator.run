@@ -5,7 +5,7 @@ if which kaudiocreator; then
 else
 	APP=$"KAudioCreator"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes kaudiocreator
 	ProgressDialog --close
 	if which kaudiocreator; then

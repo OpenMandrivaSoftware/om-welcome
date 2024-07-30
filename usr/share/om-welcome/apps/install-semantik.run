@@ -6,7 +6,7 @@ if rpm -q semantik &>/dev/null; then
 else
 	APP=$"Semantik"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes semantik
 	ProgressDialog --close
 	if rpm -q semantik &>/dev/null; then

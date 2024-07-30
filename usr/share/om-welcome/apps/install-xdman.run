@@ -5,7 +5,7 @@ if which xdman; then
 else
 	APP=$"XTreme Download Manager"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes xdman
 	ProgressDialog --close
 	if which xdman; then

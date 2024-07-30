@@ -5,7 +5,7 @@ if rpm -q torcs; then
 else
 	APP=$"Torcs"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes torcs
 	ProgressDialog --close
 	if rpm -q torcs; then

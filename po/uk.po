@@ -1566,9 +1566,9 @@ msgstr ""
 
 #: translation:406
 msgid ""
-"Unsupported contains packages that are free, but not officially supported by"
+"Extra contains packages that are free, but not officially supported by"
 " OpenMandriva. While we will try to fix them if something breaks, this is a "
-"low priority. Enable Unsupported if you need them and don't mind an "
+"low priority. Enable Extra if you need them and don't mind an "
 "occasional crash"
 msgstr ""
 

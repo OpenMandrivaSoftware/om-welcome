@@ -5,7 +5,7 @@ if rpm -q stellarium &>/dev/null; then
 else
 	APP=$"Stellarium"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes stellarium
 	ProgressDialog --close
 	if rpm -q stellarium &>/dev/null; then

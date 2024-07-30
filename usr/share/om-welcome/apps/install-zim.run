@@ -5,7 +5,7 @@ if which zim; then
 else
 	APP=$"Zim Wiki Editor"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes zim
 	ProgressDialog --close
 	if which zim; then

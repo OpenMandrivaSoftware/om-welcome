@@ -5,7 +5,7 @@ if rpm -q scratch &>/dev/null; then
 else
 	APP=$"Scratch"
 	ProgressDialog $"Installing $APP"
-	enable-repo unsupported
+	enable-repo extra
 	pkexec dnf install --assumeyes scratch
 	ProgressDialog --close
 	if rpm -q scratch &>/dev/null; then
