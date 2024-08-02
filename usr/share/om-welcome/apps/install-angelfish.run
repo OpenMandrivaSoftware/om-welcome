@@ -1,17 +1,18 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which itinerary &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"Itinerary is already installed."
+
+if which angelfish &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Angelfish is already installed."
 else
-	APP=$"Itinerary"
+	APP=$"Angelfish"
 	ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf install --assumeyes itinerary
+		pkexec dnf install --assumeyes angelfish
 	else
-		pkexec dnf install --assumeyes plasma6-itinerary
+		pkexec dnf install --assumeyes plasma6-angelfish
 	fi
 	ProgressDialog --close
-	if which itinerary &>/dev/null; then
+	if which angelfish &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

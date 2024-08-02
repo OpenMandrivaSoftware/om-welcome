@@ -1,17 +1,18 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which itinerary &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"Itinerary is already installed."
+
+if which knavalbattle &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Naval Battle is already installed."
 else
-	APP=$"Itinerary"
+	APP=$"Naval Battle"
 	ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf install --assumeyes itinerary
+		pkexec dnf install --assumeyes knavalbattle
 	else
-		pkexec dnf install --assumeyes plasma6-itinerary
+		pkexec dnf install --assumeyes plasma6-knavalbattle
 	fi
 	ProgressDialog --close
-	if which itinerary &>/dev/null; then
+	if which knavalbattle &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

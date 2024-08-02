@@ -1,0 +1,15 @@
+#!/bin/bash
+. /usr/share/htmlscript/helpers
+if which marknote; then
+	kdialog --title $"OpenMandriva" --msgbox $" Marknote is already installed.";
+else
+	APP=$"Marknote"
+	ProgressDialog $"Installing $APP"
+	pkexec dnf install --assumeyes marknote
+	ProgressDialog --close
+	if which marknote; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
