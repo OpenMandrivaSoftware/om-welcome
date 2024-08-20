@@ -200,6 +200,8 @@ titlekompare=$"Kompare"
 desckompare=$"Kompare is a GUI front-end program to compare differences on files or contents of folders"
 titlesweeper=$"Sweeper"
 descsweeper=$"System Cleaner. Sweeper helps to clean unwanted traces the user leaves on the system"
+titlehardinfo2=$"Hardinfo2"
+deschardinfo2=$"System Information and Benchmark for Linux"
 
 #translations of apps-office.sh.htm
 titlecalibre=$"Calibre"
