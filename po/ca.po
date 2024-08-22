@@ -939,7 +939,7 @@ msgstr "Ghostwriter"
 
 #: translation:222
 msgid "Distraction-free text editor for Markdown"
-msgstr "Editor de text sense distraccions per a Markdown"
+msgstr "Un editor de text sense distraccions per a Markdown"
 
 #: translation:223
 msgid "Merkuro"
