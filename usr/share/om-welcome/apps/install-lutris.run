@@ -5,7 +5,8 @@ if rpm -q lutris; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" lutris is already installed."
 else
 	APP=$"Lutris"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes lutris
 	ProgressDialog --close
 	if rpm -q lutris; then
@@ -13,4 +14,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

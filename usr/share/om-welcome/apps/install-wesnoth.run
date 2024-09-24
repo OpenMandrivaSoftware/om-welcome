@@ -4,7 +4,8 @@ if rpm -q wesnoth; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" wesnoth is already installed."
 else
 	APP=$"Wesnoth"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes wesnoth
 	ProgressDialog --close
 	if rpm -q wesnoth; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

@@ -5,7 +5,8 @@ if rpm -q task-lxqt &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"LXQt is already installed."
 else
 	APP=$"LXQt desktop"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes task-lxqt
 	ProgressDialog --close
 	if rpm -q task-lxqt &>/dev/null; then
@@ -13,4 +14,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

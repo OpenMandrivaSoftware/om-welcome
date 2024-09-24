@@ -4,7 +4,8 @@ if rpm -q tuxpaint; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Tux Paint is already installed."
 else
 	APP=$"Tux Paint"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes tuxpaint tuxpaint-stamps
 	ProgressDialog --close
 	if rpm -q tuxpaint; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

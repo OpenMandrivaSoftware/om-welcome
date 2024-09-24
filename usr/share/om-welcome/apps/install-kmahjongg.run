@@ -1,10 +1,11 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 if which kmahjongg &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"KMahjongg is already installed."
+	exec kmahjongg
 else
 	APP=$"KMahjongg"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
 		pkexec dnf install --assumeyes kmahjongg
 	else
@@ -16,4 +17,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

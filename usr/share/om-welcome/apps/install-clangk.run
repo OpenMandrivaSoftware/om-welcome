@@ -4,7 +4,8 @@ if rpm -q kernel-desktop-gcc &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $"The GCC kernel is already installed."
 else
 	APP=$"GCC Kernel"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes kernel-desktop-gcc
 	ProgressDialog --close
 	if rpm -q kernel-desktop-gcc &>/dev/null; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva"  --msgbox  $"The GCC kernel could not be installed."
 	fi
+fi
 fi

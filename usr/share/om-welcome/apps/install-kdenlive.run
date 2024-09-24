@@ -5,7 +5,8 @@ if which kdenlive; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive is already installed."
 else
 	APP=$"KDENLive"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
 		pkexec dnf install --assumeyes kdenlive
 	else
@@ -17,4 +18,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

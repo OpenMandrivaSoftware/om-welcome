@@ -1,10 +1,11 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 if rpm -q dia; then
-	kdialog --title $"OpenMandriva"  --msgbox  $" Dia is already installed.";
+	exec dia
 else
 	APP=$"Dia"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes dia
 	ProgressDialog --close
 	if rpm -q dia; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

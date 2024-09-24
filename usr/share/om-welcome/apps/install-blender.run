@@ -1,10 +1,11 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 if rpm -qa |grep "blender*"; then
-	kdialog --title $"OpenMandriva"  --msgbox  $" Blender is already installed."
+	exec blender
 else
 	APP=$"Blender"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes blender
 	ProgressDialog --close
 	if which blender; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

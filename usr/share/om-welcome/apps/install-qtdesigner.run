@@ -4,7 +4,8 @@ if which designer; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer is already installed."
 else
 	APP=$"Qt Designer"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes qt5-designer
 	ProgressDialog --close
 	if which designer; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

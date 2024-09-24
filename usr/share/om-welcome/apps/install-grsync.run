@@ -2,10 +2,11 @@
 . /usr/share/htmlscript/helpers
 
 if which grsync; then
-	kdialog --title $"OpenMandriva"  --msgbox  $" GRsync is already installed."
+	exec grsync
 else
 	APP=$"GRsync"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	enable-repo extra
 	pkexec dnf install --assumeyes grsync
 	ProgressDialog --close
@@ -14,4 +15,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

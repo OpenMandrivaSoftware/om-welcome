@@ -4,7 +4,8 @@ if which telegram-desktop &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"telegram-desktop is already installed."
 else
 	APP=$"Telegram"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes telegram-desktop
 	ProgressDialog --close
 	if which telegram-desktop &>/dev/null; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

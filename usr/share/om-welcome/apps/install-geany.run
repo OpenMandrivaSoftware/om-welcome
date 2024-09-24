@@ -4,7 +4,8 @@ if which geany; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE is already installed."
 else
 	APP=$"Geany IDE"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	enable-repo extra
 	pkexec dnf install --assumeyes geany
 	ProgressDialog --close
@@ -13,4 +14,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

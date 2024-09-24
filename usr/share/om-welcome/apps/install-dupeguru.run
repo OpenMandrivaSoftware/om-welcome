@@ -1,10 +1,11 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 if which dupeguru &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"dupeGuru is already installed."
+	exec dupeguru
 else
 	APP=$"Dupeguru"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes dupeguru
 	ProgressDialog --close
 	if which dupeguru &>/dev/null; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

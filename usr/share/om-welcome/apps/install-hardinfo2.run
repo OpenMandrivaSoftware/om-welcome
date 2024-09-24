@@ -2,10 +2,11 @@
 . /usr/share/htmlscript/helpers
 
 if which hardinfo2 &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $" Hardinfo2 is already installed.";
+	exec hardinfo2
 else
 	APP=$"Hardinfo2"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes hardinfo2
 	ProgressDialog --close
 	if which hardinfo2 &>/dev/null; then
@@ -13,4 +14,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

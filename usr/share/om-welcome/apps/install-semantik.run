@@ -5,7 +5,8 @@ if rpm -q semantik &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Semantik is already installed."
 else
 	APP=$"Semantik"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	enable-repo extra
 	pkexec dnf install --assumeyes semantik
 	ProgressDialog --close
@@ -14,4 +15,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

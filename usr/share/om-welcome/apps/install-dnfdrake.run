@@ -4,6 +4,7 @@ if rpm -q dnfdrake &>/dev/null; then
 	exec dnfdrake.gambas
 else
 	APP=$"DnfDrake"
+        if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
 	ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes dnfdrake
 	ProgressDialog --close
@@ -12,6 +13,7 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi
 
 exit 0

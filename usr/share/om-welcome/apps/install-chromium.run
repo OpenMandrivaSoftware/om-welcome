@@ -1,6 +1,6 @@
 #!/bin/bash
 if which chromium; then
-	kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Webbrowser is already installed."
+	kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Web browser is already installed."
 else
 	APP=$"Chromium"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)

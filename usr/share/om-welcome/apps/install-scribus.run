@@ -5,7 +5,8 @@ if rpm -q scribus; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Scribus is already installed."
 else
 	APP=$"Scribus"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes scribus
 	ProgressDialog --close
 	if rpm -q scribus; then
@@ -13,4 +14,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

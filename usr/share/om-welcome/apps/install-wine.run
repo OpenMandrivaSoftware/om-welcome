@@ -4,7 +4,8 @@ if which wine; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Wine is already installed."
 else
 	APP=$"Wine"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes wine cabextract
 	ProgressDialog --close
 	if which wine; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi
