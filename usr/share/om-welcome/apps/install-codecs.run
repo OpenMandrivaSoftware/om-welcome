@@ -3,10 +3,10 @@
 if rpm -q x264 &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Codecs are already installed.";
 else
-	enable-repo restricted
 	APP=$"Codecs"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
+	enable-repo restricted
 	pkexec dnf --refresh install --assumeyes lib64dvdcss2 faac flac x264 lib64xvid4 lib64dca0 x265 kf6-kimageformats-heif
 	ProgressDialog --close
 	if rpm -q x264 &>/dev/null; then

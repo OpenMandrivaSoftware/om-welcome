@@ -1,10 +1,11 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 if which nheko &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"nheko is already installed."
+	exec nheko
 else
 	APP=$"Nheko"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes nheko
 	ProgressDialog --close
 	if which nheko &>/dev/null; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

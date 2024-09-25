@@ -1,10 +1,11 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 if which musescore &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"MuseScore is already installed."
+	exec musescore
 else
 	APP=$"MuseScore"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes musescore
 	ProgressDialog --close
 	if which musescore &>/dev/null; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

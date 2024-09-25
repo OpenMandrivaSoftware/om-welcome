@@ -1,10 +1,11 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 if which step &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"Step is already installed."
+	exec step
 else
 	APP=$"Step"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes step
 	ProgressDialog --close
 	if which step &>/dev/null; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

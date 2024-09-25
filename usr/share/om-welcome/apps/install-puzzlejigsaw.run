@@ -1,10 +1,11 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 if which puzzle-jigsaw &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"Puzzle jigsaw is already installed."
+	exec puzzle-jigsaw
 else
 	APP=$"Puzzle jigsaw"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	pkexec dnf install --assumeyes puzzle-jigsaw
 	ProgressDialog --close
 	if which puzzle-jigsaw &>/dev/null; then
@@ -12,4 +13,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi

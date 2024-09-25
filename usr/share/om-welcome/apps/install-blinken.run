@@ -1,5 +1,7 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
+
+if which blinken &>/dev/null; then
 	exec blinken
 else
 	APP=$"Blinken"

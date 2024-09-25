@@ -1,4 +1,21 @@
-#!/bin/sh
+#!/bin/bash
 . /usr/share/htmlscript/helpers
-install_if_needed kbackup "KBackup"
-exec kbackup
+if which kbackup &>/dev/null; then
+	exec kbackup
+else
+	APP=$"KBackup"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
+	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
+		pkexec dnf install --assumeyes kbackup
+	else
+		pkexec dnf install --assumeyes plasma6-kbackup
+	fi
+	ProgressDialog --close
+	if which kbackup &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
+fi

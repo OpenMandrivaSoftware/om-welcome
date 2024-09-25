@@ -1,18 +1,13 @@
 #!/bin/bash
-. /usr/share/htmlscript/helpers
-if which marble &>/dev/null || which marble-qt &>/dev/null; then
-	exec marble
+if rpm -q xguest &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"Guest Account is already installed."
 else
-	APP=$"Marble"
+	APP=$"Guest Account"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf install --assumeyes marble
-	else
-		pkexec dnf install --assumeyes plasma6-marble
-	fi
+	pkexec dnf install --assumeyes xguest
 	ProgressDialog --close
-	if which marble-qt &>/dev/null; then
+	if rpm -q xguest &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

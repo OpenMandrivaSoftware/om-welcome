@@ -1,10 +1,11 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 if which merkuro-calendar &>/dev/null; then
-	kdialog --title $"OpenMandriva" --msgbox $"Merkuro is already installed."
+	exec merkuro-calendar
 else
 	APP=$"Merkuro"
-	ProgressDialog $"Installing $APP"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
 		pkexec dnf install --assumeyes merkuro
 	else
@@ -16,4 +17,5 @@ else
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
 	fi
+fi
 fi
