@@ -5,13 +5,13 @@ if which mscore &>/dev/null; then
 else
 	APP=$"MuseScore"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
-    ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes musescore
-	ProgressDialog --close
-	if which mscore &>/dev/null; then
-		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
-	else
-		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+		ProgressDialog $"Installing $APP"
+		pkexec dnf install --assumeyes musescore
+		ProgressDialog --close
+		if which mscore &>/dev/null; then
+			kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+		else
+			kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+		fi
 	fi
-fi
 fi
