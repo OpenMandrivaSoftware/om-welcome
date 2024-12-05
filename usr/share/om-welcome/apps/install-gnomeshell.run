@@ -8,7 +8,7 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
     enable-repo extra
-	pkexec dnf install --assumeyes task-gnome
+	pkexec dnf --refresh install --assumeyes task-gnome
 	ProgressDialog --close
 	if rpm -q task-gnome &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

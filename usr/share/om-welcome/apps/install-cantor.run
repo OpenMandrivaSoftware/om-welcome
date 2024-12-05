@@ -6,7 +6,7 @@ else
 	APP=$"Cantor"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes cantor
+	pkexec dnf --refresh install --assumeyes cantor
 	ProgressDialog --close
 	if which cantor &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

@@ -6,7 +6,7 @@ else
 	APP=$"TuxPusher"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes tuxpusher
+	pkexec dnf --refresh install --assumeyes tuxpusher
 	ProgressDialog --close
 	if which tuxpusher &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

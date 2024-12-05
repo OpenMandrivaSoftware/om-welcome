@@ -6,7 +6,7 @@ else
 	APP=$"Choqok"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes choqok
+	pkexec dnf --refresh install --assumeyes choqok
 	ProgressDialog --close
 	if which choqok; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

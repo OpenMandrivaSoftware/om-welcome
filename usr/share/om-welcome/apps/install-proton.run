@@ -6,7 +6,7 @@ else
 	APP=$"Proton"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes proton
+	pkexec dnf --refresh install --assumeyes proton
 	ProgressDialog --close
 	if which proton &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

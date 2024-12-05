@@ -5,7 +5,7 @@ if rpm -q cups &>/dev/null; then
 else
 	APP=$"Task printing-scanning"
 	ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes task-printing task-printing-scanning print-manager system-config-printer
+	pkexec dnf --refresh install --assumeyes task-printing task-printing-scanning print-manager system-config-printer
 	ProgressDialog --close
 	if rpm -q cups &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

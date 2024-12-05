@@ -7,7 +7,7 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo extra
-	pkexec dnf install --assumeyes stellarium
+	pkexec dnf --refresh install --assumeyes stellarium
 	ProgressDialog --close
 	if rpm -q stellarium &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

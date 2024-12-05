@@ -1,15 +1,15 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which openshot-qt; then
-	exec openshot-qt
+if which frozen-bubble &>/dev/null; then
+	kdialog --title $"OpenMandriva"  --msgbox  $" Frozen Bubble is already installed."
 else
-	APP=$"OpenShot"
+	APP=$"Frozen Bubble"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	enable-repo extra
-	pkexec dnf --refresh install --assumeyes openshot
+	enable-repo extra;
+	pkexec dnf --refresh install --assumeyes frozen-bubble
 	ProgressDialog --close
-	if which openshot-qt; then
+	if which frozen-bubble &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

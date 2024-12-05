@@ -308,6 +308,8 @@ titleetr=$"Extreme Tux Racer"
 descetr=$"Slide down a snow and ice covered mountain as quickly as possible"
 titlekubrick=$"Kubrick"
 desckubrick=$"Game based on Rubik's Cube"
+titlefrozenbubble=$"Frozen Bubble"
+descfrozenbubble=$"Free software clone of Puzzle Bobble"
 
 #translations of apps-development.sh.htm
 titlellvm=$"C/C++ Compilers Suite"

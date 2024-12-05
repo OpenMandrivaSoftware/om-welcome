@@ -7,7 +7,7 @@ else
 	APP=$"GIMP"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes gimp
+	pkexec dnf --refresh install --assumeyes gimp
 	ProgressDialog --close
 	if rpm -qa |grep "^gimp"; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

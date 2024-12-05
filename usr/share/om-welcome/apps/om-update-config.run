@@ -6,7 +6,7 @@ else
 	APP=$"Update Configuration"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes om-update-config
+	pkexec dnf --refresh install --assumeyes om-update-config
 	ProgressDialog --close
 	if rpm -q om-update-config &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

@@ -7,7 +7,7 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo non-free
-	pkexec dnf install --assumeyes steam
+	pkexec dnf --refresh install --assumeyes steam
 	ProgressDialog --close
 	if rpm -qa |grep "steam*"; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

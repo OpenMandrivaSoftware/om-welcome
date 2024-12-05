@@ -6,7 +6,7 @@ else
 	APP=$"Warzone 2100"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes warzone2100
+	pkexec dnf --refresh install --assumeyes warzone2100
 	ProgressDialog --close
 	if rpm -q warzone2100 &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

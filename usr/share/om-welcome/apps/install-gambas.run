@@ -7,7 +7,7 @@ else
 	APP=$"Gambas IDE"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes gambas-ide
+	pkexec dnf --refresh install --assumeyes gambas-ide
 	ProgressDialog --close
 	if which gambas; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" Gambas IDE successfully installed."

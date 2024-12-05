@@ -6,7 +6,7 @@ else
 	APP=$"Falkon"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes falkon
+	pkexec dnf --refresh install --assumeyes falkon
 	ProgressDialog --close
 	if which falkon &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

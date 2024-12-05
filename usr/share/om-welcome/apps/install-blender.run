@@ -6,7 +6,7 @@ else
 	APP=$"Blender"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes blender
+	pkexec dnf --refresh install --assumeyes blender
 	ProgressDialog --close
 	if which blender; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

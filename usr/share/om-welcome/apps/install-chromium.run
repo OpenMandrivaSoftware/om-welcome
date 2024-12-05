@@ -5,7 +5,7 @@ else
 	APP=$"Chromium"
 	DB=$(kdialog --title $"OpenMandriva" --progressbar $"Installing $APP" 0)
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
-	pkexec dnf install --assumeyes chromium
+	pkexec dnf --refresh install --assumeyes chromium
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
 	if which chromium; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

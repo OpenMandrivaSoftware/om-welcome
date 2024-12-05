@@ -7,7 +7,7 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo extra
-	pkexec dnf install --assumeyes xvidcap
+	pkexec dnf --refresh install --assumeyes xvidcap
 	ProgressDialog --close
 	if which xvidcap; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

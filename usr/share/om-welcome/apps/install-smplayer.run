@@ -5,7 +5,7 @@ if which smplayer; then
 else
 	APP=$"SMPlayer"
 	ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes smplayer
+	pkexec dnf --refresh install --assumeyes smplayer
 	ProgressDialog --close
 	if which smplayer; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

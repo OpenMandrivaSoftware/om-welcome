@@ -6,7 +6,7 @@ else
 	APP=$"Dupeguru"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes dupeguru
+	pkexec dnf --refresh install --assumeyes dupeguru
 	ProgressDialog --close
 	if which dupeguru &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

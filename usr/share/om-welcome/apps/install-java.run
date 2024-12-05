@@ -6,7 +6,7 @@ else
 	APP=$"OpenJDK"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes jdk-current
+	pkexec dnf --refresh install --assumeyes jdk-current
 	ProgressDialog --close
 	if rpm -q --whatprovides jdk-current; then
 		kdialog --title $"OpenMandriva"  --msgbox  $" OpenJDK successfully installed."

@@ -6,7 +6,7 @@ else
 	APP=$"KDevelop"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes kdevelop
+	pkexec dnf --refresh install --assumeyes kdevelop
 	ProgressDialog --close
 	if which kdevelop; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

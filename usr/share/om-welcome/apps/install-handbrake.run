@@ -7,7 +7,7 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo restricted
-	pkexec dnf install --assumeyes handbrake
+	pkexec dnf --refresh install --assumeyes handbrake
 	ProgressDialog --close
 	if which handbrake; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

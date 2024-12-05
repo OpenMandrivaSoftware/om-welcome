@@ -7,9 +7,9 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf install --assumeyes kig
+		pkexec dnf --refresh install --assumeyes kig
 	else
-		pkexec dnf install --assumeyes plasma6-kig
+		pkexec dnf --refresh install --assumeyes plasma6-kig
 	fi
 	ProgressDialog --close
 	if which kig &>/dev/null; then

@@ -8,9 +8,9 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf install --assumeyes plasma-firewall
+		pkexec dnf --refresh install --assumeyes plasma-firewall
 	else
-		pkexec dnf install --assumeyes plasma6-firewall
+		pkexec dnf --refresh install --assumeyes plasma6-firewall
 	fi
 	ProgressDialog --close
 	if which firewalld &>/dev/null; then

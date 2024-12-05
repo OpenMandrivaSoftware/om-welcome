@@ -7,7 +7,7 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo extra
-	pkexec dnf install --assumeyes librecad
+	pkexec dnf --refresh install --assumeyes librecad
 	ProgressDialog --close
 	if which librecad &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

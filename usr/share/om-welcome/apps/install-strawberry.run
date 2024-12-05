@@ -6,7 +6,7 @@ else
 	APP=$"Strawberry"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes strawberry
+	pkexec dnf --refresh install --assumeyes strawberry
 	ProgressDialog --close
 	if which strawberry &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

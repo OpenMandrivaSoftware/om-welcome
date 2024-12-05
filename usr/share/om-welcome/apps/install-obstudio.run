@@ -7,7 +7,7 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo restricted
-	pkexec dnf install --assumeyes obs-studio
+	pkexec dnf --refresh install --assumeyes obs-studio
 	ProgressDialog --close
 	if which obs &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

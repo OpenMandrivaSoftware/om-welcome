@@ -6,7 +6,7 @@ else
 	APP=$"Skype"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes get-skypeforlinux
+	pkexec dnf --refresh install --assumeyes get-skypeforlinux
 	ProgressDialog --close
 	if rpm -q get-skypeforlinux; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

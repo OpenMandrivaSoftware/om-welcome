@@ -6,7 +6,7 @@ else
 	APP=$"Bottles"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --assumeyes bottles
+	pkexec dnf --refresh install --assumeyes bottles
 	ProgressDialog --close
 	if which bottles &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

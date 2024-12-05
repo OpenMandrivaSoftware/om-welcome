@@ -7,7 +7,7 @@ else
 	APP=$"Kraft"
 	ProgressDialog $"Installing $APP"
 	enable-repo extra
-	pkexec dnf install --assumeyes kraft
+	pkexec dnf --refresh install --assumeyes kraft
 	ProgressDialog --close
 	if rpm -q kraft; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
