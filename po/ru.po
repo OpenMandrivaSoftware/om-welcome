@@ -713,8 +713,7 @@ msgstr "OpenShot"
 #: translation:172
 msgid "Non-linear video editing software free and open source"
 msgstr ""
-"Бесплатное программное обеспечение с открытым исходным кодом для нелинейного"
-" редактирования видео"
+"Свободное ПО с открытым исходным кодом для нелинейного редактирования видео"
 
 #: translation:173
 msgid "HandBrake"
