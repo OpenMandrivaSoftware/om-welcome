@@ -632,7 +632,7 @@ msgstr "Nulloy"
 
 #: translation:154
 msgid "Music player with a waveform progress bar"
-msgstr "Музыкальный плеер с индикатором выполнения ввиде сигнала"
+msgstr "Музыкальный плеер с индикатором проигрывания в виде звуковой волны"
 
 #: translation:155
 msgid "Strawberry"
