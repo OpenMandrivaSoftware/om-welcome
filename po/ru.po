@@ -999,7 +999,7 @@ msgstr "Minuet"
 
 #: translation:238
 msgid "KDE music learning application"
-msgstr "Приложение от KDE для изучение музыки"
+msgstr "Приложение от KDE для изучения музыки"
 
 #: translation:239
 msgid "Artikulate"
