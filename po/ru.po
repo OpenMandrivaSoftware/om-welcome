@@ -900,8 +900,7 @@ msgstr "Zim"
 
 #: translation:214
 msgid "Free and open source desktop wiki and outliner"
-msgstr ""
-"Бесплатная вики для рабочего стола и outliner с открытым исходным кодом"
+msgstr "Свободная и открытая настольная вики и редактор"
 
 #: translation:215
 msgid "Lokalize"
