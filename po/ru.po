@@ -1089,7 +1089,7 @@ msgid ""
 "A programming language for young people to create digital stories, games, "
 "and animations"
 msgstr ""
-"Язык программирования для детей, позволяющий создавать цифровые историй, "
+"Язык программирования для детей, позволяющий создавать цифровые истории, "
 "игры и анимации"
 
 #: translation:261
