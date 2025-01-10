@@ -623,7 +623,7 @@ msgid ""
 "Graphical front-end for MPlayer, cross-platform and supports various "
 "audio/video formats"
 msgstr ""
-"Графический фронтэнд для MPlayer, кроссплатформенный и поддерживает "
+"Графический интерфейс для MPlayer, кроссплатформенный и поддерживает "
 "различные аудио/видео форматы"
 
 #: translation:153
