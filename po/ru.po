@@ -799,8 +799,8 @@ msgid ""
 "Grsync is a GUI for rsync. While it can work with remote hosts, its focus is"
 " to synchronize local directories"
 msgstr ""
-"Grsync — это GUI для rsync. Хотя он может работать с удаленными хостами, его"
-" основное внимание уделяется синхронизации локальных каталогов"
+"Grsync — это графический интерфейс для rsync. Хотя он может работать с "
+"удаленными хостами, он фокусируется на синхронизации локальных каталогов"
 
 #: translation:193
 msgid "Proton"
