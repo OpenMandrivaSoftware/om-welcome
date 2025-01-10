@@ -1801,7 +1801,7 @@ msgstr "Вы используете %2 с ядром %3."
 
 #: translation:432
 msgid "New Features and Major Changes"
-msgstr "Новые функции и основные изменения"
+msgstr "Новые функции и крупные изменения"
 
 #: translation:433
 msgid ""
