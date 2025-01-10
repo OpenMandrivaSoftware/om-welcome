@@ -983,8 +983,7 @@ msgstr "Stellarium"
 #: translation:234
 msgid "Stellarium renders 3D photo-realistic skies in real time"
 msgstr ""
-"Stellarium визуализирует фотореалистичный 3D вид неба в режиме реального "
-"времени"
+"Stellarium отрисовывает фотореалистичное 3D небо в режиме реального времени"
 
 #: translation:235
 msgid "Kalzium"
