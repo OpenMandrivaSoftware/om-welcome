@@ -640,7 +640,7 @@ msgstr "Strawberry"
 
 #: translation:156
 msgid "Music player and music collection organizer"
-msgstr "Музыкальный проигрыватель и организатор музыкальной коллекции"
+msgstr "Музыкальный проигрыватель и органайзер музыкальной коллекции"
 
 #: translation:157
 msgid "Haruna"
