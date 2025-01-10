@@ -759,7 +759,7 @@ msgstr "Wine позволяет запускать многие программ
 
 #: translation:185
 msgid "OpenMandriva repo-picker"
-msgstr "OpenMandriva repo-picker"
+msgstr "Выбор репозиториев OpenMandriva"
 
 #: translation:186
 msgid ""
