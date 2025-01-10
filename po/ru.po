@@ -507,7 +507,7 @@ msgstr "Tuxpaint"
 msgid ""
 "Encourage children's creativity using simple tools, drawings on the computer"
 msgstr ""
-"Поддержите детское творчество с помощью простых инструментов и рисунков на "
+"Поощряйте детское творчество с помощью простых инструментов и рисунков на "
 "компьютере"
 
 #: translation:129
