@@ -560,7 +560,7 @@ msgstr "Простая программа для рисования и созд�
 
 #: translation:141
 msgid "Codecs"
-msgstr "Codecs"
+msgstr "Кодеки"
 
 #: translation:142
 msgid ""
