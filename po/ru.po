@@ -721,7 +721,7 @@ msgstr "HandBrake"
 
 #: translation:174
 msgid "Video transcoder free and open source"
-msgstr "Бесплатный транскодер видео с открытым исходным кодом"
+msgstr "Свободный транскодер видео с открытым исходным кодом"
 
 #: translation:177
 msgid "DnfDrake"
