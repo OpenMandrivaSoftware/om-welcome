@@ -686,7 +686,7 @@ msgstr "QMMP"
 
 #: translation:166
 msgid "A QT based media player similar to Winamp"
-msgstr "Основанный на QT медиа плеер похожий на Winamp"
+msgstr "Основанный на QT медиаплеер, похожий на Winamp"
 
 #: translation:167
 msgid "MuseScore"
