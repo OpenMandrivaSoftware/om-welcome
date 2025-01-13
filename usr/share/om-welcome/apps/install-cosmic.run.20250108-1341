@@ -1,0 +1,18 @@
+#!/bin/bash
+. /usr/share/htmlscript/helpers
+
+if rpm -q task-cosmic &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"COSMIC is already installed."
+else
+	APP=$"COSMIC desktop"
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
+	pkexec dnf --refresh install --assumeyes task-cosmic
+	ProgressDialog --close
+	if rpm -q task-cosmic &>/dev/null; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
+fi
