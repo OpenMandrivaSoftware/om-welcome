@@ -52,14 +52,8 @@ cat << EOF
 		</div>
 		<!--FINE SUBMENU-->
 		<ul id="item-list">
-			<li>
-				<p><a href=./apps/firewall.run><img src="images/firewall.svg" class="alignleft"/></a>
-				<span><a class="title" href="./apps/firewall.run">$titlefirewall </a></span><br/> $descfirewall</p>
-			</li>
-			<li>
-				<p><a class="title" href=./apps/keys.run><img src="images/keys.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/keys.run>$titlekeys</a></span><br/>$desckeys</p>
-			</li>
+			<a target="hidden" href="./apps/firewall.run"><li><p><img src="images/firewall.svg" class="alignleft"/><span class="title">$titlefirewall</span><br/>$descfirewall</p></li></a>
+			<a target="hidden" href="./apps/keys.run"><li><p><img src="images/keys.svg" class="alignleft"/><span class="title">$titlekeys</span><br/>$desckeys</p></li></a>
 		</ul>
 	</div> 
 	<div id="lodape">
