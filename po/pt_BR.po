@@ -1,15 +1,12 @@
 # 
 # Translators:
-# rugyada, 2024
 # Daniel Castro, 2025
+# rugyada, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Daniel Castro, 2025\n"
+"Last-Translator: rugyada, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/openmandriva/teams/1818/pt_BR/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
@@ -1296,11 +1293,19 @@ msgstr "Kubrick"
 msgid "Game based on Rubik's Cube"
 msgstr "Jogo baseado no cubo mágico"
 
-#: translation:313
+#: translation:311
+msgid "Frozen Bubble"
+msgstr "Frozen Bubble"
+
+#: translation:312
+msgid "Free software clone of Puzzle Bobble"
+msgstr "Clone de software livre do Puzzle Bobble"
+
+#: translation:315
 msgid "C/C++ Compilers Suite"
 msgstr "Suíte de Compiladores C/C++"
 
-#: translation:314
+#: translation:316
 msgid ""
 "This is LLVM/clang package, including necessary tools for development like "
 "LLVM/clang, GCC, make, autoconf etc."
@@ -1308,11 +1313,11 @@ msgstr ""
 "Este é o pacote do LLVM/clang, incluíndo ferramentas necessárias para o "
 "desenvolvimento com LLVM/clang, GCC, make, autoconf, etc."
 
-#: translation:315
+#: translation:317
 msgid "KDevelop"
 msgstr "KDevelop"
 
-#: translation:316
+#: translation:318
 msgid ""
 "The KDevelop Integrated Development Environment providing a unified "
 "interface to programs like gdb, the C/C++ compiler, and make"
@@ -1320,11 +1325,11 @@ msgstr ""
 "O Ambiente Integrado de Desenvolvimento KDevelop fornece uma interface "
 "unificada para programas como gdb, o compilador C/C++, e make"
 
-#: translation:317
+#: translation:319
 msgid "Geany IDE"
 msgstr "Geany IDE"
 
-#: translation:318
+#: translation:320
 msgid ""
 "A small C editor using GTK2 with basic features of an integrated development"
 " environment"
@@ -1332,11 +1337,11 @@ msgstr ""
 "Um pequeno editor usando GTK2 com funções básicas de um ambiente de "
 "desenvolvimento integrado - IDE"
 
-#: translation:319
+#: translation:321
 msgid "Eclipse IDE"
 msgstr "Eclipse IDE"
 
-#: translation:320
+#: translation:322
 msgid ""
 "Eclipse IDE contains a base workspace and an extensible plug-in system, "
 "mostly used by Java Developers"
@@ -1344,19 +1349,19 @@ msgstr ""
 "Eclipse IDE contém um espaço de trabalho base e sistema extensível de plug-"
 "ins, muito utilizado por Desenvolvedores Java"
 
-#: translation:321
+#: translation:323
 msgid "Qt-Creator"
 msgstr "Qt-Creator"
 
-#: translation:322
+#: translation:324
 msgid "Lightweight, cross-platform integrated development environment (IDE)"
 msgstr "Um ambiente integrado de desenvolviment (IDE) leve e multi-plataforma"
 
-#: translation:323
+#: translation:325
 msgid "Qt-Designer"
 msgstr "Qt-Designer"
 
-#: translation:324
+#: translation:326
 msgid ""
 "Visual design tool that makes designing and implementing user interfaces a "
 "lot easier"
@@ -1364,19 +1369,19 @@ msgstr ""
 "Uma ferramenta de design visual que cria desenhando e implementando "
 "interfaces de usuários muito facilmente"
 
-#: translation:325
+#: translation:327
 msgid "RPM Packaging"
 msgstr "RPM Packaging"
 
-#: translation:326
+#: translation:328
 msgid "RPM Packaging suite, including rpmbuild, rpmlint, etc."
 msgstr "A suíte RPM Packagin incluí rpmbuild, rpmlint, etc."
 
-#: translation:327
+#: translation:329
 msgid "Gambas IDE"
 msgstr "Gambas IDE"
 
-#: translation:328
+#: translation:330
 msgid ""
 "Gambas Almost BASIC, to build graphical applications programs using the "
 "Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
@@ -1384,29 +1389,29 @@ msgstr ""
 "Gambas Almost BASIC, para criar programas e aplicações gráficas usando o "
 "conjunto de ferramentas Qt/GTK+ com Visual Basic (TM) com fluxo de trabalho"
 
-#: translation:329
+#: translation:331
 msgid "GCC kernel"
 msgstr "GCC kernel"
 
-#: translation:330
+#: translation:332
 msgid ""
 "Install a version of the kernel that has been built with the GCC compiler"
 msgstr ""
 "Instalar uma versão do kernel que foi construída com o compilador GCC "
 
-#: translation:333
+#: translation:335
 msgid "Mozilla Thunderbird"
 msgstr "Mozilla Thunderbird"
 
-#: translation:334
+#: translation:336
 msgid "Full-featured email, RSS and newsgroup client"
 msgstr "Um cliente de e-mail completo com RSS e grupos de notícias"
 
-#: translation:335
+#: translation:337
 msgid "Skype"
 msgstr "Skype"
 
-#: translation:336
+#: translation:338
 msgid ""
 "By installing this package you will download and install Skype from "
 "skype.com. You must accept the Skype EULA before using it"
@@ -1414,31 +1419,31 @@ msgstr ""
 "Instalando este pacote você irá baixar e instalar o Skype do skype.com. Você"
 " deve aceitar o EULA do Skype antes de usá-lo"
 
-#: translation:337
+#: translation:339
 msgid "Skype online"
 msgstr "Skype online"
 
-#: translation:338
+#: translation:340
 msgid ""
 "By installing this package you will be able to use Skype online from "
 "skype.com"
 msgstr ""
 "Ao instalar este pacote, você poderá usar o Skype on-line no skype.com"
 
-#: translation:339
+#: translation:341
 msgid "Telegram Desktop"
 msgstr "Telegram Desktop"
 
-#: translation:340
+#: translation:342
 msgid "Telegram is a messaging app with a focus on speed and security"
 msgstr ""
 "Telegram é um aplicativo de mensagens com foco em velocidade e segurança"
 
-#: translation:341
+#: translation:343
 msgid "Pidgin"
 msgstr "Pidgin"
 
-#: translation:342
+#: translation:344
 msgid ""
 "Graphical, modular instant messaging client capable of using multiple "
 "networks at once"
@@ -1446,35 +1451,35 @@ msgstr ""
 "Um cliente de mensagens instantâneas modular e gráfico capaz de usar várias "
 "redes de uma só vez"
 
-#: translation:343
+#: translation:345
 msgid "Choqok"
 msgstr "Choqok"
 
-#: translation:344
+#: translation:346
 msgid "Free open source microblogging client for KDE"
 msgstr "Cliente de microblogging para o KDE gratuito e open-source"
 
-#: translation:345
+#: translation:347
 msgid "Nheko"
 msgstr "Nheko"
 
-#: translation:346
+#: translation:348
 msgid "Desktop client for the Matrix protocol"
 msgstr "Cliente de área de trabalho do protocolo Matrix"
 
-#: translation:347
+#: translation:349
 msgid "Quaternion"
 msgstr "Quaternion"
 
-#: translation:348
+#: translation:350
 msgid "IM client for the Matrix protocol"
 msgstr "Um cliente IM para o protocolo Matrix"
 
-#: translation:349
+#: translation:351
 msgid "Dropbox"
 msgstr "Dropbox"
 
-#: translation:350
+#: translation:352
 msgid ""
 "A free service that lets you bring your photos, docs, and videos anywhere "
 "and share them easily"
@@ -1482,110 +1487,110 @@ msgstr ""
 "Um serviço gratuito que permite que você acesse suas fotos, documentos e "
 "vídeos em qualquer lugar e compartilhá-los facilmente"
 
-#: translation:351
+#: translation:353
 msgid "Tokodon"
 msgstr "Tokodon"
 
-#: translation:352
+#: translation:354
 msgid "Tokodon is a Mastodon client"
 msgstr "Tokodon é um cliente para o Mastodon"
 
-#: translation:355
+#: translation:357
 msgid "Falkon Browser"
 msgstr "Falkon Browser"
 
-#: translation:356
+#: translation:358
 msgid "Cross-platform, fast, lightweight and ready to use web browser"
 msgstr "Navegador multi plataforma , rápido, leve e pronto para usar"
 
-#: translation:357
+#: translation:359
 msgid "Firefox Browser"
 msgstr "Firefox Browser"
 
-#: translation:358
+#: translation:360
 msgid "Web browser"
 msgstr "Navegador web"
 
-#: translation:359
+#: translation:361
 msgid "Chromium Browser"
 msgstr "Chromium Browser"
 
-#: translation:360
+#: translation:362
 msgid "Open-source browser safe, fast and stable"
 msgstr "Navegador seguro, rápido e estável, de código aberto"
 
-#: translation:361
+#: translation:363
 msgid "Otter Browser"
 msgstr "Navegador Otter"
 
-#: translation:362
+#: translation:364
 msgid "Browser aiming to recreate classic Opera UI using Qt"
 msgstr ""
 "Um navegador que tem o objetivo de recriar a clássica Opera UI utilizando Qt"
 
-#: translation:363
+#: translation:365
 msgid "Angelfish"
 msgstr "Angelfish"
 
-#: translation:364
+#: translation:366
 msgid "Angelfish is a modern mobile web browser"
 msgstr "Angelfish é navegador web móvel moderno"
 
-#: translation:365
+#: translation:367
 msgid "Opera Browser"
 msgstr "Navegador Opera"
 
-#: translation:366
+#: translation:368
 msgid "Yandex Browser"
 msgstr "Navegador Yandex"
 
-#: translation:367
+#: translation:369
 msgid "Vivaldi Browser"
 msgstr "Navegador Vivaldi"
 
-#: translation:368
+#: translation:370
 msgid "Microsoft Edge Browser"
 msgstr "Navegador Microsoft Edge"
 
-#: translation:369
+#: translation:371
 msgid "Brave Browser"
 msgstr "Navegador Brave"
 
-#: translation:370
+#: translation:372
 msgid "Chrome Browser"
 msgstr "Navegador Chrome"
 
-#: translation:371
+#: translation:373
 msgid "Third Party repository. Install from Software Repository Selector"
 msgstr ""
 "Repositório de terceiros. Instale a partir do Seletor de Repositório de "
 "Software"
 
-#: translation:374
+#: translation:376
 msgid "are already installed"
 msgstr "Já está instalado"
 
-#: translation:375
+#: translation:377
 msgid "not installed"
 msgstr "não instalado"
 
-#: translation:378
+#: translation:380
 msgid "OpenMandriva brand-name applications and features"
 msgstr "Aplicações e características da marca OpenMandriva"
 
-#: translation:379
+#: translation:381
 msgid "Update Configuration"
 msgstr "Configuração de atualização"
 
-#: translation:380
+#: translation:382
 msgid "Tool for configuring automatic updates"
 msgstr "Ferramenta para configuração de atualizações automáticas"
 
-#: translation:381
+#: translation:383
 msgid "Desktop Presets"
 msgstr "Presets de Escritório"
 
-#: translation:382
+#: translation:384
 msgid ""
 "Tool to customize the appearance of your OpenMandriva Plasma desktop to look"
 " and feel similar to other systems you may be used to"
@@ -1594,11 +1599,11 @@ msgstr ""
 "Plasma para parecer e sentir-se semelhante a outros sistemas que você pode "
 "estar acostumado"
 
-#: translation:385
+#: translation:387
 msgid "How to contribute to OpenMandriva"
 msgstr "Como contribuir com o OpenMandriva"
 
-#: translation:386
+#: translation:388
 msgid ""
 "So you really like OpenMandriva Lx and are eager to help? You can contribute"
 " in various ways:"
@@ -1606,11 +1611,11 @@ msgstr ""
 "Então, você realmente gosta dp OpenMandriva Lx e está ansiosos para ajudar? "
 "Você pode contribuir de várias maneiras:"
 
-#: translation:387
+#: translation:389
 msgid "Manual"
 msgstr "Manual"
 
-#: translation:388
+#: translation:390
 msgid ""
 "Help writing simple step-by-step guides for installing and configuring "
 "OpenMandriva Lx"
@@ -1618,61 +1623,61 @@ msgstr ""
 "Ajuda para escrever guias passo a passo para a instalação e configuração do "
 "OpenMandriva Lx"
 
-#: translation:389
+#: translation:391
 msgid "Forum"
 msgstr "Fóruns"
 
-#: translation:390
+#: translation:392
 msgid "Become a member at our forum, answer questions and help others"
 msgstr ""
 "Torne-se um membro em nossos fóruns, responder às perguntas e ajudar os "
 "outros"
 
-#: translation:391
+#: translation:393
 msgid "Translating"
 msgstr "Traduzindo"
 
-#: translation:392
+#: translation:394
 msgid "Translate blog posts, wiki pages, applications and stuff"
 msgstr "Traduzir posts de blogs, páginas wiki, aplicações e outras coisas"
 
-#: translation:393
+#: translation:395
 msgid "Join in the development of OpenMandriva Lx"
 msgstr "Junte-se no desenvolvimento de OpenMandriva Lx"
 
-#: translation:394
+#: translation:396
 msgid "Cooker is the development branch of OpenMandriva Lx"
 msgstr "Cooker é o ramo de desenvolvimento de OpenMandriva Lx"
 
-#: translation:395
+#: translation:397
 msgid "Artwork"
 msgstr "Artwork"
 
-#: translation:396
+#: translation:398
 msgid "Use your talent to create new artwork for OpenMandriva Lx"
 msgstr "Use seu talento para criar novas obras de arte para OpenMandriva Lx"
 
-#: translation:397
+#: translation:399
 msgid "Report Bug"
 msgstr "Relatório de Bug"
 
-#: translation:398
+#: translation:400
 msgid "Search, report and fix bugs in OpenMandriva Lx"
 msgstr "Pesquisar, relatar e corrigir bugs no OpenMandriva Lx"
 
-#: translation:399
+#: translation:401
 msgid "Join the conversation"
 msgstr "Participe da conversa"
 
-#: translation:400
+#: translation:402
 msgid "Discuss in real time with OpenMandriva team and other users"
 msgstr "Converse em tempo real com o time do OpenMandriva e outros usuários."
 
-#: translation:401
+#: translation:403
 msgid "Get involved"
 msgstr "Participar"
 
-#: translation:402
+#: translation:404
 msgid ""
 "How to contribute to OpenMandriva. If you have time, we welcome your help in"
 " various areas"
@@ -1680,11 +1685,11 @@ msgstr ""
 "Como contribuir com a OpenMandriva. Se você tiver tempo, agradecemos sua "
 "ajuda em várias áreas"
 
-#: translation:403
+#: translation:405
 msgid "Donation"
 msgstr "Doação"
 
-#: translation:404
+#: translation:406
 msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
@@ -1692,36 +1697,36 @@ msgstr ""
 "Você pode nos dar seu amor e carinho por doar seu tempo ou dinheiro para "
 "OpenMandriva Lx"
 
-#: translation:406
+#: translation:408
 msgid "About"
 msgstr "Sobre"
 
-#: translation:407
+#: translation:409
 msgid "About this application"
 msgstr "Sobre esta aplicação"
 
-#: translation:409
+#: translation:411
 msgid "Click here to be sure you read the latest Release Notes and Errata"
 msgstr ""
 "Clique aqui para ter certeza de ler as últimas Notas de Lançamento e Errata"
 
-#: translation:410
+#: translation:412
 msgid "Do not start om-welcome on login"
 msgstr "Não começar om-welcome com o login"
 
-#: translation:411
+#: translation:413
 msgid "Make om-welcome start on login"
 msgstr "Faça om-welcome começar com o login"
 
-#: translation:412
+#: translation:414
 msgid "Finish"
 msgstr "Finalizar"
 
-#: translation:415
+#: translation:417
 msgid "About this program"
 msgstr "Sobre esse programa"
 
-#: translation:416
+#: translation:418
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
@@ -1729,15 +1734,15 @@ msgstr ""
 "Este software é licenciado sob a GNU General Public License versão 2 "
 "(GPLv2)."
 
-#: translation:417
+#: translation:419
 msgid "It uses Qt6 WebEngine and htmlscript."
 msgstr "Ela utiliza Qt6 WebEngine e htmlscript."
 
-#: translation:418
+#: translation:420
 msgid "For bugs, suggestions and improvements, please head to "
 msgstr "Bugs, sugestões e melhorias, por favor acesse"
 
-#: translation:421
+#: translation:423
 msgid ""
 "The Main repository contains the main packages that make up OpenMandriva Lx."
 " It should always be enabled"
@@ -1745,7 +1750,7 @@ msgstr ""
 "O repositório principal - Main - contém os principais pacotes que integram o"
 " OpenMandriva Lx. Deve estar sempre ativo."
 
-#: translation:422
+#: translation:424
 msgid ""
 "Extra contains packages that are free, but not officially supported by "
 "OpenMandriva. While we will try to fix them if something breaks, this is a "
@@ -1757,7 +1762,7 @@ msgstr ""
 "prioridade é baixa. Ative o Extra se você precisar deles e não se importar "
 "com falhas ocasionais."
 
-#: translation:423
+#: translation:425
 msgid ""
 "Restricted contains packages that are free, but encumbered by patents that "
 "may make them illegal to use or distribute in some countries. You are "
@@ -1767,7 +1772,7 @@ msgstr ""
 "o uso e a distribuição ilegal em alguns países. Você é responsável por "
 "cumprir as leis locais."
 
-#: translation:424
+#: translation:426
 msgid ""
 "Non-free contains packages that are not free (as in Open Source). Even if we"
 " want to, we cannot fix problems in them. We can not read the code, or "
@@ -1781,7 +1786,7 @@ msgstr ""
 "não haja efeito colateral, eles podem conter programas espiões ou mal-"
 "intencionados. Eles podem apagar seus arquivos. Use por sua conta e risco."
 
-#: translation:425
+#: translation:427
 msgid ""
 "Third Party repositories containing (usually non-free) software where "
 "neither the software nor the packages are maintained by the OpenMandriva "
@@ -1794,22 +1799,22 @@ msgstr ""
 "atualizações antes de eles serem testados no OpenMandriva. Use sob sua conta"
 " e risco"
 
-#: translation:426
+#: translation:428
 msgid ""
 "Please use only Software Repository Selector to enable/disable repositories"
 msgstr ""
 "Por favor use apenas o Seletor de Repositório de Software para "
 "habilitar/desabilitar os repositórios."
 
-#: translation:429
+#: translation:431
 msgid "You are using %2 with kernel %3."
 msgstr "Você está Usando %2 com o kernel %3."
 
-#: translation:432
+#: translation:434
 msgid "New Features and Major Changes"
 msgstr "Novos recursos e maiores mudanças"
 
-#: translation:433
+#: translation:435
 msgid ""
 "OpenMandriva Lx is published by OpenMandriva Association. Over the course of"
 " the year past we have tried to evolve the way you use your desktop. Here "
@@ -1819,11 +1824,11 @@ msgstr ""
 "passado, tentamos evoluir a maneira como você usa sua área de trabalho. Aqui"
 " estão algumas das coisas que fizemos para este lançamento:"
 
-#: translation:434
+#: translation:436
 msgid "Fresh Packages"
 msgstr "últimos pacotes"
 
-#: translation:435
+#: translation:437
 msgid ""
 "Fresh packages available, including Krita (Digital Painting), Kamoso (Webcam"
 " Viewer), SMPlayer, VLC Player, KBackup, Plasma NetworkManager applet, "
@@ -1837,12 +1842,12 @@ msgstr ""
 "Firewalld. Para os usuários mais técnicos fornecemos systemtap uma "
 "ferramenta de análise de desempenho do sistema"
 
-#: translation:436
+#: translation:438
 msgid "Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series."
 msgstr ""
 "Kernel $(uname -r | cut -d ' ' -f 2) é a série mais recente disponível."
 
-#: translation:437
+#: translation:439
 msgid ""
 "OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each designed with their respective end use on mind<br/>\n"
 "<br/>\n"
@@ -1852,11 +1857,11 @@ msgstr ""
 "<br/>\n"
 "<b>Novidades:</b> HT/SMT NICE está ativado por padrão para melhor responsividade e comportamento em tempo real em PC's com HT (Hyper-Threading), isso melhora o desempenho de aplicações em primeiro plano ao custo das atividades em segundo plano. Sua área de trabalho / interfaces gráficas / aplicações continuarão rápidas mesmo após você executar folding@home, mprime, seti@home, etc."
 
-#: translation:440
+#: translation:442
 msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
 msgstr "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
 
-#: translation:441
+#: translation:443
 msgid ""
 "It provides a clean, unified desktop for OpenMandriva Lx. It has all the "
 "tools required to be productive whilst providing a pleasant, functional "
@@ -1866,7 +1871,7 @@ msgstr ""
 "Contém todas as ferramentas necessárias para ser produtivo enquanto fornece "
 "um ambiente agradável e funcional."
 
-#: translation:442
+#: translation:444
 msgid ""
 "This release includes an updated KDE Frameworks $(rpm -q --qf '%{VERSION}' "
 "kf6-kio)."
@@ -1874,17 +1879,17 @@ msgstr ""
 "Esse lançamento inclui um KDE Frameworks atualizado $(rpm -q --qf "
 "'%{VERSION}' kf6-kio)."
 
-#: translation:443
+#: translation:445
 msgid ""
 "The KDE Frameworks are add-on libraries for coding applications with Qt."
 msgstr ""
 "KDE Frameworks são bibliotecas add-on para codificar aplicações com Qt."
 
-#: translation:444
+#: translation:446
 msgid "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 msgstr "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 
-#: translation:445
+#: translation:447
 msgid ""
 "It is the newest available stable release series, which means you can rely "
 "on it to not crash and compromise your precious data. As usual, there are a "
@@ -1896,7 +1901,7 @@ msgstr ""
 "muitas pequenas melhorias, a maioria correções internas imperceptíveis por "
 "usuários comuns, mas algumas são realmente interessantes"
 
-#: translation:446
+#: translation:448
 msgid ""
 "This release of OpenMandriva Lx incorporates working support for EFI "
 "booting. It should be possible to boot the live system on majority of "
@@ -1908,7 +1913,7 @@ msgstr ""
 "maioria das máquinas. Por favor arquive relatórios de bugs em <a href = '. /"
 " Apps / open-bugzilla.run' target ="
 
-#: translation:447
+#: translation:449
 msgid ""
 "All OpenMandriva releases are built using an advanced platform called ABF. "
 "ABF (Automated Build Farm) is a distributed environment to build "
@@ -1925,7 +1930,7 @@ msgstr ""
 "pacotes. Você pode verificar, registrar e contribuir para o desenvolvimento "
 "ABF / OpenMandriva em <a href = '. / Apps / open-abf.run' target ="
 
-#: translation:448
+#: translation:450
 msgid ""
 "You can configure your desktop to look and feel similar to other systems you may be used to.<br/>\n"
 "Currently available:<br/>\n"
