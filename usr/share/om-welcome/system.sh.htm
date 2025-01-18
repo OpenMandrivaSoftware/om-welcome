@@ -52,37 +52,14 @@ cat << EOF
 		</div>
 		<!--FINE SUBMENU-->
 		<ul id="item-list">
-			<li>
-				<p><a class="title" target="hidden" href=./apps/updatesys.run><img src="images/system-update.svg" class="alignleft"/></a>
-				<span><a class="title" target="hidden" href=./apps/updatesys.run>$titleupdatesys</a></span><br/>$descupdate</p>
-			</li>
-			<li>
-				<p><a href=./apps/om-update-config.run><img src="images/update-config.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/om-update-config.run>$titleupdconf</a></span><br/>$descupdconf</p>
-			</li>
-			<li>
-				<p><a class="title" href=./apps/drakuser.run><img src="images/users.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/drakuser.run>$titledrakuser</a></span><br/>$descdrakuser</p>
-			</li>
-			<li>
-				<p><a class="title" href=./apps/start-clock.run><img src="images/clock.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/start-clock.run>$titledrakclock</a></span><br/>$descdrakclock</p>
-			</li>
-			<li>
-				<p><a target="hidden" href=./apps/start-drakconnect.run><img src="images/network.svg" class="alignleft"/></a>
-				<span><a class="title" target="hidden" href="./apps/start-drakconnect.run">$titleconfiglan </a></span><br/> $descconfiglan </p>
-			<li>
-				<p><a class="title" href=./apps/install-xguest.run><img src="images/xguest.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/install-xguest.run>$titlexguest</a></span><br/>$descxguest</p>
-			</li>
-			<li>
-				<p><a class="title" target="hidden" href=./apps/unusedpackages.run><img src="images/trash.svg" class="alignleft"/></a>
-				<span><a class="title" target="hidden" href=./apps/unusedpackages.run>$titleunusedpackages</a></span><br/>$descunusedpackages</p>
-			</li>
-			<li>
-				<p><a class="title" href=./apps/kbackup.run><img src="images/system-backup.svg" class="alignleft"/></a>
-				<span><a class="title" href=./apps/kbackup.run>$titlekbackup</a></span><br/>$desckbackup</p>
-			</li>
+			<a target="hidden" href="./apps/updatesys.run"><li><p><img src="images/system-update.svg" class="alignleft"/><span class="title">$titleupdatesys</span><br/>$descupdate</p></li></a>
+			<a target="hidden" href="./apps/om-update-config.run"><li><p><img src="images/update-config.svg" class="alignleft"/><span class="title">$titleupdconf</span><br/>$descupdconf</p></li></a>
+			<a target="hidden" href="./apps/drakuser.run"><li><p><img src="images/users.svg" class="alignleft"/><span class="title">$titledrakuser</span><br/>$descdrakuser</p></li></a>
+			<a target="hidden" href="./apps/start-clock.run"><li><p><img src="images/clock.svg" class="alignleft"/><span class="title">$titledrakclock</span><br/>$descdrakclock</p></li></a>
+			<a target="hidden" href="./apps/start-drakconnect.run"><li><p><img src="images/network.svg" class="alignleft"/><span class="title">$titleconfiglan</span><br/>$descconfiglan</p></li></a>
+			<a target="hidden" href="./apps/install-xguest.run"><li><p><img src="images/xguest.svg" class="alignleft"/><span class="title">$titlexguest</span><br/>$descxguest</p></li></a>
+			<a target="hidden" href="./apps/unusedpackages.run"><li><p><img src="images/trash.svg" class="alignleft"/><span class="title">$titleunusedpackages</span><br/>$descunusedpackages</p></li></a>
+			<a target="hidden" href="./apps/kbackup.run"><li><p><img src="images/system-backup.svg" class="alignleft"/><span class="title">$titlekbackup</span><br/>$desckbackup</p></li></a>
 		</ul>
 	</div>
 		<div id="lodape">
