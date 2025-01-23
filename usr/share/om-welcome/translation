@@ -274,8 +274,8 @@ titleklettres=$"KLettres"
 descklettres=$"Language learning program"
 titletuxpusher=$"TuxPusher"
 desctuxpusher=$"A Tux themed 3D coin pusher game"
-titlenavalbattle=$"Naval Battle"
-descnavalbattle=$"A ship sinking game. Ships are placed on a board which represents the sea"
+titleknavalbattle=$"Naval Battle"
+descknavalbattle=$"A ship sinking game. Ships are placed on a board which represents the sea"
 
 #translations of apps-gaming.sh.htm
 titlekvpnc=$"KVPNc"
