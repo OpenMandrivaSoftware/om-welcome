@@ -371,6 +371,7 @@ titleyandexbrowser=$"Yandex Browser"
 titlevivaldi=$"Vivaldi Browser"
 titlemsedge=$"Microsoft Edge Browser"
 titlebrave=$"Brave Browser"
+descbrave=$"Third Party repository"
 titlechrome=$"Chrome Browser"
 desc3dparty=$"Third Party repository. Install from Software Repository Selector"
 
