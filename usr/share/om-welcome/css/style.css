@@ -538,6 +538,11 @@ margin-left:60px;
 color:#3daee9;
 }
 
+.blueom {
+  color:#2080bb;
+  font-weight: bold;
+}
+
 #nav ul,#slide-pager ol {
 margin-bottom:0;
 list-style-type:none;
