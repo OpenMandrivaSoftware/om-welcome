@@ -1013,7 +1013,7 @@ msgstr ""
 msgid "Brave Browser"
 msgstr ""
 #: translation:374
-msgid "Third Party repository"
+msgid "Add Third Party repository and install Brave Browser"
 msgstr ""
 #: translation:375
 msgid "Chrome Browser"
