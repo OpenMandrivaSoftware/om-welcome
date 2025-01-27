@@ -1,5 +1,5 @@
 #!/bin/bash
-if which chromium; then
+if command -v chromium; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Chromium Web browser is already installed."
 else
 	APP=$"Chromium"
@@ -7,7 +7,7 @@ else
 	qdbus $DB org.kde.kdialog.ProgressDialog.showCancelButton false
 	pkexec dnf --refresh install --assumeyes chromium
 	qdbus $DB org.kde.kdialog.ProgressDialog.close
-	if which chromium; then
+	if command -v chromium; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
