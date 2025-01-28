@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which klettres &>/dev/null; then
+if command -v klettres &>/dev/null; then
 	exec klettres
 else
 	APP=$"KLettres"
@@ -12,7 +12,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-klettres
 	fi
 	ProgressDialog --close
-	if which klettres &>/dev/null; then
+	if command -v klettres &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

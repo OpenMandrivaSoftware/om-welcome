@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which openshot-qt; then
+if command -v openshot-qt; then
 	exec openshot-qt
 else
 	APP=$"OpenShot"
@@ -9,7 +9,7 @@ else
 	enable-repo extra
 	pkexec dnf --refresh install --assumeyes openshot
 	ProgressDialog --close
-	if which openshot-qt; then
+	if command -v openshot-qt; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

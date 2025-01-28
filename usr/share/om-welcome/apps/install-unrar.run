@@ -9,7 +9,7 @@ else
 	enable-repo non-free
 	pkexec dnf --refresh install --assumeyes unar zip p7zip ncompress
 	ProgressDialog --close
-	if which unar; then
+	if command -v unar; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

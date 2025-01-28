@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes blender
 	ProgressDialog --close
-	if which blender; then
+	if command -v blender; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

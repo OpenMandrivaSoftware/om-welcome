@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which geany; then
+if command -v geany; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Geany IDE is already installed."
 else
 	APP=$"Geany IDE"
@@ -9,7 +9,7 @@ else
 	enable-repo extra
 	pkexec dnf --refresh install --assumeyes geany
 	ProgressDialog --close
-	if which geany; then
+	if command -v geany; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

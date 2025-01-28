@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which endless-sky &>/dev/null; then
+if command -v endless-sky &>/dev/null; then
 	exec endless-sky
 else
 	APP=$"Endless Sky"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes endless-sky
 	ProgressDialog --close
-	if which endless-sky &>/dev/null; then
+	if command -v endless-sky &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

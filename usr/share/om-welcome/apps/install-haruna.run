@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which haruna &>/dev/null; then
+if command -v haruna &>/dev/null; then
 	exec haruna
 else
 	APP=$"Haruna"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes haruna
 	ProgressDialog --close
-	if which haruna &>/dev/null; then
+	if command -v haruna &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

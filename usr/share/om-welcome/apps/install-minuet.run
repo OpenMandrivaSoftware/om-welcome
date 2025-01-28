@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which minuet &>/dev/null; then
+if command -v minuet &>/dev/null; then
 	exec minuet
 else
 	APP=$"Minuet"
@@ -12,7 +12,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-minuet
 	fi
 	ProgressDialog --close
-	if which minuet &>/dev/null; then
+	if command -v minuet &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

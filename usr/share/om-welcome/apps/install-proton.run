@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which proton &>/dev/null; then
+if command -v proton &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"proton is already installed."
 else
 	APP=$"Proton"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes proton
 	ProgressDialog --close
-	if which proton &>/dev/null; then
+	if command -v proton &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

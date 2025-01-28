@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which etr &>/dev/null; then
+if command -v etr &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Extreme Tux Racer is already installed."
 else
 	APP=$"Extreme Tux Racer"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes etr
 	ProgressDialog --close
-	if which etr &>/dev/null; then
+	if command -v etr &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

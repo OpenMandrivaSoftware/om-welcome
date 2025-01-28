@@ -1,7 +1,7 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-if which kdenlive; then
+if command -v kdenlive; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Kdenlive is already installed."
 else
 	APP=$"KDENLive"
@@ -13,7 +13,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-kdenlive
 	fi
 	ProgressDialog --close
-	if which kdenlive; then
+	if command -v kdenlive; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which handbrake; then
+if command -v handbrake; then
 	exec handbrake
 else
 	APP=$"HandBrake"
@@ -9,7 +9,7 @@ else
 	enable-repo restricted
 	pkexec dnf --refresh install --assumeyes handbrake
 	ProgressDialog --close
-	if which handbrake; then
+	if command -v handbrake; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

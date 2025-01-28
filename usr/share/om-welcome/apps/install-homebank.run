@@ -1,7 +1,7 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-if which homebank; then
+if command -v homebank; then
 	exec homebank
 else
 	APP=$"Homebank"
@@ -9,7 +9,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes homebank
 	ProgressDialog --close
-	if which homebank; then
+	if command -v homebank; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

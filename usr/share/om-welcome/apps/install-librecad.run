@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which librecad &>/dev/null; then
+if command -v librecad &>/dev/null; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" LibreCAD is already installed."
 else
 	APP=$"LibreCAD"
@@ -9,7 +9,7 @@ else
 	enable-repo extra
 	pkexec dnf --refresh install --assumeyes librecad
 	ProgressDialog --close
-	if which librecad &>/dev/null; then
+	if command -v librecad &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

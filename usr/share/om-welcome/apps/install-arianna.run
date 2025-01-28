@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which arianna &>/dev/null; then
+if command -v arianna &>/dev/null; then
 	exec arianna
 else
 	APP=$"Arianna"
@@ -12,7 +12,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-arianna
 	fi
 	ProgressDialog --close
-	if which arianna &>/dev/null; then
+	if command -v arianna &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

@@ -1,7 +1,7 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-if which gimp &>/dev/null; then
+if command -v gimp &>/dev/null; then
 exec gimp
 else
 	APP=$"GIMP"

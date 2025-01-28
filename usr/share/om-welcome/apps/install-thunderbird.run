@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which thunderbird; then
+if command -v thunderbird; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Mozilla Thunderbird is already installed."
 else
 	APP=$"Thunderbird"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes thunderbird
 	ProgressDialog --close
-	if which thunderbird; then
+	if command -v thunderbird; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

@@ -1,7 +1,7 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-if which qmmp; then
+if command -v qmmp; then
 	exec qmmp
 else
 	APP=$"QMMP"
@@ -10,7 +10,7 @@ else
 	enable-repo extra
 	pkexec dnf --refresh install --assumeyes qmmp
 	ProgressDialog --close
-	if which qmmp; then
+	if command -v qmmp; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which merkuro-calendar &>/dev/null; then
+if command -v merkuro-calendar &>/dev/null; then
 	exec merkuro-calendar
 else
 	APP=$"Merkuro"
@@ -12,7 +12,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-merkuro
 	fi
 	ProgressDialog --close
-	if which merkuro-calendar &>/dev/null; then
+	if command -v merkuro-calendar &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

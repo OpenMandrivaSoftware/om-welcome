@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which pixelize &>/dev/null; then
+if command -v pixelize &>/dev/null; then
 	exec pixelize
 else
 	APP=$"Pixelize"
@@ -9,7 +9,7 @@ else
 	enable-repo extra
 	pkexec dnf --refresh install --assumeyes pixelize
 	ProgressDialog --close
-	if which pixelize &>/dev/null; then
+	if command -v pixelize &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

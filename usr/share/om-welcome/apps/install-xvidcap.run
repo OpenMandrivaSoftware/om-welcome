@@ -9,7 +9,7 @@ else
 	enable-repo extra
 	pkexec dnf --refresh install --assumeyes xvidcap
 	ProgressDialog --close
-	if which xvidcap; then
+	if command -v xvidcap; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which otter-browser; then
+if command -v otter-browser; then
 	kdialog --title $"OpenMandriva" --msgbox $"Otter Browser is already installed."
 else
 	APP=$"Otter Browser"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes otter-browser
 	ProgressDialog --close
-	if which otter-browser; then
+	if command -v otter-browser; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

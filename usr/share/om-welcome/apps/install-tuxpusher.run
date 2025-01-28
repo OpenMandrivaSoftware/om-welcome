@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which tuxpusher &>/dev/null; then
+if command -v tuxpusher &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"TuxPusher is already installed."
 else
 	APP=$"TuxPusher"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes tuxpusher
 	ProgressDialog --close
-	if which tuxpusher &>/dev/null; then
+	if command -v tuxpusher &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

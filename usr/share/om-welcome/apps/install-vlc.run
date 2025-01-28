@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which vlc &>/dev/null; then
+if command -v vlc &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"VLC is already installed."
 else
 	APP=$"VLC"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes vlc
 	ProgressDialog --close
-	if which vlc &>/dev/null; then
+	if command -v vlc &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which nulloy &>/dev/null; then
+if command -v nulloy &>/dev/null; then
 	exec nulloy
 else
 	APP=$"Nulloy"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes nulloy
 	ProgressDialog --close
-	if which nulloy &>/dev/null; then
+	if command -v nulloy &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

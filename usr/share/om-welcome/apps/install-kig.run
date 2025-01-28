@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which kig &>/dev/null; then
+if command -v kig &>/dev/null; then
 	exec kig
 else
 	APP=$"Kig"
@@ -12,7 +12,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-kig
 	fi
 	ProgressDialog --close
-	if which kig &>/dev/null; then
+	if command -v kig &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

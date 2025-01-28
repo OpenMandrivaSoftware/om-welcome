@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which marble &>/dev/null || which marble-qt &>/dev/null; then
+if command -v marble &>/dev/null || command -v marble-qt &>/dev/null; then
 	exec marble
 else
 	APP=$"Marble"
@@ -12,7 +12,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-marble
 	fi
 	ProgressDialog --close
-	if which marble-qt &>/dev/null; then
+	if command -v marble-qt &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which zim; then
+if command -v zim; then
 	kdialog --title $"OpenMandriva" --msgbox $"Zim is already installed."
 else
 	APP=$"Zim Wiki Editor"
@@ -9,7 +9,7 @@ else
 	enable-repo extra
 	pkexec dnf --refresh install --assumeyes zim
 	ProgressDialog --close
-	if which zim; then
+	if command -v zim; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

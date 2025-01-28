@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which falkon &>/dev/null; then
+if command -v falkon &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"Falkon is already installed."
 else
 	APP=$"Falkon"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes falkon
 	ProgressDialog --close
-	if which falkon &>/dev/null; then
+	if command -v falkon &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

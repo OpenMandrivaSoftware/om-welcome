@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which kstars &>/dev/null; then
+if command -v kstars &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"KStars is already installed."
 else
 	APP=$"KStars"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes kstars
 	ProgressDialog --close
-	if which kstars &>/dev/null; then
+	if command -v kstars &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

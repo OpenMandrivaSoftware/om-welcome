@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which cantor &>/dev/null; then
+if command -v cantor &>/dev/null; then
 	exec cantor
 else
 	APP=$"Cantor"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes cantor
 	ProgressDialog --close
-	if which cantor &>/dev/null; then
+	if command -v cantor &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

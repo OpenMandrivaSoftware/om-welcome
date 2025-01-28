@@ -168,6 +168,8 @@ titleqmmp=$"QMMP"
 descqmmp=$"A QT based media player similar to Winamp"
 titlemusescore=$"MuseScore"
 descmusescore=$"Professional music notation software"
+titlegpuscreenrecorder=$"GPU Screen Recorder"
+descgpuscreenrecorder=$"A screen recorder that has minimal impact on system performance"
 titleobstudio=$"OBS Studio"
 descobstudio=$"Software for video recording and live streaming free and open source"
 titleopenshot=$"OpenShot"
@@ -449,7 +451,7 @@ kdedesc3=$"The KDE Frameworks are add-on libraries for coding applications with 
 libreofficedesc=$"LibreOffice $(libreoffice --version| cut -d ' ' -f 2)"
 libreofficedesc2=$"It is the newest available stable release series, which means you can rely on it to not crash and compromise your precious data. As usual, there are a lot of minor improvements, most of which are internal fixes that are not noticeable by regular users, but some are actually interesting"
 efibootdesc=$"This release of OpenMandriva Lx incorporates working support for EFI booting. It should be possible to boot the live system on majority of machines. Please file bug reports at <a href='./apps/open-bugzilla.run' target="hidden" class='blue'>OpenMandriva Issue Traker</a>"
-abfdesc=$"All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="hidden" class='titlePage'>http://abf.openmandriva.org</a>"
+abfdesc=$"All OpenMandriva releases are built using an advanced platform called ABF. ABF (Automated Build Farm) is a distributed environment to build distributions that supports all things from managing the source code to creating ISO images. ABF is not just a hosting service for source code, but a system to build and publish packages. You can check, signup and contribute to ABF/OpenMandriva development."
 omfldesc=$"You can configure your desktop to look and feel similar to other systems you may be used to.<br/>
 Currently available:<br/>
 OpenMandriva default<br/>

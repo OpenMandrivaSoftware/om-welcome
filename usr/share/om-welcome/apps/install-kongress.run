@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which kongress &>/dev/null; then
+if command -v kongress &>/dev/null; then
 	exec kongress
 else
 	APP=$"Kongress"
@@ -12,7 +12,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-kongress
 	fi
 	ProgressDialog --close
-	if which kongress &>/dev/null; then
+	if command -v kongress &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

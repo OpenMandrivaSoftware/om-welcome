@@ -1,14 +1,14 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if command -v step &>/dev/null; then
-	exec step
+if command -v gpu-screen-recorder; then
+	exec gpu-screen-recorder-gtk
 else
-	APP=$"Step"
+	APP=$"GPU Screen Recorder"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes step
+	pkexec dnf --refresh install --assumeyes gpu-screen-recorder
 	ProgressDialog --close
-	if command -v step &>/dev/null; then
+	if command -v gpu-screen-recorder; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

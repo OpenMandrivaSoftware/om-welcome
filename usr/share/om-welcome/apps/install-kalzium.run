@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which kalzium &>/dev/null; then
+if command -v kalzium &>/dev/null; then
 	exec kalzium
 else
 	APP=$"Kalzium"
@@ -12,7 +12,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-kalzium
 	fi
 	ProgressDialog --close
-	if which kalzium &>/dev/null; then
+	if command -v kalzium &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

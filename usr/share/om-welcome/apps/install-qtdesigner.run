@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which designer; then
+if command -v designer; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Qt5-Designer is already installed."
 else
 	APP=$"Qt Designer"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes qt5-designer
 	ProgressDialog --close
-	if which designer; then
+	if command -v designer; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

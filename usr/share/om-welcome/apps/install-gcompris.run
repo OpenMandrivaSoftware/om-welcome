@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which gcompris-qt &>/dev/null; then
+if command -v gcompris-qt &>/dev/null; then
 	kdialog --title $"OpenMandriva" --msgbox $"GCompris is already installed."
 else
 	APP=$"GCompris Qt"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes gcompris-qt
 	ProgressDialog --close
-	if which gcompris-qt &>/dev/null; then
+	if command -v gcompris-qt &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

@@ -1,7 +1,7 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-if which filezilla; then
+if command -v filezilla; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" Filezilla is already installed."
 else
 	APP=$"Filezilla"
@@ -9,7 +9,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes filezilla
 	ProgressDialog --close
-	if which filezilla; then
+	if command -v filezilla; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

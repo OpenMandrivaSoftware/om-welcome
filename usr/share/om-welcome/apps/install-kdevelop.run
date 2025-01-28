@@ -1,6 +1,6 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which kdevelop; then
+if command -v kdevelop; then
 	kdialog --title $"OpenMandriva"  --msgbox  $" KDevelop is already installed."
 else
 	APP=$"KDevelop"
@@ -8,7 +8,7 @@ else
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes kdevelop
 	ProgressDialog --close
-	if which kdevelop; then
+	if command -v kdevelop; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

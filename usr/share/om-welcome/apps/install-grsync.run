@@ -1,7 +1,7 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-if which grsync; then
+if command -v grsync; then
 	exec grsync
 else
 	APP=$"GRsync"
@@ -10,7 +10,7 @@ else
 	enable-repo extra
 	pkexec dnf --refresh install --assumeyes grsync
 	ProgressDialog --close
-	if which grsync; then
+	if command -v grsync; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
