@@ -1,12 +1,15 @@
 # 
 # Translators:
-# rugyada, 2024
 # David CLAPIER, 2025
+# rugyada, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: David CLAPIER, 2025\n"
+"Last-Translator: rugyada, 2025\n"
 "Language-Team: French (https://app.transifex.com/openmandriva/teams/1818/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
@@ -1593,8 +1596,8 @@ msgid "Brave Browser"
 msgstr "Navigateur Brave"
 
 #: translation:374
-msgid "Add Third Party repository and install Brave Browser"
-msgstr "Ajouter un dépôt tiers et installer le navigateur Brave"
+msgid "Third Party repository"
+msgstr "Installer le Navigateur Brave à partir d'un dépôt tiers"
 
 #: translation:375
 msgid "Chrome Browser"
