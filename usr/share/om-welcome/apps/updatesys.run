@@ -1,2 +1,2 @@
 #!/bin/sh
-konsole -e sh -c "pkexec dnf clean all ; pkexec dnf distro-sync --refresh --allowerasing; echo 'Press enter to close konsole'; read"
+konsole -e pkexec sh -c "dnf clean all ; dnf repolist ; dnf distro-sync --refresh --allowerasing ; echo 'Press enter to close konsole'; read"
