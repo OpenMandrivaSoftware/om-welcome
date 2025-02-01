@@ -471,8 +471,8 @@ msgid ""
 "Create and edit your images in a professional way with this powerful open "
 "source tool"
 msgstr ""
-"Twórz i edytuj swoje obrazy w profesjonalny sposób z tym potężnym i otwarto-"
-"źródłowym narzędziem "
+"Twórz i edytuj swoje obrazy w profesjonalny sposób z tym potężnym i "
+"otwartoźródłowym narzędziem "
 
 #: translation:123
 msgid "Inkscape"
