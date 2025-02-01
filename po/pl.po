@@ -1958,8 +1958,7 @@ msgstr ""
 " do tworzenia dystrybucji, które obsługuje wszystko, od zarządzania kodem "
 "źródłowym po tworzenie obrazów ISO. ABF to nie tylko usługa hostingu kodu "
 "źródłowego, ale system do tworzenia i publikowania pakietów. Możesz "
-"sprawdzić, zapisać się i przyczynić się do rozwoju ABF/OpenMandriva na <a "
-"href='./apps/open-abf.run' target="
+"sprawdzić, zapisać się i przyczynić się do rozwoju ABF/OpenMandriva"
 
 #: translation:455
 msgid ""
