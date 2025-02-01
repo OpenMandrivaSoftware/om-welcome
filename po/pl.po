@@ -435,7 +435,7 @@ msgstr "Konfiguracja dysków lokalnych"
 
 #: translation:112
 msgid "Change, configure and manage your local drives"
-msgstr "Zmień, skonfiguruj i zarządzaj lokalnymi dyskami"
+msgstr "Zmień, skonfiguruj i zarządzaj dyskami lokalnymi"
 
 #: translation:113
 msgid "Storage Devices"
