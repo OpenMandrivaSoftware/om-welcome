@@ -1724,8 +1724,8 @@ msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
 msgstr ""
-"Możesz dać nam swoją uwagę lub dać nam swój czas lub pieniądze, aby pomóc "
-"rozwijać OpenMandriva Lx"
+"Poświęć nam swoją uwagę, czas lub pieniądze, aby pomóc w rozwoju "
+"OpenMandriva Lx"
 
 #: translation:413
 msgid "About"
