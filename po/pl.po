@@ -506,7 +506,7 @@ msgid ""
 "Desktop layout open source program for producing documents in PDF and "
 "Postscript"
 msgstr ""
-"Program open source do tworzenia dokumentów w formacie PDF i Postscript"
+"Otwartoźródłowy program do tworzenia dokumentów w formacie PDF i Postscript"
 
 #: translation:129
 msgid "Tuxpaint"
