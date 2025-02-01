@@ -1,14 +1,14 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if which kuser &>/dev/null; then
-	exec kuser
+if command -v kuser &>/dev/null; then
+	pkexec kuser
 else
 	APP=$"Kuser"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes kuser
 	ProgressDialog --close
-	if which kuser &>/dev/null; then
+	if command -v kuser &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."

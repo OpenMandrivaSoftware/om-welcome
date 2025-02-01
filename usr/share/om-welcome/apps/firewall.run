@@ -1,7 +1,7 @@
 #!/bin/sh
 . /usr/share/htmlscript/helpers
 
-if which firewalld &>/dev/null; then
+if command -v firewalld &>/dev/null; then
 kcmshell kcm_firewall
 else
 	APP=$"Plasma Firewall"
@@ -13,7 +13,7 @@ else
 		pkexec dnf --refresh install --assumeyes plasma6-firewall
 	fi
 	ProgressDialog --close
-	if which firewalld &>/dev/null; then
+	if command -v firewalld &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
