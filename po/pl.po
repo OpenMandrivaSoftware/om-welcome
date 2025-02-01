@@ -933,7 +933,7 @@ msgstr "Homebank"
 
 #: translation:222
 msgid "Free easy personal accounting for all"
-msgstr "Darmowe i proste zarządzanie finansami"
+msgstr "Wolne i proste zarządzanie finansami"
 
 #: translation:223
 msgid "Arianna"
