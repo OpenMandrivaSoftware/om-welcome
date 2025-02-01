@@ -1540,7 +1540,7 @@ msgstr "Przeglądarka Chromium"
 
 #: translation:366
 msgid "Open-source browser safe, fast and stable"
-msgstr "Przeglądarka Open Source bezpieczna, szybka i stabilna"
+msgstr "Otwartoźródłowa bezpieczna przeglądarka, szybka i stabilna"
 
 #: translation:367
 msgid "Otter Browser"
