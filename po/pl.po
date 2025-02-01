@@ -482,7 +482,7 @@ msgstr "Inkscape"
 msgid ""
 "A powerful, open source vector drawing tool, for illustrators and designers"
 msgstr ""
-"Potężny, otwarto-źródłowy edytor grafiki wektorowej dla ilustratorów i "
+"Potężny, otwartoźródłowy edytor grafiki wektorowej dla ilustratorów i "
 "twórców"
 
 #: translation:125
