@@ -913,7 +913,7 @@ msgstr "Zim"
 
 #: translation:218
 msgid "Free and open source desktop wiki and outliner"
-msgstr "Darmowe i otwarte wiki i konspekty"
+msgstr "Darmowe i otwartoźródłowe wiki oraz konspekty"
 
 #: translation:219
 msgid "Lokalize"
