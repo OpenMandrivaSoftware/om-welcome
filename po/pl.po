@@ -2,14 +2,12 @@
 # Translators:
 # Virtuti Militari <angrypenguinpoland@gmail.com>, 2024
 # rugyada, 2025
+# Mateusz Zimniak, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: rugyada, 2025\n"
+"Last-Translator: Mateusz Zimniak, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/openmandriva/teams/1818/pl/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
@@ -1887,7 +1885,7 @@ msgid ""
 msgstr ""
 "Jądro OpenMandriva Lx zawiera harmonogram BFQ disk I/O, zarządzanie pamięcią UKSM, wydajność systemu desktopowego i responsywność. Dostępne są wersje serwera desktopowego, każda zaprojektowana z myślą o odpowiednim przeznaczeniu końcowym<br/>\n"
 "<br/>\n"
-"<b>Co nowego:</b> HT/SMT NICE jest domyślne aktywnedla lepszej responsywności i zachowania w czasie rzeczywistym na komputerach z HT (Hyper-Threading), poprawia wydajność aplikacji pierwszoplanowych kosztem aplikacji drugoplanowych. Twój pulpit / interfejs graficzny / aplikacje pozostaną szybkie, nawet jeśli uruchomisz folding@home, mprime, seti@home itp."
+"<b>Co nowego:</b> HT/SMT NICE jest domyślne aktywne dla lepszej responsywności i zachowania w czasie rzeczywistym na komputerach z HT (Hyper-Threading), poprawia wydajność aplikacji pierwszoplanowych kosztem aplikacji drugoplanowych. Twój pulpit / interfejs graficzny / aplikacje pozostaną szybkie, nawet jeśli uruchomisz folding@home, mprime, seti@home itp."
 
 #: translation:447
 msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
