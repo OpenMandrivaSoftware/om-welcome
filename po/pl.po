@@ -2,14 +2,12 @@
 # Translators:
 # Virtuti Militari <angrypenguinpoland@gmail.com>, 2024
 # rugyada, 2025
+# Mateusz Zimniak, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: rugyada, 2025\n"
+"Last-Translator: Mateusz Zimniak, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/openmandriva/teams/1818/pl/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
@@ -437,7 +435,7 @@ msgstr "Konfiguracja dysków lokalnych"
 
 #: translation:112
 msgid "Change, configure and manage your local drives"
-msgstr "Zmień, skonfiguruj i zarządzaj lokalnymi dyskami"
+msgstr "Zmień, skonfiguruj i zarządzaj dyskami lokalnymi"
 
 #: translation:113
 msgid "Storage Devices"
@@ -473,8 +471,8 @@ msgid ""
 "Create and edit your images in a professional way with this powerful open "
 "source tool"
 msgstr ""
-"Twórz i edytuj swoje obrazy w profesjonalny sposób z tym potężnym i otwarto-"
-"źródłowym narzędziem "
+"Twórz i edytuj swoje obrazy w profesjonalny sposób z tym potężnym i "
+"otwartoźródłowym narzędziem "
 
 #: translation:123
 msgid "Inkscape"
@@ -484,7 +482,7 @@ msgstr "Inkscape"
 msgid ""
 "A powerful, open source vector drawing tool, for illustrators and designers"
 msgstr ""
-"Potężny, otwarto-źródłowy edytor grafiki wektorowej dla ilustratorów i "
+"Potężny, otwartoźródłowy edytor grafiki wektorowej dla ilustratorów i "
 "twórców"
 
 #: translation:125
@@ -508,7 +506,7 @@ msgid ""
 "Desktop layout open source program for producing documents in PDF and "
 "Postscript"
 msgstr ""
-"Program open source do tworzenia dokumentów w formacie PDF i Postscript"
+"Otwartoźródłowy program do tworzenia dokumentów w formacie PDF i Postscript"
 
 #: translation:129
 msgid "Tuxpaint"
@@ -671,7 +669,7 @@ msgstr "Babe"
 msgid ""
 "Handle your whole music collection by retreaving semantic information from "
 "the web"
-msgstr "Obsługuj całą swoją kolekcję muzyki, odzyskując informacje z sieci"
+msgstr "Obsługuj całą swoją kolekcję muzyki, pobierając informacje z sieci"
 
 #: translation:163
 msgid "VLC"
@@ -784,8 +782,7 @@ msgstr "Wybów repozytoriów OpenMandriva"
 msgid ""
 "The tool to enable and disable repositories easily with just a few clicks"
 msgstr ""
-"Proste narzędzie do włączania i wyłączania repozytoriów, wystarczy kilka "
-"kliknięć"
+"Proste narzędzie do włączania i wyłączania repozytoriów kilkoma kliknięciami"
 
 #: translation:191
 msgid "Filezilla"
@@ -839,7 +836,7 @@ msgid ""
 "run on Linux (experimental version)"
 msgstr ""
 "Proton to narzędzie umożliwiające uruchamianie gier i aplikacji napisanych "
-"dla systemu Windows na systemie Linux (eksperymentalna wersja)"
+"dla systemu Windows na systemie Linux (wersja eksperymentalna)"
 
 #: translation:201
 msgid "Kompare"
@@ -915,7 +912,7 @@ msgstr "Zim"
 
 #: translation:218
 msgid "Free and open source desktop wiki and outliner"
-msgstr "Darmowe i otwarte wiki i konspekty"
+msgstr "Darmowe i otwartoźródłowe wiki oraz konspekty"
 
 #: translation:219
 msgid "Lokalize"
@@ -999,7 +996,8 @@ msgstr "Stellarium"
 
 #: translation:238
 msgid "Stellarium renders 3D photo-realistic skies in real time"
-msgstr "Stellarium renderuje 3D, fotorealistyczne niebo w czasie rzeczywistym"
+msgstr ""
+"Stellarium renderuje fotorealistyczne niebo w czasie rzeczywistym w 3D"
 
 #: translation:239
 msgid "Kalzium"
@@ -1170,7 +1168,7 @@ msgstr "TuxPusher"
 
 #: translation:278
 msgid "A Tux themed 3D coin pusher game"
-msgstr "Gra w pchanie monet 3d z Tux-em"
+msgstr "Gra w pchanie monet z Tux-em w 3D"
 
 #: translation:279
 msgid "Naval Battle"
@@ -1198,7 +1196,7 @@ msgstr "0ad"
 #: translation:286
 msgid "Cross-platform RTS Game of Ancient Warfare"
 msgstr ""
-"Między platformowa strategia czasu rzeczywistego osadzona w czasach "
+"Międzyplatformowa strategia czasu rzeczywistego osadzona w czasach "
 "starożytnych"
 
 #: translation:287
@@ -1207,7 +1205,7 @@ msgstr "MegaGlest"
 
 #: translation:288
 msgid "Open Source 3d real time strategy game"
-msgstr "Otwartoźródłowa strategia czasu rzeczywistego 3d"
+msgstr "Otwartoźródłowa strategia czasu rzeczywistego w 3D"
 
 #: translation:289
 msgid "Wesnoth"
@@ -1223,7 +1221,7 @@ msgstr "FlightGear"
 
 #: translation:292
 msgid "Flight Simulator for Linux"
-msgstr "Symulator lotnictwa dla  Linuxa"
+msgstr "Symulator lotnictwa dla  Linuksa"
 
 #: translation:293
 msgid "Steam"
@@ -1272,7 +1270,7 @@ msgstr "Warzone 2100"
 
 #: translation:304
 msgid "Postnuclear War realtime strategy games"
-msgstr "Po-nuklearna wojskowa strategia czasu rzeczywistego"
+msgstr "Ponuklearna wojskowa strategia czasu rzeczywistego"
 
 #: translation:305
 msgid "KPatience"
@@ -1542,7 +1540,7 @@ msgstr "Przeglądarka Chromium"
 
 #: translation:366
 msgid "Open-source browser safe, fast and stable"
-msgstr "Przeglądarka Open Source bezpieczna, szybka i stabilna"
+msgstr "Otwartoźródłowa bezpieczna przeglądarka, szybka i stabilna"
 
 #: translation:367
 msgid "Otter Browser"
@@ -1714,8 +1712,8 @@ msgid ""
 "How to contribute to OpenMandriva. If you have time, we welcome your help in"
 " various areas"
 msgstr ""
-"Jak współtworzyć OpenMandriva. Jeśli masz czas, chętnie przyjmiemy pomoc na "
-"różnych polach"
+"Pomóż współtworzyć OpenMandriva. Jeśli masz czas, chętnie przyjmiemy pomoc "
+"na różnych polach"
 
 #: translation:410
 msgid "Donation"
@@ -1726,8 +1724,8 @@ msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
 msgstr ""
-"Możesz dać nam swoją uwagę lub dać nam swój czas lub pieniądze, aby pomóc "
-"rozwijać OpenMandriva Lx"
+"Poświęć nam swoją uwagę, czas lub pieniądze, aby pomóc w rozwoju "
+"OpenMandriva Lx"
 
 #: translation:413
 msgid "About"
@@ -1869,11 +1867,11 @@ msgid ""
 "technically adept we have provided systemtap a system performance analysis "
 "tool"
 msgstr ""
-"Dostępne są nowe pakiety, w tym Krita (Digital Painting), Kamoso (Webcam "
-"Viewer), SMPlayer, VLC Player, KBackup, aplet Plasma NetworkManager, KMail, "
-"przeglądarka Falkon, Mozilla Firefox, Systemd i Firewalld. Dla osób "
-"obeznanych z techniką udostępniliśmy systemtap, narzędzie do analizy "
-"wydajności systemu"
+"Dostępne są nowe pakiety, w tym Krita (Malowanie cyfrowe), Kamoso "
+"(Przeglądarka kamerki internetowej), SMPlayer, VLC Player, KBackup, aplet "
+"Plasma NetworkManager, KMail, przeglądarka Falkon, Mozilla Firefox, Systemd "
+"i Firewalld. Dla osób obeznanych z techniką udostępniliśmy systemtap, "
+"narzędzie do analizy wydajności systemu"
 
 #: translation:443
 msgid "Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series."
@@ -1887,7 +1885,7 @@ msgid ""
 msgstr ""
 "Jądro OpenMandriva Lx zawiera harmonogram BFQ disk I/O, zarządzanie pamięcią UKSM, wydajność systemu desktopowego i responsywność. Dostępne są wersje serwera desktopowego, każda zaprojektowana z myślą o odpowiednim przeznaczeniu końcowym<br/>\n"
 "<br/>\n"
-"<b>Co nowego:</b> HT/SMT NICE jest domyślne aktywnedla lepszej responsywności i zachowania w czasie rzeczywistym na komputerach z HT (Hyper-Threading), poprawia wydajność aplikacji pierwszoplanowych kosztem aplikacji drugoplanowych. Twój pulpit / interfejs graficzny / aplikacje pozostaną szybkie, nawet jeśli uruchomisz folding@home, mprime, seti@home itp."
+"<b>Co nowego:</b> HT/SMT NICE jest domyślne aktywne dla lepszej responsywności i zachowania w czasie rzeczywistym na komputerach z HT (Hyper-Threading), poprawia wydajność aplikacji pierwszoplanowych kosztem aplikacji drugoplanowych. Twój pulpit / interfejs graficzny / aplikacje pozostaną szybkie, nawet jeśli uruchomisz folding@home, mprime, seti@home itp."
 
 #: translation:447
 msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
@@ -1960,8 +1958,7 @@ msgstr ""
 " do tworzenia dystrybucji, które obsługuje wszystko, od zarządzania kodem "
 "źródłowym po tworzenie obrazów ISO. ABF to nie tylko usługa hostingu kodu "
 "źródłowego, ale system do tworzenia i publikowania pakietów. Możesz "
-"sprawdzić, zapisać się i przyczynić się do rozwoju ABF/OpenMandriva na <a "
-"href='./apps/open-abf.run' target="
+"sprawdzić, zapisać się i przyczynić się do rozwoju ABF/OpenMandriva"
 
 #: translation:455
 msgid ""
