@@ -1712,8 +1712,8 @@ msgid ""
 "How to contribute to OpenMandriva. If you have time, we welcome your help in"
 " various areas"
 msgstr ""
-"Jak współtworzyć OpenMandriva. Jeśli masz czas, chętnie przyjmiemy pomoc na "
-"różnych polach"
+"Pomóż współtworzyć OpenMandriva. Jeśli masz czas, chętnie przyjmiemy pomoc "
+"na różnych polach"
 
 #: translation:410
 msgid "Donation"
