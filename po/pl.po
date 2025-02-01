@@ -1221,7 +1221,7 @@ msgstr "FlightGear"
 
 #: translation:292
 msgid "Flight Simulator for Linux"
-msgstr "Symulator lotnictwa dla  Linuxa"
+msgstr "Symulator lotnictwa dla  Linuksa"
 
 #: translation:293
 msgid "Steam"
