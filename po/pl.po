@@ -1169,7 +1169,7 @@ msgstr "TuxPusher"
 
 #: translation:278
 msgid "A Tux themed 3D coin pusher game"
-msgstr "Gra w pchanie monet 3d z Tux-em"
+msgstr "Gra w pchanie monet z Tux-em w 3D"
 
 #: translation:279
 msgid "Naval Battle"
