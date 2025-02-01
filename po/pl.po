@@ -669,7 +669,7 @@ msgstr "Babe"
 msgid ""
 "Handle your whole music collection by retreaving semantic information from "
 "the web"
-msgstr "Obsługuj całą swoją kolekcję muzyki, odzyskując informacje z sieci"
+msgstr "Obsługuj całą swoją kolekcję muzyki, pobierając informacje z sieci"
 
 #: translation:163
 msgid "VLC"
