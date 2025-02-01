@@ -1,15 +1,12 @@
 # 
 # Translators:
 # Virtuti Militari <angrypenguinpoland@gmail.com>, 2024
-# rugyada, 2024
+# rugyada, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: rugyada, 2024\n"
+"Last-Translator: rugyada, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/openmandriva/teams/1818/pl/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
@@ -31,15 +28,15 @@ msgstr "Konfiguruj"
 
 #: translation:14
 msgid "Contribute"
-msgstr "Współpracuj"
+msgstr "Współtwórz"
 
 #: translation:15
 msgid "Desktop"
-msgstr "Środowiska graficzne"
+msgstr "Pulpit"
 
 #: translation:16
 msgid "Devices Configuration"
-msgstr "Konfiguracja urządzeń"
+msgstr "Konfiguracja Urządzeń"
 
 #: translation:17
 msgid "Hardware"
@@ -51,7 +48,7 @@ msgstr "Witaj"
 
 #: translation:19
 msgid "Local Disk configuration"
-msgstr "Konfiguracja dysku lokalnego"
+msgstr "Konfiguracja dysków lokalnych"
 
 #: translation:20
 msgid "Network servers"
@@ -67,7 +64,7 @@ msgstr "Funkcje"
 
 #: translation:23
 msgid "OM Features"
-msgstr "OM Funkcje"
+msgstr "Funkcje OM"
 
 #: translation:24
 msgid "Repositories"
@@ -79,7 +76,7 @@ msgstr "Bezpieczeństwo"
 
 #: translation:26
 msgid "Network Sharing"
-msgstr "Udostępnianie sieci"
+msgstr "Udziały sieciowe"
 
 #: translation:27
 msgid "Software"
@@ -111,11 +108,11 @@ msgstr ""
 
 #: translation:33
 msgid "Next"
-msgstr "Następna"
+msgstr "Następny"
 
 #: translation:34
 msgid "Previous"
-msgstr "Poprzednia"
+msgstr "Poprzedni"
 
 #: translation:35
 msgid "Start"
@@ -163,7 +160,7 @@ msgstr "Internet"
 
 #: translation:47
 msgid "Browsers"
-msgstr "Przeglądarki internetowe"
+msgstr "Przeglądarki"
 
 #: translation:48
 msgid "Software and media management"
@@ -195,11 +192,11 @@ msgstr "Konfiguracja zabezpieczeń"
 
 #: translation:55
 msgid "Desktop Configurations"
-msgstr "Konfiguracja pulpitów"
+msgstr "Konfiguracja pulpitu"
 
 #: translation:58
 msgid "Click on the menus below to configure your OpenMandriva Lx"
-msgstr "Kliknij poniższe menu, aby skonfigurować OpenMandriva Lx"
+msgstr "Kliknij w poniższe menu, aby skonfigurować OpenMandriva Lx"
 
 #: translation:59
 msgid ""
@@ -273,7 +270,7 @@ msgstr "Skonfiguruj swoją drukarkę, dodaj sterowniki do HP, Epson itd."
 
 #: translation:73
 msgid "Configure the network"
-msgstr "Skonfiguruj swoją sieć"
+msgstr "Skonfiguruj sieć"
 
 #: translation:74
 msgid "Edit your network connections"
@@ -281,7 +278,7 @@ msgstr "Modyfikuj swoje połączenia sieciowe"
 
 #: translation:75
 msgid "Bug report tool"
-msgstr "Narzędzie do zgłaszania błędów"
+msgstr "Narzędzie raportowania błędów"
 
 #: translation:76
 msgid ""
@@ -314,7 +311,7 @@ msgstr "KBackup"
 #: translation:82
 msgid "Backup your data with an easy to use user interface"
 msgstr ""
-"Twórz kopie zapasowe swoich danych za pomocą łatwego w obsłudze interfejsu "
+"Stwórz kopię zapasową swoich danych za pomocą łatwego w obsłudze interfejsu "
 "użytkownika"
 
 #: translation:83
@@ -333,7 +330,7 @@ msgstr "Zarządzanie usługami"
 
 #: translation:86
 msgid "Start and stop of the entire services available on the system"
-msgstr "Uruchamianie i zatrzymywanie usług dostępnych w systemie"
+msgstr "Uruchamianie i zatrzymywanie wszystkich usług dostępnych w systemie"
 
 #: translation:87
 msgid "Fonts"
@@ -345,7 +342,7 @@ msgstr "Zarządzanie czcionkami lub instalowanie nowych czcionek"
 
 #: translation:89
 msgid "Configure time"
-msgstr "Konfiguracja zegara"
+msgstr "Konfiguracja czasu"
 
 #: translation:90
 msgid "Change time, configure the nts"
@@ -357,133 +354,141 @@ msgstr "Zainstaluj konto gościa"
 
 #: translation:92
 msgid "Creates xguest user as a locked down user"
-msgstr "Utwórz użytkownika gościnnego"
+msgstr "Utwórz użytkownika gościnnego o ograniczonych prawach"
 
 #: translation:93
-msgid "LXQt desktop"
-msgstr "Środowisko LXQt"
+msgid "COSMIC desktop"
+msgstr "Środowisko COSMIC"
 
 #: translation:94
-msgid "Install LXQt desktop"
-msgstr "Zainstaluj środowisko LXQt"
+msgid "Install COSMIC desktop"
+msgstr "Zainstaluj środowisko COSMIC"
 
 #: translation:95
+msgid "LXQt desktop"
+msgstr "Środowisko LXQT"
+
+#: translation:96
+msgid "Install LXQt desktop"
+msgstr "Zainstaluj środowisko LXQT"
+
+#: translation:97
 msgid "MauiShell desktop"
 msgstr "Środowisko MauiShell"
 
-#: translation:96
+#: translation:98
 msgid "Install MauiShell desktop"
 msgstr "Zainstaluj środowisko MauiShell"
 
-#: translation:97
+#: translation:99
 msgid "Gnome desktop"
 msgstr "Środowisko Gnome"
 
-#: translation:98
+#: translation:100
 msgid "Install Gnome desktop"
 msgstr "Zainstaluj środowisko Gnome"
 
-#: translation:99
+#: translation:101
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: translation:100
+#: translation:102
 msgid "Start and enable bluetooth service"
 msgstr "Uruchom i aktywuj usługę bluetooth"
 
-#: translation:101
+#: translation:103
 msgid "NVIDIA drivers"
 msgstr "Sterowniki NVIDIA"
 
-#: translation:102
+#: translation:104
 msgid "Install NVIDIA drivers"
 msgstr "Zainstaluj sterowniki NVIDIA"
 
-#: translation:103
+#: translation:105
 msgid "Audio Volume"
 msgstr "Poziom głośności"
 
-#: translation:104
+#: translation:106
 msgid "Configure Audio"
 msgstr "Konfiguracja dźwięku"
 
-#: translation:105
+#: translation:107
 msgid "Configure keyboard"
 msgstr "Konfiguracja klawiatury"
 
-#: translation:106
+#: translation:108
 msgid "Change or configure keyboard layout"
 msgstr "Zmień lub skonfiguruj układ klawiatury"
 
-#: translation:107
+#: translation:109
 msgid "Configure touchpad"
 msgstr "Konfiguracja touchpada"
 
-#: translation:108
+#: translation:110
 msgid "Configure touchpad input device"
 msgstr "Konfigurowanie urządzenia wejściowego touchpada"
 
-#: translation:109
+#: translation:111
 msgid "Configure local drives"
-msgstr "Konfiguracja partycji dysków"
+msgstr "Konfiguracja dysków lokalnych"
 
-#: translation:110
+#: translation:112
 msgid "Change, configure and manage your local drives"
 msgstr "Zmień, skonfiguruj i zarządzaj lokalnymi dyskami"
 
-#: translation:111
+#: translation:113
 msgid "Storage Devices"
 msgstr "Urządzenia magazynujące"
 
-#: translation:112
+#: translation:114
 msgid "Shows the disk usage of the mounted devices"
 msgstr "Pokazuje wykorzystanie dysków z zamontowanych urządzeń"
 
-#: translation:113
+#: translation:115
 msgid "Install and configure your firewall"
 msgstr "Zainstaluj i skonfiguruj zaporę sieciową"
 
-#: translation:114
+#: translation:116
 msgid "Install, set up a firewall and monitor network connections"
 msgstr ""
 "Zainstaluj, skonfiguruj zaporę sieciową i monitoruj połączenia sieciowe"
 
-#: translation:115
+#: translation:117
 msgid "Passwords and Keys"
 msgstr "Hasła i Klucze"
 
-#: translation:116
+#: translation:118
 msgid "Manage your passwords and encryption keys"
 msgstr "Zarządzaj swoimi hasłami i kluczami szyfrującymi"
 
-#: translation:119
+#: translation:121
 msgid "GIMP"
 msgstr "GIMP"
 
-#: translation:120
+#: translation:122
 msgid ""
 "Create and edit your images in a professional way with this powerful open "
 "source tool"
 msgstr ""
-"Twórz i edytuj swoje obrazy w profesjonalny sposób z tym potężnym i otarto "
+"Twórz i edytuj swoje obrazy w profesjonalny sposób z tym potężnym i otwarto-"
 "źródłowym narzędziem "
 
-#: translation:121
+#: translation:123
 msgid "Inkscape"
 msgstr "Inkscape"
 
-#: translation:122
+#: translation:124
 msgid ""
 "A powerful, open source vector drawing tool, for illustrators and designers"
 msgstr ""
 "Potężny, otwarto-źródłowy edytor grafiki wektorowej dla ilustratorów i "
 "twórców"
 
-#: translation:123
+#: translation:125
 msgid "Blender"
 msgstr "Blender"
 
-#: translation:124
+#: translation:126
 msgid ""
 "Modeling software that offers a unique approach to the world of three "
 "dimensions"
@@ -491,94 +496,94 @@ msgstr ""
 "Oprogramowanie do modelowania, które oferuje unikalne podejście do świata "
 "trzech wymiarów"
 
-#: translation:125
+#: translation:127
 msgid "Scribus"
 msgstr "Scribus"
 
-#: translation:126
+#: translation:128
 msgid ""
 "Desktop layout open source program for producing documents in PDF and "
 "Postscript"
 msgstr ""
 "Program open source do tworzenia dokumentów w formacie PDF i Postscript"
 
-#: translation:127
+#: translation:129
 msgid "Tuxpaint"
 msgstr "Tuxpaint"
 
-#: translation:128
+#: translation:130
 msgid ""
 "Encourage children's creativity using simple tools, drawings on the computer"
 msgstr ""
 "Zachęcaj dzieci do kreatywności za pomocą prostych narzędzi, rysunków na "
 "komputerze"
 
-#: translation:129
+#: translation:131
 msgid "Find additional applications"
 msgstr "Znajdź dodatkowe aplikacje"
 
-#: translation:130
+#: translation:132
 msgid "Find applications available in the repositories with dnfdragora"
 msgstr "Znajdź aplikacje dostępne w repozytoriach za pomocą dnfdragora"
 
-#: translation:131
+#: translation:133
 msgid "Fotoxx"
 msgstr "Fotoxx"
 
-#: translation:132
+#: translation:134
 msgid "Edit image files from a digital camera"
 msgstr "Edytuj obrazy z aparatów cyfrowych"
 
-#: translation:133
+#: translation:135
 msgid "Pixelize"
 msgstr "Pixelize"
 
-#: translation:134
+#: translation:136
 msgid ""
 "A program that will use many scaled down images to try to duplicate, as "
 "closely as possible, another image"
 msgstr ""
-"Pixelize jest programem, który używa wielu przeskalowanych obrazów, aby "
-"spróbować powielić inny obraz, tak dokładnie, jak to tylko możliwe"
+"Program który używa wielu przeskalowanych obrazów, aby spróbować powielić "
+"inny obraz, tak dokładnie, jak to tylko możliwe"
 
-#: translation:135
+#: translation:137
 msgid "LibreCAD"
 msgstr "LibreCAD"
 
-#: translation:136
+#: translation:138
 msgid ""
 "Qt application to design 2D cad drawing based on the community edition of "
 "QCad"
 msgstr ""
-"LibreCAD jest aplikacją opartą na Qt, która powstała, aby projektować "
-"projekty 2d. Bazuje na wersji społecznościowej QCad"
+"Aplikacja Qt do tworzenia rysunków CAD w 2d. Bazuje na społecznościowej "
+"wersji QCad"
 
-#: translation:137
+#: translation:139
 msgid "Kolourpaint"
 msgstr "Kolourpaint"
 
-#: translation:138
+#: translation:140
 msgid "A simple painting program to quickly create raster images"
 msgstr ""
 "Prosty program do malowania, umożliwiający szybkie tworzenie obrazów "
 "rastrowych"
 
-#: translation:141
+#: translation:143
 msgid "Codecs"
 msgstr "Kodeki"
 
-#: translation:142
+#: translation:144
 msgid ""
 "Codecs. Some file formats are proprietary and restricted in some countries"
 msgstr ""
 "Kodeki. Niektóre formaty plików są własnościowe i zastrzeżone w niektórych "
 "krajach"
 
-#: translation:143
+#: translation:145
 msgid "Audacity"
 msgstr "Audacity"
 
-#: translation:144
+#: translation:146
 msgid ""
 "Edit, record and import many sound file formats, such as WAV, AIFF, MP3 and "
 "Ogg/Vorbis"
@@ -586,11 +591,11 @@ msgstr ""
 "Edytuj, nagrywaj i importuj dźwięki w wielu różnych formatach, takich jak "
 "WAV, AIFF, MP3 i Ogg/Vorbis"
 
-#: translation:145
+#: translation:147
 msgid "Kdenlive"
 msgstr "Kdenlive"
 
-#: translation:146
+#: translation:148
 msgid ""
 "Non-linear video editor for KDE that relies on a separate renderer and "
 "supports multi-track editing"
@@ -598,216 +603,210 @@ msgstr ""
 "Nieliniowy edytor wideo dla KDE, który opiera się na oddzielnym renderowaniu"
 " i obsługuje edycję wielościeżkową."
 
-#: translation:147
+#: translation:149
 msgid "Devede"
 msgstr "Devede"
 
-#: translation:148
+#: translation:150
 msgid "Create a DVD with your videos with this simple and feature-rich tool"
 msgstr ""
 "Stwórz DVD ze swoimi filmami z tym prostym, ale bogatym w funkcje narzędziem"
 
-#: translation:149
+#: translation:151
 msgid "Kaudiocreator"
 msgstr "Kaudiocreator"
 
-#: translation:150
+#: translation:152
 msgid ""
 "Backup your CDs using this KDE tool and avoid losing your songs to scratches"
 msgstr ""
 "Zabezpiecz swoje CD używając tego narzędzia KDE i uniknij utraty swoich "
 "piosenek"
 
-#: translation:151
+#: translation:153
 msgid "SMPlayer"
 msgstr "SMPlayer"
 
-#: translation:152
+#: translation:154
 msgid ""
 "Graphical front-end for MPlayer, cross-platform and supports various "
 "audio/video formats"
 msgstr ""
-"SMPlayer jest graficzną nakładką na MPlayer, międzypowiatowy i wspierajacy "
-"różne formaty audio i video odtwarzacz"
+"Graficzna nakładka na MPlayer-a, wieloplatformowa i wspierająca różne "
+"formaty audio/video"
 
-#: translation:153
+#: translation:155
 msgid "Nulloy"
 msgstr "Nulloy"
 
-#: translation:154
+#: translation:156
 msgid "Music player with a waveform progress bar"
 msgstr "Odtwarzacz muzyki z paskiem postępu w kształcie fali"
 
-#: translation:155
+#: translation:157
 msgid "Strawberry"
 msgstr "Strawberry"
 
-#: translation:156
+#: translation:158
 msgid "Music player and music collection organizer"
 msgstr "Odtwarzacz muzyki i organizator kolekcji muzyki"
 
-#: translation:157
+#: translation:159
 msgid "Haruna"
 msgstr "Haruna"
 
-#: translation:158
+#: translation:160
 msgid "Open source video player built with Qt/QML and libmpv"
 msgstr ""
-"Odtwarzacz wideo o otwartym kodzie źródłowym zbudowany przy użyciu Qt/QML i "
-"libmpv"
+"Otwartoźródłowy odtwarzacz wideo zbudowany przy użyciu Qt/QML i libmpv"
 
-#: translation:159
+#: translation:161
 msgid "Babe"
 msgstr "Babe"
 
-#: translation:160
+#: translation:162
 msgid ""
 "Handle your whole music collection by retreaving semantic information from "
 "the web"
 msgstr "Obsługuj całą swoją kolekcję muzyki, odzyskując informacje z sieci"
 
-#: translation:161
+#: translation:163
 msgid "VLC"
 msgstr "VLC"
 
-#: translation:162
+#: translation:164
 msgid "Free and open source cross-platform multimedia player"
-msgstr "Darmowy i otwarty odtwarzacz multimedialny dla wielu platform"
+msgstr "Darmowy i otwartoźródłowy odtwarzacz multimedialny dla wielu platform"
 
-#: translation:163
+#: translation:165
 msgid "Bino 3D Video Player"
 msgstr "Bino 3D Video Player"
 
-#: translation:164
+#: translation:166
 msgid "Stereoscopic 3D video player with multi-display support"
-msgstr "Bino to stereoskopowy odtwarzacz wideo 3D z obsługą wielu ekranów"
+msgstr "Stereoskopowy odtwarzacz wideo 3D z obsługą wielu ekranów"
 
-#: translation:165
+#: translation:167
 msgid "QMMP"
 msgstr "QMMP"
 
-#: translation:166
+#: translation:168
 msgid "A QT based media player similar to Winamp"
 msgstr "Odtwarzacz oparty na QT, podobny do Winampa"
 
-#: translation:167
+#: translation:169
 msgid "MuseScore"
 msgstr "MuseScore"
 
-#: translation:168
+#: translation:170
 msgid "Professional music notation software"
 msgstr "Profesjonalne oprogramowanie do zapisu nutowego"
 
-#: translation:169
+#: translation:171
+msgid "GPU Screen Recorder"
+msgstr "GPU Screen Recorder"
+
+#: translation:172
+msgid "A screen recorder that has minimal impact on system performance"
+msgstr "Rejestrator ekranu który minimalnie obciąża wydajność systemu"
+
+#: translation:173
 msgid "OBS Studio"
 msgstr "OBS Studio"
 
-#: translation:170
+#: translation:174
 msgid "Software for video recording and live streaming free and open source"
 msgstr ""
 "Oprogramowanie do nagrywania wideo i transmisji strumieniowej na żywo, "
-"bezpłatne i otwarte"
+"bezpłatne i otwartożródłowe"
 
-#: translation:171
+#: translation:175
 msgid "OpenShot"
 msgstr "OpenShot"
 
-#: translation:172
+#: translation:176
 msgid "Non-linear video editing software free and open source"
 msgstr ""
-"Oprogramowanie do nieliniowej edycji wideo, bezpłatne i o otwartym kodzie "
-"źródłowym"
+"Oprogramowanie do nieliniowej edycji wideo, bezpłatne i otwartoźródłowe"
 
-#: translation:173
+#: translation:177
 msgid "HandBrake"
 msgstr "HandBrake"
 
-#: translation:174
+#: translation:178
 msgid "Video transcoder free and open source"
 msgstr "Darmowy i otwarty transkoder wideo"
 
-#: translation:177
+#: translation:181
 msgid "DnfDrake"
 msgstr "DnfDrake"
 
-#: translation:178
+#: translation:182
 msgid "Install or start DnfDrake. Find and install applications and much more"
 msgstr ""
 "Zainstaluj lub uruchom DnfDrake. Znajdź i zainstaluj aplikacje i wiele "
 "więcej"
 
-#: translation:179
+#: translation:183
 msgid "Yum Extender"
 msgstr "Yum Extender"
 
-#: translation:180
+#: translation:184
 msgid "Install or start Yum Extender (yumex), a graphical package manager"
 msgstr ""
-"zainstaluj lub uruchom Yum Extender (yumex), graficzny menedżer pakietów"
+"Zainstaluj lub uruchom Yum Extender (yumex), graficzny menedżer pakietów"
 
-#: translation:181
-msgid "Stacer"
-msgstr "Stacer"
-
-#: translation:182
-msgid ""
-"Open-source system optimizer and monitoring tool that helps the users to "
-"manage their operating system"
-msgstr ""
-"Narzędzie do optymalizacji i monitorowania systemu typu open source, które "
-"pomaga użytkownikom zarządzać systemem operacyjnym"
-
-#: translation:183
+#: translation:185
 msgid "dupeGuru"
 msgstr "dupeGuru"
 
-#: translation:184
+#: translation:186
 msgid "Tool to find duplicate files on your computer"
 msgstr "Narzędzie do wyszukiwania duplikatów plików na komputerze"
 
-#: translation:185
+#: translation:187
 msgid "Wine"
 msgstr "Wine"
 
-#: translation:186
+#: translation:188
 msgid "Wine allows you to run many Microsoft Windows programs on Linux"
-msgstr "Wine pozwala na uruchomienie wielu programów z Windowsa na Linux"
+msgstr ""
+"Wine pozwala na uruchomienie wielu programów z Microsoft Windows na Linuksie"
 
-#: translation:187
+#: translation:189
 msgid "OpenMandriva repo-picker"
 msgstr "Wybów repozytoriów OpenMandriva"
 
-#: translation:188
+#: translation:190
 msgid ""
 "The tool to enable and disable repositories easily with just a few clicks"
 msgstr ""
-"Narzędzie do włączania i wyłączania repozytoriów. Prosto, wystarczy kilka "
+"Proste narzędzie do włączania i wyłączania repozytoriów, wystarczy kilka "
 "kliknięć"
 
-#: translation:189
+#: translation:191
 msgid "Filezilla"
 msgstr "Filezilla"
 
-#: translation:190
+#: translation:192
 msgid "Powerful file management tool for FTP access to your web sites server"
-msgstr ""
-"Potężne narzędzie dla zarządzania plikami dla FTP dla Twojej strony serwera."
+msgstr "Potężne narzędzie do zarządzania plikami na Twoim serwerze FTP"
 
-#: translation:191
+#: translation:193
 msgid "Virtualbox"
 msgstr "Virtualbox"
 
-#: translation:192
+#: translation:194
 msgid ""
 "Easy virtualization software package for x86 and AMD64/Intel64-based "
 "computers"
 msgstr "Proste narzędzie do wirtualizacji dla x86 i AMD64/Intel64"
 
-#: translation:193
+#: translation:195
 msgid "GRsync"
 msgstr "GRsync"
 
-#: translation:194
+#: translation:196
 msgid ""
 "Grsync is a GUI for rsync. While it can work with remote hosts, its focus is"
 " to synchronize local directories"
@@ -815,11 +814,11 @@ msgstr ""
 "Grsync to GUI dla rsync. Chociaż może działać ze zdalnymi hostami, jego "
 "celem jest synchronizacja lokalnych katalogów"
 
-#: translation:195
+#: translation:197
 msgid "Proton"
 msgstr "Proton"
 
-#: translation:196
+#: translation:198
 msgid ""
 "Proton is a tool that allows games and applications written for Windows to "
 "run on Linux"
@@ -827,11 +826,11 @@ msgstr ""
 "Proton to narzędzie umożliwiające uruchamianie gier i aplikacji napisanych "
 "dla systemu Windows na systemie Linux"
 
-#: translation:197
+#: translation:199
 msgid "Proton experimental"
-msgstr "Proton experimental"
+msgstr "Proton eksperymentalny"
 
-#: translation:198
+#: translation:200
 msgid ""
 "Proton is a tool that allows games and applications written for Windows to "
 "run on Linux (experimental version)"
@@ -839,81 +838,73 @@ msgstr ""
 "Proton to narzędzie umożliwiające uruchamianie gier i aplikacji napisanych "
 "dla systemu Windows na systemie Linux (eksperymentalna wersja)"
 
-#: translation:199
+#: translation:201
 msgid "Kompare"
 msgstr "Kompare"
 
-#: translation:200
+#: translation:202
 msgid ""
 "Kompare is a GUI front-end program to compare differences on files or "
 "contents of folders"
 msgstr ""
-"Kompare to graficzny program typu front-end służący do porównywania różnic w"
-" plikach lub zawartości folderów"
+"Kompare to graficzny program służący do porównywania różnic w plikach lub "
+"zawartości folderów"
 
-#: translation:201
+#: translation:203
 msgid "Sweeper"
 msgstr "Sweeper"
 
-#: translation:202
+#: translation:204
 msgid ""
 "System Cleaner. Sweeper helps to clean unwanted traces the user leaves on "
 "the system"
 msgstr ""
-"System Cleaner. Sweeper pomaga wyczyścić niechciane ślady pozostawione przez"
-" użytkownika w systemie"
+"Oczyszczacz systemu. Sweeper pomaga wyczyścić niechciane ślady pozostawione "
+"przez użytkownika w systemie"
 
 #: translation:205
+msgid "Hardinfo2"
+msgstr "Hardinfo2"
+
+#: translation:206
+msgid "System Information and Benchmark for Linux"
+msgstr "Informacje o systemie oraz benchmark dla Linuksa"
+
+#: translation:209
 msgid "Calibre"
 msgstr "Calibre"
 
-#: translation:206
+#: translation:210
 msgid "Convert and manage your e-Books collection"
-msgstr "Konwertuj i zarządzaj swoją kolekcją e-Booków z Calibre"
+msgstr "Konwertuj i zarządzaj swoją kolekcją e-Booków"
 
-#: translation:207
+#: translation:211
 msgid "Unar"
 msgstr "Unar"
 
-#: translation:208
+#: translation:212
 msgid ""
 "Open and create RAR files with Ark, the default archive manager in "
 "OpenMandriva Lx"
 msgstr ""
-"Otwieraj i twórz pliki RAR z Ark, domyślnym menadżerem archiwów w "
+"Otwieraj i twórz pliki RAR w Ark, domyślnym menadżerze archiwów w "
 "OpenMandriva LX"
 
-#: translation:209
+#: translation:213
 msgid "Dia"
 msgstr "Dia"
 
-#: translation:210
+#: translation:214
 msgid "Program to draw structured diagrams"
 msgstr "Dia jest programem do tworzenia diagramów"
 
-#: translation:211
+#: translation:215
 msgid "Calligra"
 msgstr "Calligra"
 
-#: translation:212
+#: translation:216
 msgid "Office applications for the K Desktop Environment"
 msgstr "Aplikacje biurowe dla pulpitu KDE"
-
-#: translation:213
-msgid "Semantik"
-msgstr "Semantik"
-
-#: translation:214
-msgid "Mindmapping and brainstorming tool"
-msgstr "Narzędzie do map myśli"
-
-#: translation:215
-msgid "Kraft"
-msgstr "Kraft"
-
-#: translation:216
-msgid "Manage your office documents with Kraft"
-msgstr "Zarządzaj swoimi dokumentami z Kraft"
 
 #: translation:217
 msgid "Zim"
@@ -932,8 +923,8 @@ msgid ""
 "Computer-aided translation system that focuses on productivity and "
 "performance"
 msgstr ""
-"Lokalize to system tłumaczenia wspomaganego komputerowo, który koncentruje "
-"się na produktywności i wydajności"
+"Wspomagany komputerowo system tłumaczeń, który koncentruje się na "
+"produktywności i wydajności"
 
 #: translation:221
 msgid "Homebank"
@@ -941,7 +932,7 @@ msgstr "Homebank"
 
 #: translation:222
 msgid "Free easy personal accounting for all"
-msgstr "Wolne i proste zarządzanie kontami"
+msgstr "Wolne i proste zarządzanie finansami"
 
 #: translation:223
 msgid "Arianna"
@@ -951,35 +942,83 @@ msgstr "Arianna"
 msgid "Ebook reader and library management app"
 msgstr "Czytnik e-booków i aplikacja do zarządzania biblioteką"
 
+#: translation:225
+msgid "Ghostwriter"
+msgstr "Ghostwriter"
+
+#: translation:226
+msgid "Distraction-free text editor for Markdown"
+msgstr "Wolny od rozproszeń edytor tekstu i znaczników"
+
 #: translation:227
+msgid "Merkuro"
+msgstr "Merkuro"
+
+#: translation:228
+msgid ""
+"Calendar application that allows you to manage your tasks, events and "
+"contacts"
+msgstr ""
+"Kalendarz który pozwala na zarządzanie zadaniami, wydarzeniami i kontaktami"
+
+#: translation:229
+msgid "Itinerary"
+msgstr "Itinerary"
+
+#: translation:230
+msgid "KDE Itinerary is a digital travel assistant that protects your privacy"
+msgstr ""
+"Kde Itinerary to cyfrowy asystent podróży który chroni Twoją prywatność"
+
+#: translation:231
+msgid "Marknote"
+msgstr "Marknote"
+
+#: translation:232
+msgid ""
+"Marknote lets you create rich text notes and easily organise them into "
+"notebooks"
+msgstr ""
+"Marknote pozwala z łatwością stwożyć notatki rich text i zorganizować je w "
+"notatniki"
+
+#: translation:233
+msgid "Kongress"
+msgstr "Kongress"
+
+#: translation:234
+msgid "Kongress is a companion application for conferences"
+msgstr "Kongress jest aplikacją towarzyszącą przy konferencjach"
+
+#: translation:237
 msgid "Stellarium"
 msgstr "Stellarium"
 
-#: translation:228
+#: translation:238
 msgid "Stellarium renders 3D photo-realistic skies in real time"
 msgstr "Stellarium renderuje 3D, fotorealistyczne niebo w czasie rzeczywistym"
 
-#: translation:229
+#: translation:239
 msgid "Kalzium"
 msgstr "Kalzium"
 
-#: translation:230
+#: translation:240
 msgid "A periodic table of the elements"
 msgstr "Układ okresowy pierwiastków"
 
-#: translation:231
+#: translation:241
 msgid "Minuet"
 msgstr "Minuet"
 
-#: translation:232
+#: translation:242
 msgid "KDE music learning application"
 msgstr "Aplikacja do nauki muzyki KDE"
 
-#: translation:233
+#: translation:243
 msgid "Artikulate"
 msgstr "Artikulate"
 
-#: translation:234
+#: translation:244
 msgid ""
 "A pronunciation trainer that aims at improving and perfecting the "
 "pronunciation skills"
@@ -987,79 +1026,79 @@ msgstr ""
 "Trener wymowy, którego celem jest doskonalenie i doskonalenie umiejętności "
 "wymowy"
 
-#: translation:235
+#: translation:245
 msgid "KGeography"
 msgstr "KGeography"
 
-#: translation:236
+#: translation:246
 msgid "A geography learning program"
 msgstr "Program do nauki geografii"
 
-#: translation:237
+#: translation:247
 msgid "KTurtle"
 msgstr "KTurtle"
 
-#: translation:238
+#: translation:248
 msgid "An educational programming environment for the KDE Desktop"
 msgstr "Środowisko programowania edukacyjnego dla KDE"
 
-#: translation:239
+#: translation:249
 msgid "Rocs"
 msgstr "Rocs"
 
-#: translation:240
+#: translation:250
 msgid "Graph editor and programming environement"
 msgstr "Edytor grafów i środowisko programistyczne"
 
-#: translation:241
+#: translation:251
 msgid "Cantor"
 msgstr "Cantor"
 
-#: translation:242
+#: translation:252
 msgid "KDE interface for mathematics and scientific computing"
 msgstr "Interfejs KDE do obliczeń matematycznych i naukowych"
 
-#: translation:243
+#: translation:253
 msgid "Step"
 msgstr "Step"
 
-#: translation:244
+#: translation:254
 msgid "Interactive physical simulator"
 msgstr "Interaktywny symulator fizyczny"
 
-#: translation:245
+#: translation:255
 msgid "Marble"
 msgstr "Marble"
 
-#: translation:246
+#: translation:256
 msgid ""
 "Virtual globe and world atlas. Learn more about the Earth and other planets"
 msgstr ""
 "Wirtualny globus i atlas świata. Dowiedz się więcej o Ziemi i innych "
 "planetach"
 
-#: translation:247
+#: translation:257
 msgid "Kig"
 msgstr "Kig"
 
-#: translation:248
+#: translation:258
 msgid "Interactive mathematics software for learning and teaching geometry"
 msgstr ""
 "Interaktywne oprogramowanie matematyczne do nauki i nauczania geometrii"
 
-#: translation:249
+#: translation:259
 msgid "KStars"
 msgstr "KStars"
 
-#: translation:250
+#: translation:260
 msgid "Desktop Planetarium for KDE"
 msgstr "Planetarium dla pulpitu KDE"
 
-#: translation:253
+#: translation:263
 msgid "Scratch"
 msgstr "Scratch"
 
-#: translation:254
+#: translation:264
 msgid ""
 "A programming language for young people to create digital stories, games, "
 "and animations"
@@ -1067,38 +1106,38 @@ msgstr ""
 "Język programowania dla młodych ludzi, umożliwiający tworzenie cyfrowych "
 "opowieści, gier i animacji"
 
-#: translation:255
+#: translation:265
 msgid "GCompris"
 msgstr "GCompris"
 
-#: translation:256
+#: translation:266
 msgid "Educational software suite for children aged 2 to 10"
 msgstr "Pakiet oprogramowania edukacyjnego dla dzieci w wieku od 2 do 10 lat"
 
-#: translation:257
+#: translation:267
 msgid "SuperTuxKart"
 msgstr "SuperTuxKart"
 
-#: translation:258
+#: translation:268
 msgid ""
 "Improved version of TuxKart, a kart racing game featuring Tux and friends"
 msgstr ""
 "Ulepszona wersja TuxKart, gry wyścigowej o gokartach, w której występuje Tux"
 " i jego przyjaciele"
 
-#: translation:259
+#: translation:269
 msgid "Puzzle jigsaw"
 msgstr "Puzzle jigsaw"
 
-#: translation:260
+#: translation:270
 msgid "Tiling puzzle that requires the assembly mosaiced pieces"
 msgstr "Układanka kafelkowa wymagająca złożenia elementów mozaikowych"
 
-#: translation:261
+#: translation:271
 msgid "Potato editor"
 msgstr "Potato editor"
 
-#: translation:262
+#: translation:272
 msgid ""
 "Picture game for children. The only purpose is to  make the funniest faces "
 "you can"
@@ -1106,168 +1145,187 @@ msgstr ""
 "Gra obrazkowa dla dzieci. Jedynym celem jest zrobienie najzabawniejszych "
 "min, jakie możesz"
 
-#: translation:263
+#: translation:273
 msgid "Blinken"
 msgstr "Blinken"
 
-#: translation:264
+#: translation:274
 msgid "Follow the pattern of sounds and lights as long as you can"
 msgstr "Podążaj za wzorem dźwięków i świateł tak długo, jak potrafisz"
 
-#: translation:265
+#: translation:275
 msgid "KLettres"
 msgstr "KLettres"
 
-#: translation:266
+#: translation:276
 msgid "Language learning program"
 msgstr "Program do nauki języków"
 
-#: translation:267
+#: translation:277
 msgid "TuxPusher"
 msgstr "TuxPusher"
 
-#: translation:268
+#: translation:278
 msgid "A Tux themed 3D coin pusher game"
-msgstr "Gra 3D z pchaniem monet w klimacie Tux"
+msgstr "Gra w pchanie monet 3d z Tux-em"
 
-#: translation:271
+#: translation:279
+msgid "Naval Battle"
+msgstr "Naval Battle"
+
+#: translation:280
+msgid ""
+"A ship sinking game. Ships are placed on a board which represents the sea"
+msgstr ""
+"Gra w zatapianie statków. Statki są umieszczane na planszy która "
+"reprezentuje morze"
+
+#: translation:283
 msgid "KVPNc"
 msgstr "KVPNc"
 
-#: translation:272
+#: translation:284
 msgid "KDE frontend to various VPN clients"
 msgstr "Nakładka KDE na różne klienty VPN"
 
-#: translation:273
+#: translation:285
 msgid "0ad"
 msgstr "0ad"
 
-#: translation:274
+#: translation:286
 msgid "Cross-platform RTS Game of Ancient Warfare"
 msgstr ""
 "Między platformowa strategia czasu rzeczywistego osadzona w czasach "
 "starożytnych"
 
-#: translation:275
+#: translation:287
 msgid "MegaGlest"
 msgstr "MegaGlest"
 
-#: translation:276
+#: translation:288
 msgid "Open Source 3d real time strategy game"
 msgstr "Otwartoźródłowa strategia czasu rzeczywistego 3d"
 
-#: translation:277
+#: translation:289
 msgid "Wesnoth"
 msgstr "Wesnoth"
 
-#: translation:278
+#: translation:290
 msgid "Fantasy turn-based strategy game"
 msgstr "Turowa gra strategiczna w klimatach fantasy"
 
-#: translation:279
+#: translation:291
 msgid "FlightGear"
 msgstr "FlightGear"
 
-#: translation:280
+#: translation:292
 msgid "Flight Simulator for Linux"
-msgstr "FlightGear symulator lotnictwa dla  Linuxa"
+msgstr "Symulator lotnictwa dla  Linuxa"
 
-#: translation:281
+#: translation:293
 msgid "Steam"
 msgstr "Steam"
 
-#: translation:282
+#: translation:294
 msgid "Launcher for the Valve's Steam game distribution service"
-msgstr "Launcher dla aplikacji Valve do dystrybucji gier"
+msgstr "Launcher dla aplikacji dystrybucji gier Valve Steam "
 
-#: translation:283
+#: translation:295
 msgid "Lutris"
 msgstr "Lutris"
 
-#: translation:284
+#: translation:296
 msgid "Install and play any video game easily"
-msgstr "Zainstaluj i graj w dowolne gry wideo"
+msgstr "Łatwo instaluj i graj w jakąkolwiek grę wideo"
 
-#: translation:285
+#: translation:297
 msgid "Bottles"
 msgstr "Bottles"
 
-#: translation:286
+#: translation:298
 msgid "Run Windows software and games on Linux"
 msgstr "Uruchamiaj oprogramowanie i gry Windows na Linuksie"
 
-#: translation:287
+#: translation:299
 msgid "TORCS"
 msgstr "TORCS"
 
-#: translation:288
+#: translation:300
 msgid "The Open Racing Car Simulator"
 msgstr "Otwarty symulator wyścigów samochodowych"
 
-#: translation:289
+#: translation:301
 msgid "SuperTux"
 msgstr "SuperTux"
 
-#: translation:290
+#: translation:302
 msgid ""
 "A classic 2D game in a similar style like the original SuperMario games"
-msgstr ""
-"SuperTux to klasyczna gra typu sidescroller 2D jump'n run, w stylu podobnym "
-"do oryginalnych gier SuperMario."
+msgstr "Klasyczna gra 2d w podobnym stylu do gier Super Mario"
 
-#: translation:291
+#: translation:303
 msgid "Warzone 2100"
 msgstr "Warzone 2100"
 
-#: translation:292
+#: translation:304
 msgid "Postnuclear War realtime strategy games"
-msgstr "Postnuklearna wojskowa strategia czasu rzeczywistego"
+msgstr "Po-nuklearna wojskowa strategia czasu rzeczywistego"
 
-#: translation:293
+#: translation:305
 msgid "KPatience"
 msgstr "KPatience"
 
-#: translation:294
+#: translation:306
 msgid "A relaxing card sorting game"
 msgstr "Relaksująca gra polegająca na sortowaniu kart"
 
-#: translation:295
+#: translation:307
 msgid "KMahjongg"
 msgstr "KMahjongg"
 
-#: translation:296
+#: translation:308
 msgid "Mahjongg Solitaire"
-msgstr "Mahjongg Solitaire"
+msgstr "Pasjans mahjongg"
 
-#: translation:297
+#: translation:309
 msgid "Endless Sky"
 msgstr "Endless Sky"
 
-#: translation:298
+#: translation:310
 msgid "Space exploration and combat game"
 msgstr "Gra o eksploracji kosmosu i walce"
 
-#: translation:299
+#: translation:311
 msgid "Extreme Tux Racer"
 msgstr "Extreme Tux Racer"
 
-#: translation:300
+#: translation:312
 msgid "Slide down a snow and ice covered mountain as quickly as possible"
-msgstr "Zjedź zjazdem ze śniegu i lodu z góry tak szybko, jak to możliwe"
+msgstr ""
+"Ześliźnij się w dół z góry pokrytej śniegiem i lodem tak szybko jak to jest "
+"możliwe"
 
-#: translation:301
+#: translation:313
 msgid "Kubrick"
 msgstr "Kubrick"
 
-#: translation:302
+#: translation:314
 msgid "Game based on Rubik's Cube"
 msgstr "Gra oparta na kostce Rubika"
 
-#: translation:305
+#: translation:315
+msgid "Frozen Bubble"
+msgstr "Frozen Bubble"
+
+#: translation:316
+msgid "Free software clone of Puzzle Bobble"
+msgstr "Darmowy klon Puzzle Bobble"
+
+#: translation:319
 msgid "C/C++ Compilers Suite"
 msgstr "Zestaw kompilatorów C/C++"
 
-#: translation:306
+#: translation:320
 msgid ""
 "This is LLVM/clang package, including necessary tools for development like "
 "LLVM/clang, GCC, make, autoconf etc."
@@ -1275,11 +1333,11 @@ msgstr ""
 "Jest to pakiet LLVM/clang zawierający niezbędne narzędzia do tworzenia "
 "oprogramowania, takie jak LLVM/clang, GCC, make, autoconf itp."
 
-#: translation:307
+#: translation:321
 msgid "KDevelop"
 msgstr "KDevelop"
 
-#: translation:308
+#: translation:322
 msgid ""
 "The KDevelop Integrated Development Environment providing a unified "
 "interface to programs like gdb, the C/C++ compiler, and make"
@@ -1287,23 +1345,23 @@ msgstr ""
 "Zintegrowane środowisko programistyczne KDevelop zapewniające ujednolicony "
 "interfejs do programów takich jak gdb, kompilator C/C++ i make"
 
-#: translation:309
+#: translation:323
 msgid "Geany IDE"
 msgstr "Geany IDE"
 
-#: translation:310
+#: translation:324
 msgid ""
 "A small C editor using GTK2 with basic features of an integrated development"
 " environment"
 msgstr ""
-"Geany jest edytorem C używającym GTK2 zz podstawowymi cechami zintegrowanego"
-" środowiska programistycznego"
+"Mały edytor C używający GTK2 z podstawowymi funkcjami zintegrowanego "
+"środowiska programistycznego"
 
-#: translation:311
+#: translation:325
 msgid "Eclipse IDE"
 msgstr "Eclipse IDE"
 
-#: translation:312
+#: translation:326
 msgid ""
 "Eclipse IDE contains a base workspace and an extensible plug-in system, "
 "mostly used by Java Developers"
@@ -1311,21 +1369,20 @@ msgstr ""
 "Eclipse IDE zawiera bazowy obszar roboczy i rozszerzalny system wtyczek, "
 "używany głównie przez programistów Java"
 
-#: translation:313
+#: translation:327
 msgid "Qt-Creator"
 msgstr "Qt-Creator"
 
-#: translation:314
+#: translation:328
 msgid "Lightweight, cross-platform integrated development environment (IDE)"
 msgstr ""
-"Qt Creator jest lekkim, miedzyplatformowym zintegrowanym środowiskiem "
-"programistycznym (IDE)"
+"Lekkie, miedzyplatformowe zintegrowane środowisko programistyczne (IDE)"
 
-#: translation:315
+#: translation:329
 msgid "Qt-Designer"
 msgstr "Qt-Designer"
 
-#: translation:316
+#: translation:330
 msgid ""
 "Visual design tool that makes designing and implementing user interfaces a "
 "lot easier"
@@ -1333,19 +1390,19 @@ msgstr ""
 "Narzędzie do projektowania wizualnego, które znacznie ułatwia projektowanie "
 "i wdrażanie interfejsów użytkownika"
 
-#: translation:317
+#: translation:331
 msgid "RPM Packaging"
 msgstr "Tworzenie pakietów RPM"
 
-#: translation:318
+#: translation:332
 msgid "RPM Packaging suite, including rpmbuild, rpmlint, etc."
 msgstr "Tworzenie pakietów RPM, zawierający rpmbuild, rpmlint itd."
 
-#: translation:319
+#: translation:333
 msgid "Gambas IDE"
 msgstr "Gambas IDE"
 
-#: translation:320
+#: translation:334
 msgid ""
 "Gambas Almost BASIC, to build graphical applications programs using the "
 "Qt/GTK+ toolkit with Visual Basic (TM) like workflow"
@@ -1354,28 +1411,28 @@ msgstr ""
 "użytkowych wykorzystujących zestaw narzędzi Qt/GTK+ z przepływem pracy "
 "podobnym do Visual Basic (TM)"
 
-#: translation:321
+#: translation:335
 msgid "GCC kernel"
 msgstr "Kernel GCC"
 
-#: translation:322
+#: translation:336
 msgid ""
 "Install a version of the kernel that has been built with the GCC compiler"
 msgstr "Zainstaluj wersję jądra Linux zbudowaną przy użyciu kompilatora GCC"
 
-#: translation:325
+#: translation:339
 msgid "Mozilla Thunderbird"
 msgstr "Mozilla Thunderbird"
 
-#: translation:326
+#: translation:340
 msgid "Full-featured email, RSS and newsgroup client"
 msgstr "Pełnofunkcyjny klient poczty e-mail, RSS i grup dyskusyjnych"
 
-#: translation:327
+#: translation:341
 msgid "Skype"
 msgstr "Skype"
 
-#: translation:328
+#: translation:342
 msgid ""
 "By installing this package you will download and install Skype from "
 "skype.com. You must accept the Skype EULA before using it"
@@ -1383,171 +1440,184 @@ msgstr ""
 "Aby zainstalować ten pakiet, musisz pobrać Skype ze skype.com. Najpierw "
 "jednak musisz zaakceptować EULA Skype przez użyciem "
 
-#: translation:329
+#: translation:343
 msgid "Skype online"
 msgstr "Skype online"
 
-#: translation:330
+#: translation:344
 msgid ""
 "By installing this package you will be able to use Skype online from "
 "skype.com"
-msgstr "Instalując ten pakiet, będzie można używać Skype online z skype.com"
+msgstr "Instalująć ten pakiet, będzie można używać Skype online z skype.com"
 
-#: translation:331
+#: translation:345
 msgid "Telegram Desktop"
 msgstr "Telegram Desktop"
 
-#: translation:332
+#: translation:346
 msgid "Telegram is a messaging app with a focus on speed and security"
 msgstr ""
 "Telegram to aplikacja do przesyłania wiadomości, która kładzie nacisk na "
 "szybkość i bezpieczeństwo"
 
-#: translation:333
+#: translation:347
 msgid "Pidgin"
 msgstr "Pidgin"
 
-#: translation:334
+#: translation:348
 msgid ""
 "Graphical, modular instant messaging client capable of using multiple "
 "networks at once"
 msgstr ""
-"Pidgin jest graficznym, modułowym klientem komunikatorów internetowych, "
-"który może korzystać z wielu sieci jednocześnie"
+"Graficzny, modułowy klient komunikatorów internetowych, który może korzystać"
+" z wielu sieci jednocześnie"
 
-#: translation:335
+#: translation:349
 msgid "Choqok"
 msgstr "Choqok"
 
-#: translation:336
-msgid ""
-"Free open source microblogging client for KDE which supports Twitter.com, "
-"Pump.io, and OpenDesktop.org services"
-msgstr ""
-"Choqok jest otwartoźródłowym klientem mikroblogów dla KDE, który wspiera "
-"serwisy takie jak: Twitter.com, Pump.io i OpenDesktop.org"
+#: translation:350
+msgid "Free open source microblogging client for KDE"
+msgstr "Darmowy i otwartożródłowy klient mikroblogów dla KDE"
 
-#: translation:337
+#: translation:351
 msgid "Nheko"
 msgstr "Nheko"
 
-#: translation:338
+#: translation:352
 msgid "Desktop client for the Matrix protocol"
-msgstr "Klient dla protokołu Matrix"
+msgstr "Pulpitowy klient protokołu Matrix"
 
-#: translation:339
+#: translation:353
 msgid "Quaternion"
 msgstr "Quaternion"
 
-#: translation:340
+#: translation:354
 msgid "IM client for the Matrix protocol"
 msgstr "IM klient dla protokołu Matrix"
 
-#: translation:341
+#: translation:355
 msgid "Dropbox"
 msgstr "Dropbox"
 
-#: translation:342
+#: translation:356
 msgid ""
 "A free service that lets you bring your photos, docs, and videos anywhere "
 "and share them easily"
 msgstr ""
-"Dropbox jest darmową usługą, która pozwala zabrać ze sobą Twoje zdjęcia, "
-"dokumenty i filmy, gdziekolwiek chcesz. Możesz też łatwo udostępniać te "
-"pliki"
+"Darmowa usługa, która pozwala zabrać ze sobą Twoje zdjęcia, dokumenty i "
+"filmy, gdziekolwiek chcesz. Możesz też łatwo udostępniać te pliki"
 
-#: translation:345
+#: translation:357
+msgid "Tokodon"
+msgstr "Tokodon"
+
+#: translation:358
+msgid "Tokodon is a Mastodon client"
+msgstr "Tokodon jest klientem Mastodona"
+
+#: translation:361
 msgid "Falkon Browser"
 msgstr "Przeglądarka Falkon"
 
-#: translation:346
+#: translation:362
 msgid "Cross-platform, fast, lightweight and ready to use web browser"
 msgstr ""
 "Międzyplatformowa, szybka, lekka i gotowa do użycia przeglądarka internetowa"
 
-#: translation:347
+#: translation:363
 msgid "Firefox Browser"
 msgstr "Przeglądarka Firefox"
 
-#: translation:348
-msgid "Web browser fast, secure, and customizable to your online life"
-msgstr ""
-"Szybka i bezpieczna przeglądarka internetowa, która jest w pełni dostosowana"
-" do Twojego życia w sieci"
+#: translation:364
+msgid "Web browser"
+msgstr "Przeglądarka internetowa"
 
-#: translation:349
+#: translation:365
 msgid "Chromium Browser"
 msgstr "Przeglądarka Chromium"
 
-#: translation:350
+#: translation:366
 msgid "Open-source browser safe, fast and stable"
 msgstr "Przeglądarka Open Source bezpieczna, szybka i stabilna"
 
-#: translation:351
+#: translation:367
 msgid "Otter Browser"
 msgstr "Przeglądarka Otter"
 
-#: translation:352
+#: translation:368
 msgid "Browser aiming to recreate classic Opera UI using Qt"
 msgstr ""
-"Przeglądarka mająca na celu odtworzenie klasycznego interfejsu użytkownika "
-"Opery przy użyciu Qt"
+"Przeglądarka mająca na celu odtworzenie klasycznego interfejsu Opery przy "
+"użyciu Qt"
 
-#: translation:353
+#: translation:369
+msgid "Angelfish"
+msgstr "Angelfish"
+
+#: translation:370
+msgid "Angelfish is a modern mobile web browser"
+msgstr "Angelfish to nowoczesna mobilna przeglądarka internetowa"
+
+#: translation:371
 msgid "Opera Browser"
 msgstr "Przeglądarka Opera"
 
-#: translation:354
+#: translation:372
 msgid "Yandex Browser"
 msgstr "Przeglądarka Yandex"
 
-#: translation:355
+#: translation:373
 msgid "Vivaldi Browser"
 msgstr "Przeglądarka Vivaldi"
 
-#: translation:356
+#: translation:374
 msgid "Microsoft Edge Browser"
 msgstr "Przeglądarka Microsoft Edge"
 
-#: translation:357
+#: translation:375
 msgid "Brave Browser"
 msgstr "Przeglądarka Brave"
 
-#: translation:358
+#: translation:376
+msgid "Add Third Party repository and install Brave Browser"
+msgstr "Dodaj repozytorium strony trzeciej i zainstaluj przeglądarkę Brave"
+
+#: translation:377
 msgid "Chrome Browser"
 msgstr "Przeglądarka Chrome"
 
-#: translation:359
+#: translation:378
 msgid "Third Party repository. Install from Software Repository Selector"
 msgstr ""
 "Repozytorium stron trzecich. Zainstaluj z selektora repozytorium "
 "oprogramowania"
 
-#: translation:362
+#: translation:381
 msgid "are already installed"
 msgstr "już jest zainstalowane"
 
-#: translation:363
+#: translation:382
 msgid "not installed"
 msgstr "nie jest zainstalowane"
 
-#: translation:366
+#: translation:385
 msgid "OpenMandriva brand-name applications and features"
 msgstr "Aplikacje i funkcje stworzone pod szyldem OpenMandriva"
 
-#: translation:367
+#: translation:386
 msgid "Update Configuration"
 msgstr "Konfiguracja aktualizacji"
 
-#: translation:368
+#: translation:387
 msgid "Tool for configuring automatic updates"
 msgstr "Narzędzie do konfiguracji automatycznych aktualizacji"
 
-#: translation:369
+#: translation:388
 msgid "Desktop Presets"
 msgstr "Ustawienia wstępne pulpitu"
 
-#: translation:370
+#: translation:389
 msgid ""
 "Tool to customize the appearance of your OpenMandriva Plasma desktop to look"
 " and feel similar to other systems you may be used to"
@@ -1556,100 +1626,99 @@ msgstr ""
 "wyglądał i działał podobnie do innych systemów, do których możesz być "
 "przyzwyczajony"
 
-#: translation:373
+#: translation:392
 msgid "How to contribute to OpenMandriva"
-msgstr "Jak pomóc OpenMandriva w rozwoju"
+msgstr "Jak współtworzyć OpenMandriva"
 
-#: translation:374
+#: translation:393
 msgid ""
 "So you really like OpenMandriva Lx and are eager to help? You can contribute"
 " in various ways:"
 msgstr ""
-"Więc bardzo lubisz OpenMandriva Lx i chcesz pomóc? Możesz pomagać rozwijać "
-"dystrybucję na różne sposoby:"
+"Więc bardzo lubisz OpenMandriva Lx i jesteś skłonny pomóc? Możesz "
+"współtworzyć na różne sposoby:"
 
-#: translation:375
+#: translation:394
 msgid "Manual"
 msgstr "Instrukcja"
 
-#: translation:376
+#: translation:395
 msgid ""
 "Help writing simple step-by-step guides for installing and configuring "
 "OpenMandriva Lx"
 msgstr ""
-"Pomóż ulepszyć instrukcję instalacji i konfiguracji OpenMandriva Lx krok po "
-"kroku"
+"Pomóż pisać krótkie  poradniki instalacyjne i konfiguracyjne krok po kroku "
+"dla OpenMandriva Lx "
 
-#: translation:377
+#: translation:396
 msgid "Forum"
 msgstr "Forum"
 
-#: translation:378
+#: translation:397
 msgid "Become a member at our forum, answer questions and help others"
-msgstr ""
-"Zarejestruj się na naszym forum, odpowiadaj na pytania i pomagaj innym"
+msgstr "Zostań członkiem naszego forum, odpowiadaj na pytania i pomagaj innym"
 
-#: translation:379
+#: translation:398
 msgid "Translating"
 msgstr "Tłumaczenie"
 
-#: translation:380
+#: translation:399
 msgid "Translate blog posts, wiki pages, applications and stuff"
-msgstr "Tłumacz posty, strony wiki, aplikacje i inne rzeczy"
+msgstr "Tłumacz posty na blogu, strony wiki, aplikacje i inne rzeczy"
 
-#: translation:381
+#: translation:400
 msgid "Join in the development of OpenMandriva Lx"
 msgstr "Dołącz do zespoły rozwojowego OpenMandriva Lx"
 
-#: translation:382
+#: translation:401
 msgid "Cooker is the development branch of OpenMandriva Lx"
 msgstr "Cooker jest gałęzią rozwojową dystrybucji OpenMandriva Lx"
 
-#: translation:383
+#: translation:402
 msgid "Artwork"
 msgstr "Oprawa artystyczna"
 
-#: translation:384
+#: translation:403
 msgid "Use your talent to create new artwork for OpenMandriva Lx"
 msgstr ""
 "Użyj swoich umiejętności do stworzenia oprawy artystycznej dla OpenMandriva "
 "Lx"
 
-#: translation:385
+#: translation:404
 msgid "Report Bug"
 msgstr "Zgłoś błąd"
 
-#: translation:386
+#: translation:405
 msgid "Search, report and fix bugs in OpenMandriva Lx"
 msgstr "Szukaj, zgłaszaj i rozwiązuj błędy w OpenMandriva Lx"
 
-#: translation:387
+#: translation:406
 msgid "Join the conversation"
 msgstr "Dołącz do rozmowy"
 
-#: translation:388
+#: translation:407
 msgid "Discuss in real time with OpenMandriva team and other users"
 msgstr ""
 "Dyskutuj w czasie rzeczywistym z zespołem OpenMandriva i innymi "
 "użytkownikami"
 
-#: translation:389
+#: translation:408
 msgid "Get involved"
 msgstr "Zaangażuj się"
 
-#: translation:390
+#: translation:409
 msgid ""
 "How to contribute to OpenMandriva. If you have time, we welcome your help in"
 " various areas"
 msgstr ""
-"Jak przyczynić się do rozwoju OpenMandriva. Jeśli masz czas, chętnie "
-"pomożemy Ci w różnych dziedzinach"
+"Jak współtworzyć OpenMandriva. Jeśli masz czas, chętnie przyjmiemy pomoc na "
+"różnych polach"
 
-#: translation:391
+#: translation:410
 msgid "Donation"
 msgstr "Dotacje"
 
-#: translation:392
+#: translation:411
 msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
@@ -1657,37 +1726,37 @@ msgstr ""
 "Możesz dać nam swoją uwagę lub dać nam swój czas lub pieniądze, aby pomóc "
 "rozwijać OpenMandriva Lx"
 
-#: translation:394
+#: translation:413
 msgid "About"
 msgstr "O"
 
-#: translation:395
+#: translation:414
 msgid "About this application"
 msgstr "O tej aplikacji"
 
-#: translation:397
+#: translation:416
 msgid "Click here to be sure you read the latest Release Notes and Errata"
 msgstr ""
 "Kliknij tutaj, aby mieć pewność, że przeczytałeś najnowsze informacje o "
 "wydaniu i erratę"
 
-#: translation:398
+#: translation:417
 msgid "Do not start om-welcome on login"
-msgstr "Nie uruchamiaj om-welcome przy logowaniu do systemu"
+msgstr "Nie uruchamiaj om-welcome po logowaniu"
 
-#: translation:399
+#: translation:418
 msgid "Make om-welcome start on login"
-msgstr "Uruchamiaj om-welcome przy każdym logowaniu do systemu"
+msgstr "Uruchamiaj oma-welcome po zalogowaniu"
 
-#: translation:400
+#: translation:419
 msgid "Finish"
 msgstr "Zakończ"
 
-#: translation:403
+#: translation:422
 msgid "About this program"
 msgstr "O programie"
 
-#: translation:404
+#: translation:423
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
@@ -1695,15 +1764,15 @@ msgstr ""
 "Oprogramowanie wydane na licencji GNU General Public License version 2 "
 "(GPLv2)."
 
-#: translation:405
+#: translation:424
 msgid "It uses Qt6 WebEngine and htmlscript."
 msgstr "Używa Qt6 WebEngine i htmlscript."
 
-#: translation:406
+#: translation:425
 msgid "For bugs, suggestions and improvements, please head to "
 msgstr "Dla błędów, sugestii i usprawnień, zobacz "
 
-#: translation:409
+#: translation:428
 msgid ""
 "The Main repository contains the main packages that make up OpenMandriva Lx."
 " It should always be enabled"
@@ -1711,7 +1780,7 @@ msgstr ""
 "Główne repozytorium zawiera główne pakiety, które tworzą OpenMandriva Lx. "
 "Powinno być zawsze włączone"
 
-#: translation:410
+#: translation:429
 msgid ""
 "Extra contains packages that are free, but not officially supported by "
 "OpenMandriva. While we will try to fix them if something breaks, this is a "
@@ -1723,7 +1792,7 @@ msgstr ""
 "zepsuje, to jest to niski priorytet. Włącz Extra, jeśli ich potrzebujesz i "
 "nie przeszkadzają Ci sporadyczne awarie"
 
-#: translation:411
+#: translation:430
 msgid ""
 "Restricted contains packages that are free, but encumbered by patents that "
 "may make them illegal to use or distribute in some countries. You are "
@@ -1734,7 +1803,7 @@ msgstr ""
 "będzie nielegalna. Jesteś odpowiedzialny za przestrzeganie lokalnych "
 "przepisów"
 
-#: translation:412
+#: translation:431
 msgid ""
 "Non-free contains packages that are not free (as in Open Source). Even if we"
 " want to, we cannot fix problems in them. We can not read the code, or "
@@ -1748,7 +1817,7 @@ msgstr ""
 "ubocznych, mogą zawierać spyware lub malware. Mogą one usunąć Twoje dane. "
 "Jesteś zdany na siebie"
 
-#: translation:413
+#: translation:432
 msgid ""
 "Third Party repositories containing (usually non-free) software where "
 "neither the software nor the packages are maintained by the OpenMandriva "
@@ -1760,22 +1829,22 @@ msgstr ""
 "OpenMandriva. Te pakiety nie są pod naszą kontrolą i otrzymasz aktualizacje,"
 " zanim zostaną przetestowane w OpenMandriva. Używaj na własne ryzyko"
 
-#: translation:414
+#: translation:433
 msgid ""
 "Please use only Software Repository Selector to enable/disable repositories"
 msgstr ""
 "Do włączania/wyłączania repozytoriów należy używać wyłącznie Selektora "
 "repozytorium oprogramowania"
 
-#: translation:417
+#: translation:436
 msgid "You are using %2 with kernel %3."
 msgstr "Używasz %2 z kernelem %3."
 
-#: translation:420
+#: translation:439
 msgid "New Features and Major Changes"
 msgstr "Nowe funkcje i główne zmiany"
 
-#: translation:421
+#: translation:440
 msgid ""
 "OpenMandriva Lx is published by OpenMandriva Association. Over the course of"
 " the year past we have tried to evolve the way you use your desktop. Here "
@@ -1785,11 +1854,11 @@ msgstr ""
 "ostatniego roku staraliśmy się rozwijać sposób, w jaki korzystasz ze swojego"
 " pulpitu. Oto niektóre z rzeczy, które zrobiliśmy w tej wersji:"
 
-#: translation:422
+#: translation:441
 msgid "Fresh Packages"
 msgstr "Najnowsze oprogramowanie"
 
-#: translation:423
+#: translation:442
 msgid ""
 "Fresh packages available, including Krita (Digital Painting), Kamoso (Webcam"
 " Viewer), SMPlayer, VLC Player, KBackup, Plasma NetworkManager applet, "
@@ -1803,11 +1872,11 @@ msgstr ""
 "obeznanych z techniką udostępniliśmy systemtap, narzędzie do analizy "
 "wydajności systemu"
 
-#: translation:424
+#: translation:443
 msgid "Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series."
 msgstr "Kernel $(uname -r | cut -d ' ' -f 2) jest najnowszą dostępną serią."
 
-#: translation:425
+#: translation:444
 msgid ""
 "OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each designed with their respective end use on mind<br/>\n"
 "<br/>\n"
@@ -1817,11 +1886,11 @@ msgstr ""
 "<br/>\n"
 "<b>Co nowego:</b> HT/SMT NICE jest domyślne aktywnedla lepszej responsywności i zachowania w czasie rzeczywistym na komputerach z HT (Hyper-Threading), poprawia wydajność aplikacji pierwszoplanowych kosztem aplikacji drugoplanowych. Twój pulpit / interfejs graficzny / aplikacje pozostaną szybkie, nawet jeśli uruchomisz folding@home, mprime, seti@home itp."
 
-#: translation:428
+#: translation:447
 msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
 msgstr "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
 
-#: translation:429
+#: translation:448
 msgid ""
 "It provides a clean, unified desktop for OpenMandriva Lx. It has all the "
 "tools required to be productive whilst providing a pleasant, functional "
@@ -1831,7 +1900,7 @@ msgstr ""
 "narzędzia wymagane do produktywnej pracy, zapewniając jednocześnie "
 "przyjemne, funkcjonalne środowisko."
 
-#: translation:430
+#: translation:449
 msgid ""
 "This release includes an updated KDE Frameworks $(rpm -q --qf '%{VERSION}' "
 "kf6-kio)."
@@ -1839,18 +1908,18 @@ msgstr ""
 "To wydanie zawiera zaktualizowane KDE Frameworks $(rpm -q --qf '%{VERSION}' "
 "kf6-kio)."
 
-#: translation:431
+#: translation:450
 msgid ""
 "The KDE Frameworks are add-on libraries for coding applications with Qt."
 msgstr ""
 "Frameworki KDE to dodatkowe biblioteki służące do kodowania aplikacji przy "
 "użyciu Qt."
 
-#: translation:432
+#: translation:451
 msgid "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 msgstr "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 
-#: translation:433
+#: translation:452
 msgid ""
 "It is the newest available stable release series, which means you can rely "
 "on it to not crash and compromise your precious data. As usual, there are a "
@@ -1863,7 +1932,7 @@ msgstr ""
 "poprawki, których nie zauważają zwykli użytkownicy, ale niektóre są naprawdę"
 " interesujące"
 
-#: translation:434
+#: translation:453
 msgid ""
 "This release of OpenMandriva Lx incorporates working support for EFI "
 "booting. It should be possible to boot the live system on majority of "
@@ -1874,14 +1943,14 @@ msgstr ""
 "Powinno być możliwe uruchomienie systemu live na większości maszyn. Prosimy "
 "o zgłaszanie błędów na <a href='./apps/open-bugzilla.run' target="
 
-#: translation:435
+#: translation:454
 msgid ""
 "All OpenMandriva releases are built using an advanced platform called ABF. "
 "ABF (Automated Build Farm) is a distributed environment to build "
 "distributions that supports all things from managing the source code to "
 "creating ISO images. ABF is not just a hosting service for source code, but "
 "a system to build and publish packages. You can check, signup and contribute"
-" to ABF/OpenMandriva development at <a href='./apps/open-abf.run' target="
+" to ABF/OpenMandriva development."
 msgstr ""
 "Wszystkie wydania OpenMandriva są tworzone przy użyciu zaawansowanej "
 "platformy o nazwie ABF. ABF (Automated Build Farm) to rozproszone środowisko"
@@ -1891,7 +1960,7 @@ msgstr ""
 "sprawdzić, zapisać się i przyczynić się do rozwoju ABF/OpenMandriva na <a "
 "href='./apps/open-abf.run' target="
 
-#: translation:436
+#: translation:455
 msgid ""
 "You can configure your desktop to look and feel similar to other systems you may be used to.<br/>\n"
 "Currently available:<br/>\n"
