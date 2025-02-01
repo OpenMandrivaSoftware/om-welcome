@@ -1206,7 +1206,7 @@ msgstr "MegaGlest"
 
 #: translation:288
 msgid "Open Source 3d real time strategy game"
-msgstr "Otwartoźródłowa strategia czasu rzeczywistego 3d"
+msgstr "Otwartoźródłowa strategia czasu rzeczywistego w 3D"
 
 #: translation:289
 msgid "Wesnoth"
