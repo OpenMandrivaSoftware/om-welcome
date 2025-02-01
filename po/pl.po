@@ -782,8 +782,7 @@ msgstr "Wybów repozytoriów OpenMandriva"
 msgid ""
 "The tool to enable and disable repositories easily with just a few clicks"
 msgstr ""
-"Proste narzędzie do włączania i wyłączania repozytoriów, wystarczy kilka "
-"kliknięć"
+"Proste narzędzie do włączania i wyłączania repozytoriów kilkoma kliknięciami"
 
 #: translation:191
 msgid "Filezilla"
