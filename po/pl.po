@@ -1197,7 +1197,7 @@ msgstr "0ad"
 #: translation:286
 msgid "Cross-platform RTS Game of Ancient Warfare"
 msgstr ""
-"Między platformowa strategia czasu rzeczywistego osadzona w czasach "
+"Międzyplatformowa strategia czasu rzeczywistego osadzona w czasach "
 "starożytnych"
 
 #: translation:287
