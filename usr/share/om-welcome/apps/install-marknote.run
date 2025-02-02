@@ -1,9 +1,10 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if command -v marknote; then
-	exec marknote
-else
+
 	APP=$"Marknote"
+if command -v marknote; then
+	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes marknote

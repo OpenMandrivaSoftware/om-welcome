@@ -1,9 +1,10 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if command -v openshot-qt; then
-	exec openshot-qt
-else
+
 	APP=$"OpenShot"
+if command -v openshot-qt; then
+	exec kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo extra

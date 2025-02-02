@@ -1,10 +1,10 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-if command -v angelfish &>/dev/null; then
-	exec angelfish
-else
 	APP=$"Angelfish"
+if command -v angelfish &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then

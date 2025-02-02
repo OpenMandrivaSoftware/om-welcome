@@ -1,9 +1,10 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if command -v bottles &>/dev/null; then
-	exec bottles
-else
+
 	APP=$"Bottles"
+if command -v bottles &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes bottles

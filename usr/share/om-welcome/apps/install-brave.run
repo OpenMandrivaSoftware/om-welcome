@@ -1,9 +1,10 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if command -v brave-browser; then
-	exec brave-browser
-else
+
 	APP=$"Brave Browser"
+if command -v brave-browser; then
+	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
     pkexec sh -c "dnf install dnf-plugins-core --assumeyes --refresh && dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo && dnf install brave-browser --assumeyes --refresh"

@@ -1,9 +1,10 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if command -v cantor &>/dev/null; then
-	exec cantor
-else
+
 	APP=$"Cantor"
+if command -v cantor &>/dev/null; then
+	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes cantor

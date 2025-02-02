@@ -1,10 +1,10 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-if command -v chromium; then
-	exec chromium
-else
 	APP=$"Chromium"
+if command -v chromium; then
+	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	pkexec dnf --refresh install --assumeyes chromium

@@ -1,10 +1,10 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-if command -v qmmp; then
-	exec qmmp
-else
 	APP=$"QMMP"
+if command -v qmmp; then
+	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo extra
