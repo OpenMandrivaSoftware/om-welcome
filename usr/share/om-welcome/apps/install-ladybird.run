@@ -1,0 +1,19 @@
+#!/bin/bash
+. /usr/share/htmlscript/helpers
+
+	APP=$"Ladybird"
+if command -v Ladybird; then
+#	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+	exec Ladybird
+else
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
+	pkexec dnf --refresh install --assumeyes ladybird
+	ProgressDialog --close
+	if command -v Ladybird; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
+fi
