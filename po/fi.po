@@ -7,9 +7,6 @@ msgid ""
 msgstr ""
 "Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>, 2025\n"
 "Language-Team: Finnish (https://app.transifex.com/openmandriva/teams/1818/fi/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -845,8 +842,8 @@ msgid "Hardinfo2"
 msgstr "Hardinfo2"
 
 #: translation:206
-msgid "System Information and Benchmark for Linux"
-msgstr "Linux järjestelmän tiedot ja nopeustesti"
+msgid "Install or start System Information and Benchmark for Linux"
+msgstr "Asenna tai käynnistä System Information and Benchmark for Linux"
 
 #: translation:209
 msgid "Calibre"
@@ -1529,62 +1526,71 @@ msgid "Angelfish is a modern mobile web browser"
 msgstr "Angelfish on moderni mobiiliselain"
 
 #: translation:371
+msgid "Ladybird"
+msgstr "Ladybird"
+
+#: translation:372
+msgid ""
+"Install or start Ladybird. Early preview of a truly independent web browser"
+msgstr "Asenna tai käynnistä Ladybird. Uusi itsenäinen verkkoselain"
+
+#: translation:373
 msgid "Opera Browser"
 msgstr "Opera"
 
-#: translation:372
+#: translation:374
 msgid "Yandex Browser"
 msgstr "Yandex"
 
-#: translation:373
+#: translation:375
 msgid "Vivaldi Browser"
 msgstr "Vivaldi"
 
-#: translation:374
+#: translation:376
 msgid "Microsoft Edge Browser"
 msgstr "Microsoft Edge"
 
-#: translation:375
+#: translation:377
 msgid "Brave Browser"
 msgstr "Brave"
 
-#: translation:376
+#: translation:378
 msgid "Add Third Party repository and install Brave Browser"
 msgstr "Lisää kolmannen osapuolen arkisto ja asenna Brave"
 
-#: translation:377
+#: translation:379
 msgid "Chrome Browser"
 msgstr "Chrome"
 
-#: translation:378
+#: translation:380
 msgid "Third Party repository. Install from Software Repository Selector"
 msgstr "Kolmannen osapuolen arkisto. Asenna Software Repository Selector:sta"
 
-#: translation:381
+#: translation:383
 msgid "are already installed"
 msgstr "on jo asennettu"
 
-#: translation:382
+#: translation:384
 msgid "not installed"
 msgstr "ei asennettu"
 
-#: translation:385
+#: translation:387
 msgid "OpenMandriva brand-name applications and features"
 msgstr "OpenMandriva tuotemerkkin alaiset ohjelmat ja ominaisuudet"
 
-#: translation:386
+#: translation:388
 msgid "Update Configuration"
 msgstr "Päivityksen asetukset"
 
-#: translation:387
+#: translation:389
 msgid "Tool for configuring automatic updates"
 msgstr "Määritä päivitystapa kuten automaattiset päivitykset"
 
-#: translation:388
+#: translation:390
 msgid "Desktop Presets"
 msgstr "Työpöydän ulkonäkö"
 
-#: translation:389
+#: translation:391
 msgid ""
 "Tool to customize the appearance of your OpenMandriva Plasma desktop to look"
 " and feel similar to other systems you may be used to"
@@ -1592,11 +1598,11 @@ msgstr ""
 "Työkalulla voit muuttaa OpenMandriva Plasma työpöytäsi ulkonäköä näyttämään "
 "samanlaiselta kuin muut järjestelmät, joihin olet tottunut"
 
-#: translation:392
+#: translation:394
 msgid "How to contribute to OpenMandriva"
 msgstr "Kuinka OpenMandrivaan voi osallistua"
 
-#: translation:393
+#: translation:395
 msgid ""
 "So you really like OpenMandriva Lx and are eager to help? You can contribute"
 " in various ways:"
@@ -1604,83 +1610,83 @@ msgstr ""
 "Pidät siis OpenMandriva Lx:stä ja olet innokas auttamaan? Voit osallistua "
 "useilla eri tavoilla:"
 
-#: translation:394
+#: translation:396
 msgid "Manual"
 msgstr "Ohjekirja"
 
-#: translation:395
+#: translation:397
 msgid ""
 "Help writing simple step-by-step guides for installing and configuring "
 "OpenMandriva Lx"
 msgstr ""
 "Auta ohjeiden kirjoittamisessa OpenMandriva Lx asennukseen ja määritykseen"
 
-#: translation:396
+#: translation:398
 msgid "Forum"
 msgstr "Foorumi"
 
-#: translation:397
+#: translation:399
 msgid "Become a member at our forum, answer questions and help others"
 msgstr ""
 "Liity jäseneksi foorumille, vastaa kysymyksiin ja auta muita käyttäjiä"
 
-#: translation:398
+#: translation:400
 msgid "Translating"
 msgstr "Kääntäminen"
 
-#: translation:399
+#: translation:401
 msgid "Translate blog posts, wiki pages, applications and stuff"
 msgstr "Käännä blogia, wikiä ja sovelluksia omalle kielelle"
 
-#: translation:400
+#: translation:402
 msgid "Join in the development of OpenMandriva Lx"
 msgstr "Liity OpenMandriva Lx kehittäjiin"
 
-#: translation:401
+#: translation:403
 msgid "Cooker is the development branch of OpenMandriva Lx"
 msgstr "Cooker on OpenMandriva Lx kehityshaara"
 
-#: translation:402
+#: translation:404
 msgid "Artwork"
 msgstr "Kuvamateriaali"
 
-#: translation:403
+#: translation:405
 msgid "Use your talent to create new artwork for OpenMandriva Lx"
 msgstr "Käytä lahjakkuuttasi luodaksesi uutta grafiikkaa OpenMandriva Lx:lle"
 
-#: translation:404
+#: translation:406
 msgid "Report Bug"
 msgstr "Ilmoita virheestä"
 
-#: translation:405
+#: translation:407
 msgid "Search, report and fix bugs in OpenMandriva Lx"
 msgstr "Etsi, ilmoita ja korjaa virheitä OpenMandriva Lx parantamiseksi"
 
-#: translation:406
+#: translation:408
 msgid "Join the conversation"
 msgstr "Liity keskusteluun"
 
-#: translation:407
+#: translation:409
 msgid "Discuss in real time with OpenMandriva team and other users"
 msgstr ""
 "Keskustele reaaliajassa tiimin ja OpenMandrivan muiden käyttäjien kanssa"
 
-#: translation:408
+#: translation:410
 msgid "Get involved"
 msgstr "Tule mukaan"
 
-#: translation:409
+#: translation:411
 msgid ""
 "How to contribute to OpenMandriva. If you have time, we welcome your help in"
 " various areas"
 msgstr ""
 "Jos sinulla on aikaa OpenMandrivalle, otamme mielellämme apuasi eri aloilta"
 
-#: translation:410
+#: translation:412
 msgid "Donation"
 msgstr "Lahjoitus"
 
-#: translation:411
+#: translation:413
 msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
@@ -1688,51 +1694,51 @@ msgstr ""
 "Voit osoittaa huolenpitosi lahjoittamalla sinun aikaasi tai rahoittamalla "
 "meitä"
 
-#: translation:413
+#: translation:415
 msgid "About"
 msgstr "Tietoja"
 
-#: translation:414
+#: translation:416
 msgid "About this application"
 msgstr "Tiotoja ohjelmasta"
 
-#: translation:416
+#: translation:418
 msgid "Click here to be sure you read the latest Release Notes and Errata"
 msgstr ""
 "Varmista, että olet lukenut uusimmat julkaisutiedot ja virheilmoitukset"
 
-#: translation:417
+#: translation:419
 msgid "Do not start om-welcome on login"
 msgstr "Älä näytä tätä enään kirjautumisen jälkeen"
 
-#: translation:418
+#: translation:420
 msgid "Make om-welcome start on login"
 msgstr "Näytä tämä kirjautumisen yhteydessä"
 
-#: translation:419
+#: translation:421
 msgid "Finish"
 msgstr "Valmis"
 
-#: translation:422
+#: translation:424
 msgid "About this program"
 msgstr "Tietoja tästä ohjelmasta"
 
-#: translation:423
+#: translation:425
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
 msgstr ""
 "Tämä ohjelmisto on lisensoitu GNU General Public License version 2 (GPLv2)."
 
-#: translation:424
+#: translation:426
 msgid "It uses Qt6 WebEngine and htmlscript."
 msgstr "Käytämme Qt6 WebEngineä ja htmlscriptiä."
 
-#: translation:425
+#: translation:427
 msgid "For bugs, suggestions and improvements, please head to "
 msgstr "Virheilmoituksia, ehdotuksia ja parannuksia varten siirry "
 
-#: translation:428
+#: translation:430
 msgid ""
 "The Main repository contains the main packages that make up OpenMandriva Lx."
 " It should always be enabled"
@@ -1740,7 +1746,7 @@ msgstr ""
 "Pääarkisto sisältää pääpaketit, joista OpenMandriva Lx muodostuu. Tämä pitää"
 " olla aina käytössä"
 
-#: translation:429
+#: translation:431
 msgid ""
 "Extra contains packages that are free, but not officially supported by "
 "OpenMandriva. While we will try to fix them if something breaks, this is a "
@@ -1752,7 +1758,7 @@ msgstr ""
 "on alhainen prioriteetti. Ota käyttöön, jos tarvitset sen ohjelmia etkä "
 "välitä satunnaisesta kaatumisesta"
 
-#: translation:430
+#: translation:432
 msgid ""
 "Restricted contains packages that are free, but encumbered by patents that "
 "may make them illegal to use or distribute in some countries. You are "
@@ -1762,7 +1768,7 @@ msgstr ""
 "patentit, joka voi tehdä niistä laittomia käyttää tai levittää joissakin "
 "maissa. Olet vastuussa paikallisten lakien noudattamisesta"
 
-#: translation:431
+#: translation:433
 msgid ""
 "Non-free contains packages that are not free (as in Open Source). Even if we"
 " want to, we cannot fix problems in them. We can not read the code, or "
@@ -1776,7 +1782,7 @@ msgstr ""
 "sivuvaikutuksia ei tunneta, ne voivat sisältää vakoilu- tai haittaohjelmia. "
 "Ne voivat tyhjentää tallennustilasi. Olet omillasi"
 
-#: translation:432
+#: translation:434
 msgid ""
 "Third Party repositories containing (usually non-free) software where "
 "neither the software nor the packages are maintained by the OpenMandriva "
@@ -1788,22 +1794,22 @@ msgstr ""
 " niiden päivitykset ennen kuin olemme ehtineet testaamaan ne "
 "OpenMandriva:lla. Käytä omalla vastuullasi"
 
-#: translation:433
+#: translation:435
 msgid ""
 "Please use only Software Repository Selector to enable/disable repositories"
 msgstr ""
 "Suosittelemme Software Repository Selector ohjelmaa ottaessa arkistoa "
 "käyttöön tai pois käytöstä"
 
-#: translation:436
+#: translation:438
 msgid "You are using %2 with kernel %3."
 msgstr "Sinulla on käytössä %2 kernel %3."
 
-#: translation:439
+#: translation:441
 msgid "New Features and Major Changes"
 msgstr "Uusia ominaisuuksia ja suuria muutoksia"
 
-#: translation:440
+#: translation:442
 msgid ""
 "OpenMandriva Lx is published by OpenMandriva Association. Over the course of"
 " the year past we have tried to evolve the way you use your desktop. Here "
@@ -1813,11 +1819,11 @@ msgstr ""
 "aikana olemme kehittäneet erilaisia tapoja käyttää tietokonetta. Alla "
 "joitain asioita, joita olemme tehneet tähän julkaisuun:"
 
-#: translation:441
+#: translation:443
 msgid "Fresh Packages"
 msgstr "Tuoreet paketit"
 
-#: translation:442
+#: translation:444
 msgid ""
 "Fresh packages available, including Krita (Digital Painting), Kamoso (Webcam"
 " Viewer), SMPlayer, VLC Player, KBackup, Plasma NetworkManager applet, "
@@ -1830,25 +1836,25 @@ msgstr ""
 "Falkon, Mozilla Firefox, Systemd ja Firewalld. Teknisesti taitaville olemme "
 "tarjonneet systemtap suorituskyvyn analysointityökalun"
 
-#: translation:443
+#: translation:445
 msgid "Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series."
 msgstr "Kernel $(uname -r | cut -d ' ' -f 2) on viimeisin sarja."
 
-#: translation:444
+#: translation:446
 msgid ""
-"OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server verions available each designed with their respective end use on mind<br/>\n"
+"OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server versions available each designed with their respective end use in mind<br/>\n"
 "<br/>\n"
 "<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc."
 msgstr ""
-"OpenMandriva Lx kernelissä on BFQ-kiintolevyn I/O-ajastin, UKSM-muistinhallinta, työpöydän parempi suoritus ja reagointikyky. Useita työpöydän palvelinversioita, joista jokainen on paranneltu loppukäyttäjää ajatellen<br/>\n"
+"OpenMandriva Lx kernelissä on BFQ-kiintolevyn I/O-ajastin, UKSM-muistinhallinta, työpöydän parempi suorituskyky. Useita työpöytäversioita, jotka on suunniteltu kunkin loppukäyttöä ajatellen<br/>\n"
 "<br/>\n"
-"<b>Uutta:</b> HT/SMT NICE on oletuksena käytössä paremman vasteajan takaamiseksi PC-tietokoneissa (Hyper Threade). Tämä parantaa etualalla olevien sovellusten suorituskykyä taustalla olevien kustannuksella. Työpöytäsi / gui / sovellukset pysyvät nopeina, vaikka käyttäisit foldding@home, mprime, seti@home jne."
+"<b>Uutta:</b> HT/SMT NICE on käytössä oletuksena. Parempi vasteaika PC-tietokoneissa HT:n (Hyper-Threading) avulla. Tämä parantaa sovellusten suorituskykyä taustasovellusten kustannuksella. Työpöydän sovellukset pysyvät nopeina, vaikka käyttäisit foldding@home, mprime, seti@home jne."
 
-#: translation:447
+#: translation:449
 msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
 msgstr "KDE Plasma $(plasmashell --version | cut -d ' ' -f 2)"
 
-#: translation:448
+#: translation:450
 msgid ""
 "It provides a clean, unified desktop for OpenMandriva Lx. It has all the "
 "tools required to be productive whilst providing a pleasant, functional "
@@ -1857,7 +1863,7 @@ msgstr ""
 "Tarjoaa työpöydän OpenMandriva Lx:lle. Siinä on kaikki tarvittavat työkalut "
 "ja samalla se tarjoaa miellyttävän ympäristön."
 
-#: translation:449
+#: translation:451
 msgid ""
 "This release includes an updated KDE Frameworks $(rpm -q --qf '%{VERSION}' "
 "kf6-kio)."
@@ -1865,16 +1871,16 @@ msgstr ""
 "Julkaisu sisältää päivitetyn KDE Frameworks $(rpm -q --qf '%{VERSION}' "
 "kf6-kio)."
 
-#: translation:450
+#: translation:452
 msgid ""
 "The KDE Frameworks are add-on libraries for coding applications with Qt."
 msgstr "KDE Framework sisältää lisäkirjastoja, jotka on koodattu Qt:llä."
 
-#: translation:451
+#: translation:453
 msgid "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 msgstr "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 
-#: translation:452
+#: translation:454
 msgid ""
 "It is the newest available stable release series, which means you can rely "
 "on it to not crash and compromise your precious data. As usual, there are a "
@@ -1885,7 +1891,7 @@ msgstr ""
 "vaaranna arvokkaita tietojasi. Kuten tavallista, paljon pieniä parannuksia, "
 "joista suurin osa on sisäisiä, joita tavalliset käyttäjät eivät huomaa."
 
-#: translation:453
+#: translation:455
 msgid ""
 "This release of OpenMandriva Lx incorporates working support for EFI "
 "booting. It should be possible to boot the live system on majority of "
@@ -1896,7 +1902,7 @@ msgstr ""
 " usb-medialta Live-tilaan pitäisi olla mahdollista useimmissa tietokoneissa."
 " Tee vikailmoitukset <a href='./apps/open-bugzilla.run' target="
 
-#: translation:454
+#: translation:456
 msgid ""
 "All OpenMandriva releases are built using an advanced platform called ABF. "
 "ABF (Automated Build Farm) is a distributed environment to build "
@@ -1912,7 +1918,7 @@ msgstr ""
 "julkaisemiseen. Kirjautumalla voit tarkistaa, sekä osallistua ABF / "
 "OpenMandriva kehitystyöhön."
 
-#: translation:455
+#: translation:457
 msgid ""
 "You can configure your desktop to look and feel similar to other systems you may be used to.<br/>\n"
 "Currently available:<br/>\n"
