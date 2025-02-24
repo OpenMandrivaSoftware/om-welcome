@@ -7,9 +7,6 @@ msgid ""
 msgstr ""
 "Last-Translator: rugyada, 2025\n"
 "Language-Team: French (https://app.transifex.com/openmandriva/teams/1818/fr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
@@ -1908,13 +1905,24 @@ msgstr ""
 "les adeptes de la technologie, nous avons fourni systemtap, un outil "
 "d'analyse des performances du système."
 
-#: translation:445
+#: translation:446
+msgid ""
+"The default web browser is ungoogled Chromium. Privacy matters. You can find"
+" a wide selection of the most requested web browsers in Applications tab for"
+" you to install and use."
+msgstr ""
+"Le navigateur web par défaut est Chromium ungoogled. Le respect de la vie "
+"privée est important. Vous pouvez trouver une large sélection des "
+"navigateurs web les plus demandés dans l'onglet Applications pour que vous "
+"puissiez les installer et les utiliser."
+
+#: translation:447
 msgid "Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series."
 msgstr ""
 "Le noyau $(uname -r | cut -d ' ' -f 2) est la version la plus récente "
 "disponible."
 
-#: translation:446
+#: translation:448
 msgid ""
 "OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server versions available each designed with their respective end use in mind<br/>\n"
 "<br/>\n"
@@ -1924,12 +1932,12 @@ msgstr ""
 "<br/>\n"
 "<b>Nouveautés :</b> HT/SMT NICE est activé par défaut pour une meilleure réactivité et un comportement en temps réel sur les PC avec HT (Hyper-Threading), cela améliore la performance des applications au premier plan au détriment des applications en arrière-plans. Votre bureau / gui / applications restera rapide même si vous exécutez folding@home, mprime, seti@home, etc."
 
-#: translation:449
+#: translation:451
 msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
 msgstr ""
 "Espace de travail KDE Plasma $(plasmashell --version | cut -d ' ' -f 2)"
 
-#: translation:450
+#: translation:452
 msgid ""
 "It provides a clean, unified desktop for OpenMandriva Lx. It has all the "
 "tools required to be productive whilst providing a pleasant, functional "
@@ -1939,7 +1947,7 @@ msgstr ""
 "tous les outils nécessaires pour être productif tout en offrant un "
 "environnement agréable et fonctionnel."
 
-#: translation:451
+#: translation:453
 msgid ""
 "This release includes an updated KDE Frameworks $(rpm -q --qf '%{VERSION}' "
 "kf6-kio)."
@@ -1947,18 +1955,18 @@ msgstr ""
 "Cette version inclut une mise à jour de KDE Frameworks $(rpm -q --qf "
 "'%{VERSION}' kf6-kio)."
 
-#: translation:452
+#: translation:454
 msgid ""
 "The KDE Frameworks are add-on libraries for coding applications with Qt."
 msgstr ""
 "Les KDE Frameworks sont des bibliothèques complémentaires permettant de "
 "coder des applications avec Qt."
 
-#: translation:453
+#: translation:455
 msgid "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 msgstr "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 
-#: translation:454
+#: translation:456
 msgid ""
 "It is the newest available stable release series, which means you can rely "
 "on it to not crash and compromise your precious data. As usual, there are a "
@@ -1971,7 +1979,7 @@ msgstr ""
 " plupart sont des corrections internes qui ne sont pas perceptibles par les "
 "utilisateurs réguliers, mais certaines sont intéressantes."
 
-#: translation:455
+#: translation:457
 msgid ""
 "This release of OpenMandriva Lx incorporates working support for EFI "
 "booting. It should be possible to boot the live system on majority of "
@@ -1983,7 +1991,7 @@ msgstr ""
 "majorité des machines. Veuillez déposer des rapports de bogues à <a "
 "href='./apps/open-bugzilla.run' target="
 
-#: translation:456
+#: translation:458
 msgid ""
 "All OpenMandriva releases are built using an advanced platform called ABF. "
 "ABF (Automated Build Farm) is a distributed environment to build "
@@ -2000,7 +2008,7 @@ msgstr ""
 "un système de construction et de publication de paquets. Vous pouvez "
 "regarder, vous inscrire et contribuer au développement d'ABF/OpenMandriva."
 
-#: translation:457
+#: translation:459
 msgid ""
 "You can configure your desktop to look and feel similar to other systems you may be used to.<br/>\n"
 "Currently available:<br/>\n"
