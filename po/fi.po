@@ -1843,7 +1843,7 @@ msgid ""
 " you to install and use."
 msgstr ""
 "Oletusselaimena google-vapaa Chromium, yksityisyydellä on väliä. Valikoima "
-"kysytyimpiä selaimia löytyy \"Sovellukset\"-välilehdestä."
+"kysytyimpiä selaimia löytyy \"Sovellukset\"-välilehdeltä."
 
 #: translation:447
 msgid "Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series."
