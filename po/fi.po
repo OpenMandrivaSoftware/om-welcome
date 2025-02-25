@@ -1842,7 +1842,7 @@ msgid ""
 " a wide selection of the most requested web browsers in Applications tab for"
 " you to install and use."
 msgstr ""
-"Oletusselaimena google-vapaa Chromium. Yksityisyydellä on väliä. Valikoima "
+"Oletusselaimena google-vapaa Chromium, yksityisyydellä on väliä. Valikoima "
 "kysytyimpiä selaimia asennettavaksi löytyy \"Sovellukset\"-välilehdestä."
 
 #: translation:447
