@@ -118,6 +118,8 @@ titlekeys=$"Passwords and Keys"
 desckeys=$"Manage your passwords and encryption keys"
 
 #translations of apps-graphics.sh.htm
+titlekrita=$"Krita"
+desckrita=$"Krita is a professional painting program free and open source"
 titlegimp=$"GIMP"
 descgimp=$"Create and edit your images in a professional way with this powerful open source tool"
 titleinkscape=$"Inkscape"
