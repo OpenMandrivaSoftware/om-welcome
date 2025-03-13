@@ -1,2 +1,18 @@
 #!/bin/sh
-exec dnfdragora
+. /usr/share/htmlscript/helpers
+
+	APP=$"dnfdragora"
+if command -v dnfdragora; then
+	exec dnfdragora
+else
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
+	pkexec dnf --refresh install --assumeyes dnfdragora
+	ProgressDialog --close
+	if command -v dnfdragora; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
+fi
