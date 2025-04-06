@@ -420,6 +420,8 @@ titleabout=$"About"
 descabout=$"About this application"
 
 descrn=$"Click here to be sure you read the latest Release Notes and Errata"
+descrn2=$"Please be aware OpenMandriva is a unique distribution not based on anything else.<br/>
+OpenMandriva is not <i>any_distro_name</i>. Please check out our documentation."
 nostarwithoma=$"Do not start om-welcome on login"
 makestartwithoma=$"Make om-welcome start on login"
 endapp=$"Finish"
