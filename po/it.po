@@ -6,11 +6,8 @@ msgid ""
 msgstr ""
 "Last-Translator: rugyada, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/openmandriva/teams/1818/it/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: translation:9
 msgid "Hi %1!"
@@ -1560,73 +1557,81 @@ msgid "Angelfish is a modern mobile web browser"
 msgstr "Browser web moderno per dispositivi mobili"
 
 #: translation:373
+msgid "Dooble Browser"
+msgstr "Dooble Browser"
+
+#: translation:374
+msgid "Simple lightweight web browser"
+msgstr "Web browser semplice e leggero"
+
+#: translation:375
 msgid "Ladybird"
 msgstr "Ladybird"
 
-#: translation:374
+#: translation:376
 msgid ""
 "Install or start Ladybird. Early preview of a truly independent web browser"
 msgstr ""
 "Installa o avvia Ladybird. Anteprima di un browser web veramente "
 "indipendente"
 
-#: translation:375
+#: translation:377
 msgid "Opera Browser"
 msgstr "Opera Browser"
 
-#: translation:376
+#: translation:378
 msgid "Yandex Browser"
 msgstr "Yandex Browser"
 
-#: translation:377
+#: translation:379
 msgid "Vivaldi Browser"
 msgstr "Vivaldi Browser"
 
-#: translation:378
+#: translation:380
 msgid "Microsoft Edge Browser"
 msgstr "Microsoft Edge Browser"
 
-#: translation:379
+#: translation:381
 msgid "Brave Browser"
 msgstr "Brave Browser"
 
-#: translation:380
+#: translation:382
 msgid "Add Third Party repository and install Brave Browser"
 msgstr "Aggiungi il repository di terze parti e installa Brave Browser"
 
-#: translation:381
+#: translation:383
 msgid "Chrome Browser"
 msgstr "Chrome Browser"
 
-#: translation:382
+#: translation:384
 msgid "Third Party repository. Install from Software Repository Selector"
 msgstr "Repository di terze parti. Installare da Software Repository Selector"
 
-#: translation:385
+#: translation:387
 msgid "are already installed"
 msgstr "sono già installati"
 
-#: translation:386
+#: translation:388
 msgid "not installed"
 msgstr "non installato"
 
-#: translation:389
+#: translation:391
 msgid "OpenMandriva brand-name applications and features"
 msgstr "Applicazioni e strumenti a marchio OpenMandriva"
 
-#: translation:390
+#: translation:392
 msgid "Update Configuration"
 msgstr "Configurazione aggiornamenti"
 
-#: translation:391
+#: translation:393
 msgid "Tool for configuring automatic updates"
 msgstr "Strumento per configurare gli aggiornamenti automatici"
 
-#: translation:392
+#: translation:394
 msgid "Desktop Presets"
 msgstr "Desktop Presets"
 
-#: translation:393
+#: translation:395
 msgid ""
 "Tool to customize the appearance of your OpenMandriva Plasma desktop to look"
 " and feel similar to other systems you may be used to"
@@ -1635,11 +1640,11 @@ msgstr ""
 "OpenMandriva in modo che sia simile a quello di altri sistemi a cui sei "
 "abituato"
 
-#: translation:396
+#: translation:398
 msgid "How to contribute to OpenMandriva"
 msgstr "Come contribuire al progetto OpenMandriva"
 
-#: translation:397
+#: translation:399
 msgid ""
 "So you really like OpenMandriva Lx and are eager to help? You can contribute"
 " in various ways:"
@@ -1647,11 +1652,11 @@ msgstr ""
 "Quindi ti piace OpenMandriva Lx e sei desideroso di aiutare? Si può "
 "contribuire in vari modi:"
 
-#: translation:398
+#: translation:400
 msgid "Manual"
 msgstr "Manuale"
 
-#: translation:399
+#: translation:401
 msgid ""
 "Help writing simple step-by-step guides for installing and configuring "
 "OpenMandriva Lx"
@@ -1659,60 +1664,60 @@ msgstr ""
 "Contribuisci a scrivere semplici guide passo-passo per l'installazione e la "
 "configurazione di OpenMandriva"
 
-#: translation:400
+#: translation:402
 msgid "Forum"
 msgstr "Forum"
 
-#: translation:401
+#: translation:403
 msgid "Become a member at our forum, answer questions and help others"
 msgstr ""
 "Diventa membro del nostro forum, rispondi alle domande e aiuta gli altri"
 
-#: translation:402
+#: translation:404
 msgid "Translating"
 msgstr "Traduzioni"
 
-#: translation:403
+#: translation:405
 msgid "Translate blog posts, wiki pages, applications and stuff"
 msgstr "Tradurre articoli di blog, pagine wiki, applicazioni e altro"
 
-#: translation:404
+#: translation:406
 msgid "Join in the development of OpenMandriva Lx"
 msgstr "Unisciti allo sviluppo di OpenMandriva Lx"
 
-#: translation:405
+#: translation:407
 msgid "Cooker is the development branch of OpenMandriva Lx"
 msgstr "Cooker è il ramo di sviluppo di OpenMandriva Lx"
 
-#: translation:406
+#: translation:408
 msgid "Artwork"
 msgstr "Artwork"
 
-#: translation:407
+#: translation:409
 msgid "Use your talent to create new artwork for OpenMandriva Lx"
 msgstr "Usa il tuo talento per creare nuovo artwork per OpenMandriva"
 
-#: translation:408
+#: translation:410
 msgid "Report Bug"
 msgstr "Riporta Bug"
 
-#: translation:409
+#: translation:411
 msgid "Search, report and fix bugs in OpenMandriva Lx"
 msgstr "Cerca, segnala e risolvi i bug in OpenMandriva Lx"
 
-#: translation:410
+#: translation:412
 msgid "Join the conversation"
 msgstr "Unisciti alla conversazione"
 
-#: translation:411
+#: translation:413
 msgid "Discuss in real time with OpenMandriva team and other users"
 msgstr "Discuti in tempo reale con Il team di OpenMandriva e con altri utenti"
 
-#: translation:412
+#: translation:414
 msgid "Get involved"
 msgstr "Partecipa"
 
-#: translation:413
+#: translation:415
 msgid ""
 "How to contribute to OpenMandriva. If you have time, we welcome your help in"
 " various areas"
@@ -1720,11 +1725,11 @@ msgstr ""
 "Come contribuire a OpenMandriva. Se hai tempo, il tuo aiuto è benvenuto in "
 "varie aree di interesse"
 
-#: translation:414
+#: translation:416
 msgid "Donation"
 msgstr "Donazione"
 
-#: translation:415
+#: translation:417
 msgid ""
 "You can give us your love and care by donating your time or money to "
 "OpenMandriva Lx"
@@ -1732,35 +1737,43 @@ msgstr ""
 "Puoi donare il tuo amore e cura, contribuendo con tempo o denaro al progetto"
 " OpenMandriva"
 
-#: translation:417
+#: translation:419
 msgid "About"
 msgstr "Informazioni su"
 
-#: translation:418
+#: translation:420
 msgid "About this application"
 msgstr "Informazioni su questa applicazione"
 
-#: translation:420
+#: translation:422
 msgid "Click here to be sure you read the latest Release Notes and Errata"
 msgstr "Fai click qui per leggere le ultime Note di Rilascio e Errata"
 
-#: translation:421
+#: translation:423
+msgid ""
+"Please be aware OpenMandriva is a unique distribution not based on anything else.<br/>\n"
+"OpenMandriva is not <i>any_distro_name</i>. Please check out our documentation."
+msgstr ""
+"Da tenere presente che OpenMandriva è una distribuzione unica non basata su nessun'altra.<br/>\n"
+"OpenMandriva non è <i>qualunque_nome_distribuzione</i>. Si prega di consultare la nostra documentazione."
+
+#: translation:425
 msgid "Do not start om-welcome on login"
 msgstr "Non avviare om-welcome al login"
 
-#: translation:422
+#: translation:426
 msgid "Make om-welcome start on login"
 msgstr "Avvia om-welcome al login"
 
-#: translation:423
+#: translation:427
 msgid "Finish"
 msgstr "Termina"
 
-#: translation:426
+#: translation:430
 msgid "About this program"
 msgstr "Informazioni su questa applicazione"
 
-#: translation:427
+#: translation:431
 msgid ""
 "This software is licensed under the GNU General Public License version 2 "
 "(GPLv2)."
@@ -1768,16 +1781,16 @@ msgstr ""
 "Questo software è rilasciato sotto la licenza GNU General Public License 2 "
 "(GPLv2)"
 
-#: translation:428
+#: translation:432
 msgid "It uses Qt6 WebEngine and htmlscript."
 msgstr "Usa Qt6 WebEngine e htmlscript."
 
-#: translation:429
+#: translation:433
 msgid "For bugs, suggestions and improvements, please head to "
 msgstr ""
 "Per segnalazioni di bug, suggerimenti e miglioramenti, si prega di visitare "
 
-#: translation:432
+#: translation:436
 msgid ""
 "The Main repository contains the main packages that make up OpenMandriva Lx."
 " It should always be enabled"
@@ -1785,7 +1798,7 @@ msgstr ""
 "Il repository Main contiene i pacchetti principali che compongono "
 "OpenMandriva Lx. Dovrebbe essere sempre abilitato"
 
-#: translation:433
+#: translation:437
 msgid ""
 "Extra contains packages that are free, but not officially supported by "
 "OpenMandriva. While we will try to fix them if something breaks, this is a "
@@ -1797,7 +1810,7 @@ msgstr ""
 " è una bassa priorità. Abilita Extra se ne hai bisogno e non ti preoccupa un"
 " crash occasionale"
 
-#: translation:434
+#: translation:438
 msgid ""
 "Restricted contains packages that are free, but encumbered by patents that "
 "may make them illegal to use or distribute in some countries. You are "
@@ -1807,7 +1820,7 @@ msgstr ""
 "possono renderli illegali da usare o distribuire in alcuni paesi. Sei "
 "responsabile del rispetto delle tue leggi locali"
 
-#: translation:435
+#: translation:439
 msgid ""
 "Non-free contains packages that are not free (as in Open Source). Even if we"
 " want to, we cannot fix problems in them. We can not read the code, or "
@@ -1821,7 +1834,7 @@ msgstr ""
 " se non ci sono effetti collaterali noti, potrebbero contenere spyware o "
 "malware. Usali a tuo rischio e pericolo"
 
-#: translation:436
+#: translation:440
 msgid ""
 "Third Party repositories containing (usually non-free) software where "
 "neither the software nor the packages are maintained by the OpenMandriva "
@@ -1834,22 +1847,22 @@ msgstr ""
 "aggiornamenti prima che siano stati testati su OpenMandriva. Usali a tuo "
 "rischio e pericolo"
 
-#: translation:437
+#: translation:441
 msgid ""
 "Please use only Software Repository Selector to enable/disable repositories"
 msgstr ""
 "Per abilitare/disabilitare i repository si prega di utilizzare unicamente "
 "Software Repository Selector"
 
-#: translation:440
+#: translation:444
 msgid "You are using %2 with kernel %3."
 msgstr "Stai usando %2 con kernel %3"
 
-#: translation:443
+#: translation:447
 msgid "New Features and Major Changes"
 msgstr "Nuove funzionalità e modifiche principali"
 
-#: translation:444
+#: translation:448
 msgid ""
 "OpenMandriva Lx is published by OpenMandriva Association. Over the course of"
 " the year past we have tried to evolve the way you use your desktop. Here "
@@ -1859,11 +1872,11 @@ msgstr ""
 "abbiamo cercato di evolvere il modo in cui usi il tuo desktop. Ecco alcune "
 "delle cose che abbiamo fatto per questa release:"
 
-#: translation:445
+#: translation:449
 msgid "Fresh Packages"
 msgstr "Pacchetti aggiornati"
 
-#: translation:446
+#: translation:450
 msgid ""
 "Fresh packages available, including Krita (Digital Painting), Kamoso (Webcam"
 " Viewer), SMPlayer, VLC Player, KBackup, Plasma NetworkManager applet, "
@@ -1877,7 +1890,7 @@ msgstr ""
 "Firewalld. For the technically adept we have provided systemtap a system "
 "performance analysis tool"
 
-#: translation:448
+#: translation:452
 msgid ""
 "The default web browser is ungoogled Chromium. Privacy matters. You can find"
 " a wide selection of the most requested web browsers in Applications tab for"
@@ -1887,11 +1900,11 @@ msgstr ""
 "Nella scheda Applicazioni è disponibile un'ampia selezione dei browser web "
 "più richiesti, da installare e utilizzare."
 
-#: translation:449
+#: translation:453
 msgid "Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series."
 msgstr "Kernel $(uname -r | cut -d ' ' -f 2) è l'ultima versione disponibile."
 
-#: translation:450
+#: translation:454
 msgid ""
 "OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server versions available each designed with their respective end use in mind<br/>\n"
 "<br/>\n"
@@ -1901,11 +1914,11 @@ msgstr ""
 "<br/>\n"
 "<b>Novità:</b> HT/SMT NICE è abilitato per impostazione predefinita per migliorare la reattività e il comportamento in tempo reale sui PC con HT (Hyper-Threading); questo migliora le prestazioni delle applicazioni in primo piano a scapito di quelle in secondo piano. Il desktop, la GUI, le applicazioni rimarranno veloci anche se si esegue folding@home, mprime, seti@home, etc."
 
-#: translation:453
+#: translation:457
 msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
 msgstr "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
 
-#: translation:454
+#: translation:458
 msgid ""
 "It provides a clean, unified desktop for OpenMandriva Lx. It has all the "
 "tools required to be productive whilst providing a pleasant, functional "
@@ -1915,7 +1928,7 @@ msgstr ""
 "tutti gli strumenti necessari per essere produttivi, fornendo al contempo un"
 " ambiente piacevole e funzionale"
 
-#: translation:455
+#: translation:459
 msgid ""
 "This release includes an updated KDE Frameworks $(rpm -q --qf '%{VERSION}' "
 "kf6-kio)."
@@ -1923,18 +1936,18 @@ msgstr ""
 "Questa versione include KDE Frameworks aggiornato $(rpm -q --qf '%{VERSION}'"
 " kf6-kio)."
 
-#: translation:456
+#: translation:460
 msgid ""
 "The KDE Frameworks are add-on libraries for coding applications with Qt."
 msgstr ""
 "KDE Frameworks sono librerie di componenti aggiuntivi per programmare con "
 "Qt."
 
-#: translation:457
+#: translation:461
 msgid "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 msgstr "LibreOffice $(libreoffice --version | cut -d ' ' -f 2)"
 
-#: translation:458
+#: translation:462
 msgid ""
 "It is the newest available stable release series, which means you can rely "
 "on it to not crash and compromise your precious data. As usual, there are a "
@@ -1946,7 +1959,7 @@ msgstr ""
 "molti piccoli miglioramenti, molti dei quali sono correzioni interne non "
 "visibili dagli utenti regolari, ma alcuni sono effettivamente interessanti"
 
-#: translation:459
+#: translation:463
 msgid ""
 "This release of OpenMandriva Lx incorporates working support for EFI "
 "booting. It should be possible to boot the live system on majority of "
@@ -1958,7 +1971,7 @@ msgstr ""
 "maggior parte delle macchine. Si prega di inviare segnalazioni di bug a <a "
 "href='./apps/open-bugzilla.run' target="
 
-#: translation:460
+#: translation:464
 msgid ""
 "All OpenMandriva releases are built using an advanced platform called ABF. "
 "ABF (Automated Build Farm) is a distributed environment to build "
@@ -1974,7 +1987,7 @@ msgstr ""
 "hosting per il codice sorgente, ma un sistema per costruire e pubblicare i "
 "pacchetti. Si può controllare, registrarsi e contribuire a ABF/OpenMandriva"
 
-#: translation:461
+#: translation:465
 msgid ""
 "You can configure your desktop to look and feel similar to other systems you may be used to.<br/>\n"
 "Currently available:<br/>\n"
