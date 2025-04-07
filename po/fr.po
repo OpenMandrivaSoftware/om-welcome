@@ -1601,7 +1601,7 @@ msgstr "Navigateur web simple et léger"
 
 #: translation:375
 msgid "Ladybird"
-msgstr "Ladybird"
+msgstr "Navigateur Ladybird"
 
 #: translation:376
 msgid ""
