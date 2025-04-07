@@ -1566,7 +1566,7 @@ msgstr "Web browser semplice e leggero"
 
 #: translation:375
 msgid "Ladybird"
-msgstr "Ladybird"
+msgstr "Ladybird Browser"
 
 #: translation:376
 msgid ""
