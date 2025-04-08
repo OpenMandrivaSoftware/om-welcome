@@ -1906,9 +1906,9 @@ msgid ""
 " a wide selection of the most requested web browsers in Applications tab for"
 " you to install and use."
 msgstr ""
-"O navegador padrão é o Chromium sem componentes do Google. Privacidade "
-"importa. Você pode encontrar uma ampla seleção dos navegadores mais "
-"solicitados na aba Applications para você instalar e usar."
+"O navegador padrão é o Chromium sem os componentes do Google. Privacidade é "
+"importante. Você encontrará uma ampla seleção dos navegadores mais "
+"solicitados na aba Aplicativos, prontos para instalar e usar."
 
 #: translation:453
 msgid "Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series."
