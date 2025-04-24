@@ -1,17 +1,14 @@
 # 
 # Translators:
-# rugyada, 2024
 # Eric Farias, 2025
 # Seraphim Buenahora, 2025
 # DaemonX, 2025
+# rugyada, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: DaemonX, 2025\n"
+"Last-Translator: rugyada, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/openmandriva/teams/1818/es/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
@@ -1780,8 +1777,9 @@ msgid ""
 "Please be aware OpenMandriva is a unique distribution not based on anything else.<br/>\n"
 "OpenMandriva is not <i>any_distro_name</i>. Please check out our documentation."
 msgstr ""
-"Tenga en cuenta que OpenMandriva es una distribución única que no se basa en ninguna otra cosa.1\n"
-"OpenMandriva no es 2cualquier_nombre_de_distribución2. Por favor revise nuestra documentación."
+"Tenga en cuenta que OpenMandriva es una distribución única que no se basa en ninguna otra cosa.<br/>\n"
+"OpenMandriva no es <i>cualquier_nombre_de_distribución\n"
+"</i>. Por favor revise nuestra documentación."
 
 #: translation:425
 msgid "Do not start om-welcome on login"
@@ -1933,9 +1931,9 @@ msgid ""
 "<br/>\n"
 "<b>What's New:</b> HT/SMT NICE is enabled by default for better responsiveness and realtime behaviour on PC's with HT (Hyper-Threading), this improves the performance of foreground applications at the expense of backgound ones. Your desktop / gui / applications will remain fast even if you run folding@home, mprime, seti@home, etc."
 msgstr ""
-"El kernel de OpenMandriva Lx incluye el programador BFQ de I/O de disco, la gestión de memoria UKSM, el rendimiento y la capacidad de respuesta del sistema de escritorio. Existen versiones de servidor y escritorio, cada una diseñada para su respectivo uso final.1\n"
-"2\n"
-"3 Novedades: 3  HT/SMT NICE está habilitado de manera predeterminada para una mejor capacidad de respuesta y comportamiento en tiempo real en PC con HT (Hyper-Threading), esto mejora el rendimiento de las aplicaciones en primer plano a expensas de las de segundo plano. Su escritorio / interfaz gráfica de usuario / aplicaciones permanecerán rápidos incluso si ejecuta folding@home, mprime, seti@home, etc."
+"El kernel de OpenMandriva Lx incluye el programador BFQ de I/O de disco, la gestión de memoria UKSM, el rendimiento y la capacidad de respuesta del sistema de escritorio. Existen versiones de servidor y escritorio, cada una diseñada para su respectivo uso final<br/>\n"
+"<br/>\n"
+"<b>Novedades:</b> HT/SMT NICE está habilitado de manera predeterminada para una mejor capacidad de respuesta y comportamiento en tiempo real en PC con HT (Hyper-Threading), esto mejora el rendimiento de las aplicaciones en primer plano a expensas de las de segundo plano. Su escritorio / interfaz gráfica de usuario / aplicaciones permanecerán rápidos incluso si ejecuta folding@home, mprime, seti@home, etc."
 
 #: translation:457
 msgid "KDE Plasma workspace $(plasmashell --version | cut -d ' ' -f 2)"
