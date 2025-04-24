@@ -1792,7 +1792,7 @@ msgid ""
 "Please be aware OpenMandriva is a unique distribution not based on anything else.<br/>\n"
 "OpenMandriva is not <i>any_distro_name</i>. Please check out our documentation."
 msgstr ""
-"Bitte beachten, dass OpenMandriva eine besondere Distribution ist und nicht auf auf einer anderen basiert.<br/>\n"
+"Bitte beachten, dass OpenMandriva eine besondere Distribution ist und nicht auf einer anderen basiert.<br/>\n"
 "OpenMandriva ist nicht <i>Name_einer_beliebigen_Distribution</i>. Bitte unsere Dokumentation aufrufen."
 
 #: translation:425
