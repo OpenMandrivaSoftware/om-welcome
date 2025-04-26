@@ -8,7 +8,7 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo extra
-	pkexec dnf --refresh install --assumeyes semantik
+	pkexec dnf install --refresh --assumeyes semantik
 	ProgressDialog --close
 	if rpm -q semantik &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

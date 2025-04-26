@@ -6,7 +6,7 @@ else
 	APP=$"Firefox"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes firefox
+	pkexec dnf install --refresh --assumeyes firefox
 	ProgressDialog --close
 	if command -v firefox &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

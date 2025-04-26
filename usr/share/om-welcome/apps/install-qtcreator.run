@@ -6,7 +6,7 @@ else
 	APP=$"Qt Creator"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes qt-creator
+	pkexec dnf install --refresh --assumeyes qt-creator
 	ProgressDialog --close
 	if command -v qtcreator; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

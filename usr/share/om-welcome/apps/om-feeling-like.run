@@ -6,7 +6,7 @@ else
 	APP=$"Desktop Presets"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes om-feeling-like
+	pkexec dnf install --refresh --assumeyes om-feeling-like
 	ProgressDialog --close
 	if rpm -q om-feeling-like &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

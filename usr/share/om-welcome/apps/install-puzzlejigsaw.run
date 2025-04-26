@@ -7,7 +7,7 @@ if command -v puzzle-jigsaw &>/dev/null; then
 else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes puzzle-jigsaw
+	pkexec dnf install --refresh --assumeyes puzzle-jigsaw
 	ProgressDialog --close
 	if command -v puzzle-jigsaw &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

@@ -6,7 +6,7 @@ else
 	APP=$"Super Tux"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes supertux
+	pkexec dnf install --refresh --assumeyes supertux
 	ProgressDialog --close
 	if rpm -q supertux &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

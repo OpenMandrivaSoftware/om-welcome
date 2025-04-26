@@ -9,9 +9,9 @@ elseif
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf --refresh install --assumeyes partitionmanager
+		pkexec dnf install --refresh --assumeyes partitionmanager
 	else
-		pkexec dnf --refresh install --assumeyes plasma6-partitionmanager
+		pkexec dnf install --refresh --assumeyes plasma6-partitionmanager
 	fi
 	ProgressDialog --close
 	if command -v partitionmanager &>/dev/null; then

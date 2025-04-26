@@ -6,7 +6,7 @@ else
 	APP=$"0ad"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes 0ad
+	pkexec dnf install --refresh --assumeyes 0ad
 	ProgressDialog --close
 	if rpm -qa |grep "^0ad*"; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

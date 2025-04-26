@@ -7,7 +7,7 @@ else
 	APP=$"Lutris"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes lutris
+	pkexec dnf install --refresh --assumeyes lutris
 	ProgressDialog --close
 	if rpm -q lutris; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

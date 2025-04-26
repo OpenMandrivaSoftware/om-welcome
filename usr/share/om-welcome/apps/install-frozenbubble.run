@@ -7,7 +7,7 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	enable-repo extra;
-	pkexec dnf --refresh install --assumeyes frozen-bubble
+	pkexec dnf install --refresh --assumeyes frozen-bubble
 	ProgressDialog --close
 	if command -v frozen-bubble &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

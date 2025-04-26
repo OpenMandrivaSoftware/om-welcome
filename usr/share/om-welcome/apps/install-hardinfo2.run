@@ -7,7 +7,7 @@ else
 	APP=$"Hardinfo2"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes hardinfo2
+	pkexec dnf install --refresh --assumeyes hardinfo2
 	ProgressDialog --close
 	if command -v hardinfo2 &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

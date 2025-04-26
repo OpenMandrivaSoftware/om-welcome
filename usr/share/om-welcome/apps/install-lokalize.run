@@ -7,7 +7,7 @@ if command -v lokalize &>/dev/null; then
 else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes lokalize
+	pkexec dnf install --refresh --assumeyes lokalize
 	ProgressDialog --close
 	if command -v lokalize &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

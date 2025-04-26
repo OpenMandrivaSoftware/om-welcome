@@ -6,7 +6,7 @@ else
 	APP=$"Otter Browser"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes otter-browser
+	pkexec dnf install --refresh --assumeyes otter-browser
 	ProgressDialog --close
 	if command -v otter-browser; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

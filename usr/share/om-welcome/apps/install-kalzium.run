@@ -8,9 +8,9 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf --refresh install --assumeyes kalzium
+		pkexec dnf install --refresh --assumeyes kalzium
 	else
-		pkexec dnf --refresh install --assumeyes plasma6-kalzium
+		pkexec dnf install --refresh --assumeyes plasma6-kalzium
 	fi
 	ProgressDialog --close
 	if command -v kalzium &>/dev/null; then

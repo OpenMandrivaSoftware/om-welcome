@@ -7,7 +7,7 @@ else
 	APP=$"LXQt desktop"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes task-lxqt
+	pkexec dnf install --refresh --assumeyes task-lxqt
 	ProgressDialog --close
 	if rpm -q task-lxqt &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

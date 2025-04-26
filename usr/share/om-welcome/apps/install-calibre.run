@@ -6,7 +6,7 @@ else
 	APP=$"Calibre"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes calibre
+	pkexec dnf install --refresh --assumeyes calibre
 	ProgressDialog --close
 	if rpm -q calibre; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

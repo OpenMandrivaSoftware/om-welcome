@@ -8,7 +8,7 @@ if command -v Ladybird; then
 else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes ladybird
+	pkexec dnf install --refresh --assumeyes ladybird
 	ProgressDialog --close
 	if command -v Ladybird; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

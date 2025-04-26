@@ -6,7 +6,7 @@ else
 	APP=$"Qt Designer"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes qt5-designer
+	pkexec dnf install --refresh --assumeyes qt5-designer
 	ProgressDialog --close
 	if command -v designer; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

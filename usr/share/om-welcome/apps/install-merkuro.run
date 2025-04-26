@@ -8,9 +8,9 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf --refresh install --assumeyes merkuro
+		pkexec dnf install --refresh --assumeyes merkuro
 	else
-		pkexec dnf --refresh install --assumeyes plasma6-merkuro
+		pkexec dnf install --refresh --assumeyes plasma6-merkuro
 	fi
 	ProgressDialog --close
 	if command -v merkuro-calendar &>/dev/null; then

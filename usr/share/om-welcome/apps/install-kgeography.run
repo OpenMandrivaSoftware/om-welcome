@@ -7,9 +7,9 @@ else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 	if [ "0$KDE_SESSION_VERSION" -lt 6 ]; then
-		pkexec dnf --refresh install --assumeyes kgeography
+		pkexec dnf install --refresh --assumeyes kgeography
 	else
-		pkexec dnf --refresh install --assumeyes plasma6-kgeography
+		pkexec dnf install --refresh --assumeyes plasma6-kgeography
 	fi
 	ProgressDialog --close
 	if command -v kgeography &>/dev/null; then

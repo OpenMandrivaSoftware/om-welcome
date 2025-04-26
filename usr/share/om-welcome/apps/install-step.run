@@ -7,7 +7,7 @@ if command -v step &>/dev/null; then
 else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes step
+	pkexec dnf install --refresh --assumeyes step
 	ProgressDialog --close
 	if command -v step &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

@@ -5,7 +5,7 @@ else
 	APP=$"Guest Account"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes xguest
+	pkexec dnf install --refresh --assumeyes xguest
 	ProgressDialog --close
 	if rpm -q xguest &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

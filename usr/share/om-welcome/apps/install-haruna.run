@@ -7,7 +7,7 @@ if command -v haruna &>/dev/null; then
 else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes haruna
+	pkexec dnf install --refresh --assumeyes haruna
 	ProgressDialog --close
 	if command -v haruna &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

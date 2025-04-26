@@ -6,7 +6,7 @@ else
 	APP=$"Extreme Tux Racer"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes etr
+	pkexec dnf install --refresh --assumeyes etr
 	ProgressDialog --close
 	if command -v etr &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

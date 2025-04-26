@@ -7,7 +7,7 @@ if command -v homebank; then
 else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes homebank
+	pkexec dnf install --refresh --assumeyes homebank
 	ProgressDialog --close
 	if command -v homebank; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

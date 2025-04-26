@@ -7,7 +7,7 @@ if rpm -qa |grep "blender*"; then
 else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes blender
+	pkexec dnf install --refresh --assumeyes blender
 	ProgressDialog --close
 	if command -v blender; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."

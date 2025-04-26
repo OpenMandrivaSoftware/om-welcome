@@ -6,7 +6,7 @@ else
 	APP=$"Thunderbird"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes thunderbird
+	pkexec dnf install --refresh --assumeyes thunderbird
 	ProgressDialog --close
 	if command -v thunderbird; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
