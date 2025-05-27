@@ -2,15 +2,13 @@
 # Translators:
 # Daniel Castro, 2025
 # rugyada, 2025
-# Marcelo H.Cardoso, 2025
+# Arcosi, 2025
+# wesley tamagi, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Marcelo H.Cardoso, 2025\n"
+"Last-Translator: wesley tamagi, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/openmandriva/teams/1818/pt_BR/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
@@ -101,12 +99,12 @@ msgid ""
 "group achievement, independence, and solidarity."
 msgstr ""
 "OpenMandriva Lx é um excitante sistema operacional desktop livre, que tem "
-"como objetivo atender aos interesses de novos e  experientes usuários. Ele "
+"como objetivo atender aos interesses tanto de iniciantes como experts. Ele "
 "tem a amplitude e a profundidade de um sistema avançado, mas é projetado "
 "para ser simples e fácil de utilizar. LX vem de uma associação 100% "
 "orientado pela comunidade que acredita nos valores do software livre & "
 "colaboração e cujos valores fundadores são o desenvolvimento, igualdade, "
-"cooperação, transparência, liberdade, realização em grupo, independência e "
+"cooperação, transparência, liberdade, conquistas coletivas, independência e "
 "solidariedade."
 
 #: translation:33
@@ -143,7 +141,7 @@ msgstr "Educação"
 
 #: translation:42
 msgid "Kids"
-msgstr "Meninos"
+msgstr "Crianças"
 
 #: translation:43
 msgid "Utility"
@@ -167,7 +165,7 @@ msgstr "Navegadores"
 
 #: translation:48
 msgid "Software and media management"
-msgstr "Software e gerenciamento de mídia"
+msgstr "Gerenciamento de software mídia"
 
 #: translation:49
 msgid "Devices Configurations"
@@ -210,15 +208,15 @@ msgstr ""
 
 #: translation:60
 msgid "Install some extra applications to OpenMandriva Lx"
-msgstr "Instalar aplicativos extras no OpenMandriva Lx"
+msgstr "Alguns aplicativos extras disponíveis no OpenMandriva Lx"
 
 #: translation:61
 msgid ""
 " - Here is a selection we made for you, much more is available in our "
 "repositories"
 msgstr ""
-"- Aqui está uma seleção que realizamos para você, muito mais está disponível"
-" nos nossos repositórios"
+"- Aqui uma seleção feita para você, muito mais está disponível nos nossos "
+"repositórios"
 
 #: translation:62
 msgid "Add Media"
@@ -245,9 +243,8 @@ msgid ""
 "To get the latest bug fixes and enhancements for your system you should "
 "update it on daily basis"
 msgstr ""
-"Para obter as últimas correções de bugs e melhorias para o seu sistema, você"
-" deve atualizá-lo diariamente. Isso irá aumentar a estabilidade da "
-"instalação"
+"Para garantir correções de bugs e melhorias para seu sistemaatualize "
+"diariamente"
 
 #: translation:67
 msgid "Clean packages"
