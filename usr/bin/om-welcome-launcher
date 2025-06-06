@@ -8,6 +8,7 @@ source ~/.om-welcome
 
 #read if autostart?
 if [ "$autostart" -eq 1 ]; then
+	export QTWEBENGINE_FORCE_USE_GBM=0
 	cd /usr/share/om-welcome/
 	exec htmlscript -s 1020x700 -i /usr/share/icons/openmandriva.svg -t "OM Welcome" index.sh.htm
 fi
