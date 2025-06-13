@@ -7,7 +7,7 @@ if rpm -q cups-drivers &>/dev/null; then
 else
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf --refresh install --assumeyes task-printing task-printing-scanning task-printing-server print-manager system-config-printer
+	pkexec dnf --refresh install --assumeyes task-printing task-printing-scanning task-printing-server plasma6-print-manager system-config-printer
 	ProgressDialog --close
 	if rpm -q cups-drivers &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
