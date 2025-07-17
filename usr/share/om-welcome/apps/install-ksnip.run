@@ -1,0 +1,18 @@
+#!/bin/bash
+. /usr/share/htmlscript/helpers
+
+	APP=$"Ksnip"
+if command -v ksnip; then
+	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+else
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+    ProgressDialog $"Installing $APP"
+	pkexec dnf install --refresh --assumeyes ksnip
+	ProgressDialog --close
+	if command -v ksnip; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
+fi
+fi
