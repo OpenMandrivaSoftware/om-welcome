@@ -1,9 +1,11 @@
 #!/bin/bash
 
-	APP=$"NVIDIA drivers"
-	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
-    ProgressDialog $"Installing $APP"
-enable-repo non-free
-konsole -e sh -c "pkexec dnf install nvidia --refresh; echo 'Press enter to close konsole'; read"
-    fi
-    ProgressDialog --close
+. /usr/share/htmlscript/helpers
+
+APP=$"NVIDIA drivers"
+if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+	ProgressDialog $"Installing $APP"
+	enable-repo non-free
+	konsole -e sh -c "pkexec dnf install nvidia --refresh; echo 'Press enter to close konsole'; read"
+fi
+ProgressDialog --close
