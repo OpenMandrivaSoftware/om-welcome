@@ -1,38 +1,29 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
 
-        APP=$"Brave Browser"
+	APP=$"Brave Browser"
 if command -v brave-browser; then
-        kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
+	kdialog --title $"OpenMandriva" --msgbox $"$APP is already installed."
 else
-        if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
+	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
 
-        if dnf --version 2>/dev/null | grep -q '^dnf4'; then
-                                if [ -f /etc/yum.repos.d/brave-browser.repo ]; then
+       if [ "$(rpm -q --queryformat '%{VERSION}' dnf)" \< "5.0" ]; then
+
                 pkexec sh -c "dnf install dnf-plugins-core --assumeyes --refresh && \
                 dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo && \
                 dnf install brave-browser --assumeyes --refresh"
-                                else
-                pkexec sh -c "dnf install dnf-plugins-core --assumeyes --refresh && \
-                dnf install brave-browser --assumeyes --refresh"
-                                fi
         else
-                                if [ -f /etc/yum.repos.d/brave-browser.repo ]; then
-        pkexec sh -c "dnf install dnf-plugins-core --assumeyes --refresh && \
-                dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo && \
+                pkexec sh -c "dnf install dnf-plugins-core --assumeyes --refresh && \
+                dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo --overwrite && \
                 dnf install brave-browser --assumeyes --refresh"
-                                else
-        pkexec sh -c "dnf install dnf-plugins-core --assumeyes --refresh && \
-                dnf install brave-browser --assumeyes --refresh"
-                                fi
         fi
 
-        ProgressDialog --close
-        if command -v brave-browser; then
-                kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
-        else
-                kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
-        fi
+	ProgressDialog --close
+	if command -v brave-browser; then
+		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
+	else
+		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
+	fi
 fi
 fi
