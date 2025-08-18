@@ -385,7 +385,7 @@ titlemsedge=$"Microsoft Edge Browser"
 titlebrave=$"Brave Browser"
 descbrave=$"Add Third Party repository and install Brave Browser"
 titlechrome=$"Chrome Browser"
-desc3dparty=$"Third Party repository. Install from Software Repository Selector"
+desc3dparty=$"Third Party repository. Add and enable it with Software Repository Selector"
 
 #translation of install-scribus
 installed=$"are already installed"
