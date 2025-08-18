@@ -9,7 +9,7 @@ else
     ProgressDialog $"Installing $APP"
 
         if dnf --version 2>/dev/null | grep -q '^dnf4'; then
-                                if [ -f /etc/yumd.repos.d/brave-browser.repo ]; then
+                                if [ -f /etc/yum.repos.d/brave-browser.repo ]; then
                 pkexec sh -c "dnf install dnf-plugins-core --assumeyes --refresh && \
                 dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo && \
                 dnf install brave-browser --assumeyes --refresh"
@@ -18,7 +18,7 @@ else
                 dnf install brave-browser --assumeyes --refresh"
                                 fi
         else
-                                if [ -f /etc/yumd.repos.d/brave-browser.repo ]; then
+                                if [ -f /etc/yum.repos.d/brave-browser.repo ]; then
         pkexec sh -c "dnf install dnf-plugins-core --assumeyes --refresh && \
                 dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo && \
                 dnf install brave-browser --assumeyes --refresh"
