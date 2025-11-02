@@ -208,6 +208,8 @@ titlesweeper=$"Sweeper"
 descsweeper=$"System Cleaner. Sweeper helps to clean unwanted traces the user leaves on the system"
 titlehardinfo2=$"Hardinfo2"
 deschardinfo2=$"Install or start System Information and Benchmark for Linux"
+titlekjournald=$"Kjournald"
+desckjournald=$"Graphical frontend for viewing the system journal"
 titleksnip=$"Ksnip"
 descksnip=$"Qt based screenshot tool that provides many annotation features for your screenshots"
 
@@ -453,7 +455,7 @@ releasepreambule=$"OpenMandriva Lx is published by OpenMandriva Association. Ove
 freshpackages=$"Fresh Packages"
 freshpackagedesc=$"Fresh packages available, including Krita (Digital Painting), Kamoso (Webcam Viewer), SMPlayer, VLC Player, KBackup, Plasma NetworkManager applet, KMail, Falkon browser, Mozilla Firefox, Systemd and Firewalld. For the technically adept we have provided systemtap a system performance analysis tool"
 
-webbrowserdesc=$"The default web browser is ungoogled Chromium. Privacy matters. You can find a wide selection of the most requested web browsers in Applications tab for you to install and use."
+webbrowserdesc=$"The default web browser is Helium. You can find a wide selection of the most requested web browsers in Applications tab for you to install and use."
 kerneldesc=$"Kernel $(uname -r | cut -d ' ' -f 2) is the latest available series."
 kerneldesc1=$"OpenMandriva Lx kernel features BFQ disk I/O scheduler, UKSM memory management,  desktop system performance and responsiveness in mind. There are desktop server versions available each designed with their respective end use in mind<br/>
 <br/>
