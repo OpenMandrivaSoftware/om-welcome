@@ -113,8 +113,7 @@
        y1="512.80103"
        y2="503.80099"
        gradientTransform="matrix(1.33334,0,0,1.33334,-512.76,-667.734)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#pippo">
+       gradientUnits="userSpaceOnUse">
       <stop
          stop-color="#ebc69a"
          offset="0"
