@@ -1,14 +1,14 @@
 #!/bin/bash
 . /usr/share/htmlscript/helpers
-if command -v kuser &>/dev/null; then
-	pkexec kuser
+if command -v lxqt-admin-user &>/dev/null; then
+	exec lxqt-admin-user
 else
-	APP=$"Kuser"
+	APP=$"lxqt-admin"
 	if kdialog --title $"OpenMandriva" --yesno $"Do you want to install $APP?"; then
     ProgressDialog $"Installing $APP"
-	pkexec dnf install --refresh --assumeyes kuser
+	pkexec dnf install --refresh --assumeyes lxqt-admin
 	ProgressDialog --close
-	if command -v kuser &>/dev/null; then
+	if command -v lxqt-admin-user &>/dev/null; then
 		kdialog --title $"OpenMandriva" --msgbox $"Installation succeeded."
 	else
 		kdialog --title $"OpenMandriva" --msgbox $"Installation failed."
