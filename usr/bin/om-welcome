@@ -1,4 +1,9 @@
 #!/bin/sh
-export QTWEBENGINE_FORCE_USE_GBM=0
+if lsmod |grep -q nouveau; then
+	# Workaround for nouveau bugginess
+	# GBM is not supported with the current configuration. Fallback to Vulkan rendering in Chromium.
+	# Segmentation fault (core dumped)
+	export MESA_LOADER_DRIVER_OVERRIDE=“llvmpipe”
+fi
 cd /usr/share/om-welcome/
 exec /usr/bin/htmlscript -s 1020x700 -i /usr/share/icons/openmandriva.svg -t "OM Welcome" index.sh.htm
