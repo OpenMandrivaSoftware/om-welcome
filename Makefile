@@ -1,6 +1,6 @@
 NAME=om-welcome
 VERSION=2.4.7
-TRANSLATIONS=ca de es fi fr id it pl pt_BR pt_PT ru sr tr uk uk_UA
+TRANSLATIONS=ca de el es fi fr id it pl pt_BR pt_PT ru sr tr uk uk_UA
 bindir=/usr/bin
 sysconfdir=/etc
 sharedir=/usr/share
