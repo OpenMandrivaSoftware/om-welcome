@@ -142,6 +142,8 @@ titlelibrecad=$"LibreCAD"
 desclibrecad=$"Qt application to design 2D cad drawing based on the community edition of QCad"
 titlekolourpaint=$"Kolourpaint"
 desckolourpaint=$"A simple painting program to quickly create raster images"
+titlenomacs=$"nomacs"
+descnomacs=$"Fast and small image viewer able to handle the most common image formats"
 
 #translations of apps-multimedia.sh.htm
 titlecodecs=$"Codecs"
